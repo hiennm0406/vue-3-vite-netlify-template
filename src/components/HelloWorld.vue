@@ -1,4 +1,5 @@
-<div id="app">
+<template>
+  <div>
     <ul v-for="user in users" :key="user.id">
       <li>{{user.id}}</li>
       <li>{{user.name}}</li>
@@ -7,6 +8,13 @@
     </ul>
   </div>
 </template>
+
+<style scoped>
+a {
+  color: #42b983;
+}
+</style>
+
 
 <script>
 export default {
