@@ -1,4 +1,5 @@
 <template>
+ <sidebar-menu :menu="menu" />
   <div>
    <button @click="increment">12</button>
   </div>
@@ -15,7 +16,29 @@ a {
 export default {
   data: function() {
     return {
-      users: []
+      users: [],
+      menu: [
+          {
+            header: 'Main Navigation',
+            hiddenOnCollapse: true
+          },
+          {
+            href: '/',
+            title: 'Dashboard',
+            icon: 'fa fa-user'
+          },
+          {
+            href: '/charts',
+            title: 'Charts',
+            icon: 'fa fa-chart-area',
+            child: [
+              {
+                href: '/charts/sublink',
+                title: 'Sub Link'
+              }
+            ]
+          }
+        ]
     };
   },
   methods: {
