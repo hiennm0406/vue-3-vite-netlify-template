@@ -10,6 +10,11 @@ a {
 
 
 <script>
+import CharacterPageVue from './Character/CharacterPage.vue';
+import HistoryMainVue from './History/HistoryMain.vue';
+import HomeVue from './Home.vue';
+import SettingMainVue from './Setting/SettingMain.vue';
+
 export default {
   data: function() {
     return {
@@ -31,7 +36,7 @@ export default {
             }
           },
           {
-            to: '/history',
+            href: { name: HistoryMainVue },
             title: 'Lịch sử thế giới',
             external: true,
             exact: true ,
@@ -44,7 +49,7 @@ export default {
             ]
           },
           {
-            to: '/setting',
+            href: { name: SettingMainVue },
             title: 'Tổng quan - Setting',
             icon: 'fa fa-chart-area',
             child: [
@@ -84,7 +89,7 @@ export default {
             ]
           },
           {
-            to: '/character',
+            href: { name: CharacterPageVue },
             title: 'Nhân vật',
             icon: 'fa fa-chart-area',
             child: [
