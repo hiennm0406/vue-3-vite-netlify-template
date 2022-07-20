@@ -1,5 +1,5 @@
-import { App } from 'vue'
-import MainApp from './App.vue'
+import { createApp } from 'vue'
+import App from './App.vue'
 import axios from 'axios'
 import { createStore } from 'vuex'
 
@@ -20,5 +20,5 @@ const store = createStore({
 // createApp.prototype.$axios = axios
 // createApp.prototype.$api_url = "https://jsonplaceholder.typicode.com/"
 
-App(MainApp).mount('#app')
-MainApp.use(store)
+createApp(App).mount('#app')
+createApp.use(store)
