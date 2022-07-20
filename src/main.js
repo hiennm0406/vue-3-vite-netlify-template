@@ -21,4 +21,4 @@ const store = createStore({
 // createApp.prototype.$api_url = "https://jsonplaceholder.typicode.com/"
 
 App(MainApp).mount('#app')
-App.use(store)
+MainApp.use(store)
