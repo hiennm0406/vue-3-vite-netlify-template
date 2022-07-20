@@ -1,12 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import axios from 'axios'
-import Vuex from 'vuex'
+import { createStore } from 'vuex'
 
-createApp.use(Vuex)
-
-
-const store = new Vuex.Store({
+export const store = createStore({
   state: {
     count: 0
   },
@@ -20,4 +17,8 @@ const store = new Vuex.Store({
 // createApp.prototype.$axios = axios
 // createApp.prototype.$api_url = "https://jsonplaceholder.typicode.com/"
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+app.use(store)
+
+app.mount('#app')
