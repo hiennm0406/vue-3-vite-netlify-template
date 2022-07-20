@@ -9,19 +9,23 @@ import Setting from '@/components/Setting/SettingMain.vue'
 const routes = [
     {
         path: '/',
-        component: Main
+        component: Main,
+        name: 'Main',
     },
     {
         path: '/history',
-        component: History
+        component: History,
+        name: 'History',
     },
     {
         path: '/setting',
-        component: Setting
+        component: Setting,
+        name: 'Setting',
     },
     {
         path: '/character',
-        component: Character
+        component: Character,
+        name: 'Character',
     },
 ]
 
