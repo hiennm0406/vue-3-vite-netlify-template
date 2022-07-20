@@ -1,5 +1,7 @@
 <template>
  <sidebar-menu :menu="menu" />
+
+ <span class="icon icon_main"></span>
   <div>
    <button @click="increment">12</button>
   </div>
