@@ -23,11 +23,11 @@ export default {
       users: []
     };
   },
-  created: function() {
-    this.$axios.get(this.$api_url + "users")
-    .then(res => {
-      this.users = res.data;
-    });
-  }
+  // created: function() {
+  //   this.$axios.get(this.$api_url + "users")
+  //   .then(res => {
+  //     this.users = res.data;
+  //   });
+  // }
 };
 </script>
