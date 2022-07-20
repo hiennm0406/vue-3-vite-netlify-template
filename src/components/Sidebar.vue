@@ -21,7 +21,7 @@ export default {
             hiddenOnCollapse: true
           },
           {
-            href: '/',
+            to: '/',
             title: 'Main Page',
             external: true,
             exact: true ,
@@ -31,7 +31,7 @@ export default {
             }
           },
           {
-            href: '/history',
+            to: '/history',
             title: 'Lịch sử thế giới',
             external: true,
             exact: true ,
@@ -44,7 +44,7 @@ export default {
             ]
           },
           {
-            href: '/',
+            to: '/setting',
             title: 'Tổng quan - Setting',
             icon: 'fa fa-chart-area',
             child: [
@@ -84,7 +84,7 @@ export default {
             ]
           },
           {
-            href: '/',
+            to: '/character',
             title: 'Nhân vật',
             icon: 'fa fa-chart-area',
             child: [
