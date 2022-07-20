@@ -23,14 +23,18 @@ export default {
           {
             href: '/',
             title: 'Main Page',
+            external: true,
+            exact: true ,
             icon: {
               element: 'span',
               class: 'icon40 icon_main',
             }
           },
           {
-            href: '/',
+            href: '/history',
             title: 'Lịch sử thế giới',
+            external: true,
+            exact: true ,
             icon: 'fa fa-chart-area',
             child: [
               {
