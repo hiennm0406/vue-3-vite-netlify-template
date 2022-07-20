@@ -1,4 +1,5 @@
 <script setup>
+
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import Main from './components/MainScreen.vue'
@@ -9,6 +10,7 @@ import Main from './components/MainScreen.vue'
 </template>
 
 <style>
+@import "./css/global.css";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

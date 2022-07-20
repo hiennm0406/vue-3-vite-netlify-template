@@ -11,12 +11,6 @@
 a {
   color: #42b983;
 }
-.icon{
-  width: 10px;
-}
-.icon_main{
-  background-image: url("./../assets/main.ico");
-}
 </style>
 
 
