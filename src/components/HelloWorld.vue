@@ -1,6 +1,6 @@
 <template>
   <div>
-   <button onclick="increment()">12</button>>
+   <button onclick="increment()">12</button>
   </div>
 </template>
 
