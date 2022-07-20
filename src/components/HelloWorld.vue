@@ -1,11 +1,6 @@
 <template>
   <div>
-    <ul v-for="user in users" :key="user.id">
-      <li>{{user.id}}</li>
-      <li>{{user.name}}</li>
-      <li>{{user.username}}</li>
-      <li>{{user.email}}</li>
-    </ul>
+   <button onclick="increment()"></button>>
   </div>
 </template>
 
@@ -23,6 +18,12 @@ export default {
       users: []
     };
   },
+  methods: {
+  increment() {
+    this.$store.commit('increment')
+    console.log(this.$store.state.count)
+  }
+}
   // created: function() {
   //   this.$axios.get(this.$api_url + "users")
   //   .then(res => {
