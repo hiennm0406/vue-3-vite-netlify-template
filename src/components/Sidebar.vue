@@ -29,7 +29,7 @@ export default {
             }
           },
           {
-            href: '/charts',
+            href: '/',
             title: 'Lịch sử thế giới',
             icon: 'fa fa-chart-area',
             child: [
@@ -40,88 +40,88 @@ export default {
             ]
           },
           {
-            href: '/charts',
+            href: '/',
             title: 'Tổng quan - Setting',
             icon: 'fa fa-chart-area',
             child: [
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Atribute'
               },
                {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Skill'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Skill link'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Tactic'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Artifact'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Rune'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Trait'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Awake'
               },
               
             ]
           },
           {
-            href: '/charts',
+            href: '/',
             title: 'Nhân vật',
             icon: 'fa fa-chart-area',
             child: [
                {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Dkyrie'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Midgard'
               },
                {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Asgard'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Alfheim'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Vanaheim'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Muspelheim'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Svartalfheim'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Jotunheim'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Nilfheim'
               },
               {
-                href: '/charts/sublink',
+                href: '/',
                 title: 'Helheim'
               },
             ]
