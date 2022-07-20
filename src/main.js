@@ -1,14 +1,14 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import axios from 'axios'
-import { createStore } from 'vuex'
+import Vuex from 'vuex'
 
-// Create a new store instance.
-const store = createStore({
-  state () {
-    return {
-      count: 0
-    }
+createApp.use(Vuex)
+
+
+const store = new Vuex.Store({
+  state: {
+    count: 0
   },
   mutations: {
     increment (state) {
@@ -21,4 +21,3 @@ const store = createStore({
 // createApp.prototype.$api_url = "https://jsonplaceholder.typicode.com/"
 
 createApp(App).mount('#app')
-App.use(store)
