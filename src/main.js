@@ -4,8 +4,10 @@ import axios from 'axios'
 import { createStore } from 'vuex'
 
 export const store = createStore({
-  state: {
-    count: 0
+  state () {
+    return {
+      count: 0
+    }
   },
   mutations: {
     increment (state) {

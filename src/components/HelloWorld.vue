@@ -1,6 +1,6 @@
 <template>
   <div>
-   <button onclick="increment()">12</button>
+   <button @click="increment">12</button>
   </div>
 </template>
 
@@ -19,16 +19,11 @@ export default {
     };
   },
   methods: {
-  increment() {
-    this.$store.commit('increment')
-    console.log(this.$store.state.count)
+    increment() {
+      this.$store.commit('increment')
+      console.log(this.$store.state.count)
+    }
   }
 }
-  // created: function() {
-  //   this.$axios.get(this.$api_url + "users")
-  //   .then(res => {
-  //     this.users = res.data;
-  //   });
-  // }
-};
+ 
 </script>
