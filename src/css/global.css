@@ -1,12 +1,35 @@
 a {
     color: #42b983;
   }
-  .icon40{
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    background-size: auto 100%;
-  }
-  .icon_main{
-    background-image: url("./../assets/main.ico");
-  }
+.icon40{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-size: auto 100%;
+}
+.icon_main{
+  background-image: url("./../assets/main.ico");
+}
+
+.container{
+  width: 60%;
+  margin: 1rem auto;
+  padding: 2rem;
+  text-align: justify;
+  transition: all 0.3s;
+}
+.container p{
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  word-spacing: 2px;
+}
+
+.container p:first-child::first-letter{
+  color:#FE5F55;
+  font-weight: bold;
+  font-size: 70px;
+  float: left;
+  line-height: 60px;
+  padding-right: 8px;
+  margin-top: -3px;
+}

@@ -1,9 +1,10 @@
 <template>
-   <h1>Ragnarok lần đầu tiên</h1>
+    <div class="container">
+        <h2>Ragnarok lần đầu tiên</h2>
 
-   Từ xa xưa, xưa còn hơn cả những gì con người có thể lật ngược lại được. Những thực thể cổ đại ấy đã đặt chân tới Trái Đất.
+        <p>Từ xa xưa, xưa còn hơn cả những gì con người có thể lật ngược lại được. Những thực thể cổ đại ấy đã đặt chân tới Trái Đất.
 Họ là những thực thể thông thái, mạnh mẽ và vĩ đại. Những cá thể nhỏ nhất của họ cũng cao hơn 20m, với làn da xanh sần và lớp vảy cứng dày, đủ để cho họ chịu đựng những bức sóng vũ trụ khi họ di chuyển qua các miền thế giới.
-Vào thời điểm đấy, các cánh cổng vẫn còn mở, những cánh cổng - hay họ - người Jotun - gọi chúng là Bifrost, ý chỉ cầu vồng. Một cách gọi thơ mộng cho những vết rách không gian vặn vẹo và phun ra bức xạ vũ trụ bảy màu. Những vết rách đó là những lỗ giun, bằng một phép màu của vũ trụ, nó nối thông 9 hành tinh, ở 9 hệ mặt trời khác nhau. Những vết rách đó không ổn định, lúc đóng lúc mở, đủ kích thước, nhưng rồi đã có những vết rách đủ to để Ymir, một người Jotun vĩ đại chui qua và bước chân lên Trái Đất.
+Vào thời điểm đấy, các cánh cổng vẫn còn mở, những cánh cổng - hay họ - người Jotun - gọi chúng là Bifrost, ý chỉ cầu vồng. Một cách gọi thơ mộng cho những vết rách không gian vặn vẹo và phun ra bức xạ vũ trụ bảy màu. Những vết rách đó là những lỗ giun, bằng một phép màu của vũ trụ, nó nối thông 9 hành tinh, ở 9 hệ mặt trời khác nhau. Những vết rách đó không ổn định, lúc đóng lúc mở, đủ kích thước, nhưng rồi đã có những vết rách đủ to để Ymir, một người Jotun vĩ đại chui qua và bước chân lên Trái Đất.</p>
 
 <image scr="./../../assets/giant.jpg"></image>
 
@@ -25,6 +26,7 @@ Sự thông minh của chúng làm người Jotun dè chừng. Phải rồi, ai 
 Mọi thứ diễn ra đúng như những gì người Jotun muốn, suốt hàng triệu năm, con người trở thành thực phẩm, trở thành công cụ, trở thành nô lệ. Nền văn minh Jotun ngỡ như đã trở lại, phồn hoa hơn. Nhưng thực chất, nó đang bị ăn mòn, bị mục ruỗng từ sâu thẳm bên trong, nền văn minh Jotun từ một nền văn minh hiền hòa, yêu khám phá, thích sáng tạo thế giới và chiêm ngưỡng nó phát triển, trở thành một nền văn minh nuôi cấy, giết thịt, một giống loài hủy diệt.
 Với những tia nắng ló ra từ bầu trời, báo hiệu mùa đông của tro bụi sắp chấm dứt. Cũng là một kỷ nguyên mới bắt đầu.
 Ba Manna, với cái tên Odin, Vili, and Vé, đã đứng lên, dẫn dắt những Manna khác, cầm vũ khí, nhỏ bé và thô sơ, tấn công vào thành phố Jotun. Những Jotun bất ngờ không kịp làm gì cho đến lúc sụp đổ. Ymir bị chết bởi một thanh kiếm đâm xuyên qua mắt. Thực thể Jotun vĩ đại nhất đã chết như thế, báo hiệu một cái kết cho nền văn minh Jotun kéo dài hàng trăm triệu năm…
+    </div>
 </template>
 
 <style scoped>
