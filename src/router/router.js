@@ -15,22 +15,22 @@ const routes = [
         name: 'Main',
     },
     {
-        path: 'history',
+        path: '/history',
         component: History,
         name: 'History'
     },
     {
-        path: 'first',
+        path: '/first',
         component: FirstRagnarok,
         name: 'firstRagnarok'
     },
     {
-        path: 'setting',
+        path: '/setting',
         component: Setting,
         name: 'Setting',
     },
     {
-        path: 'character',
+        path: '/character',
         component: Character,
         name: 'Character',
     },
