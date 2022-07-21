@@ -2,9 +2,8 @@
 <template>
   <sidebar-menu @update:collapsed="onToggleCollapse" :menu="menu" />
   <div id="Mainboard" :class="{ collapsed: isCollapsed }">
-
+    <router-view />
   </div>
-  <router-view />
 </template>
 
 <script >
