@@ -35,7 +35,7 @@ a {
 }
 
 
-.text_contain{
+.grid_contain{
   display: grid;
   grid-template-columns: min-content 1fr;
 }
