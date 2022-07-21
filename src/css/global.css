@@ -10,6 +10,16 @@ a {
 .icon_main{
   background-image: url("./../assets/main.ico");
 }
+.icon_history{
+  background-image: url("./../assets/treeicon.ico");
+}
+.icon_setting{
+  background-image: url("./../assets/settingicon.ico");
+}
+.icon_character{
+  background-image: url("./../assets/charactericon.ico");
+}
+
 
 .container{
   width: 80%;
@@ -38,4 +48,8 @@ a {
 .grid_contain{
   display: grid;
   grid-template-columns: min-content 1fr;
+}
+
+.grid_contain img{
+  margin: 20px;
 }

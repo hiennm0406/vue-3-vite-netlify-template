@@ -8,12 +8,12 @@ Vào thời điểm đấy, các cánh cổng vẫn còn mở, những cánh c�
 <div class="grid_contain">
     <img src="./../../assets/history/giant.jpg" />
 
-    <p>Thế rồi, như một cơn lũ, nền văn minh Jotun trải dài khắp 9 giới, họ phát triển như một phép màu, nghiên cứu các thảm thực vật và sinh vật.
-    Họ dùng gen của họ, tạo ra khủng long.
-    Họ cũng phát hiện ra Alfheim, một ngôi sao chết với phóng xạ không sao sống được. Họ nghiên cứu một loại thực vật có thể hấp thu phóng xạ và trồng vào đó.
-    Họ phát hiện ra thế giới đại dương Nilfheim, và họ xây dựng ở đó hòn đảo Alantic khổng lồ. Họ tạo ra một chủng tộc khổng lồ gọi là Culthul để lặn xuống những vùng đất sâu nhất mà họ không thể tới được.
-    Họ cũng phát hiện ra Asgard, nơi được bao trùm bởi một loại vật chất đặc biệt mà họ nghĩ nó chỉ tồn tại ở xác của một hố đen. Ymir đã xây dựng một khu mỏ ở đây để khai thác và nghiên cứu nó, họ đặt tên nó là Valhalla.
-    Nền văn minh của họ trải dài khắp 9 thế giới. </p>
+    <p>Thế rồi, như một cơn lũ, nền văn minh Jotun trải dài khắp 9 giới, họ phát triển như một phép màu, nghiên cứu các thảm thực vật và sinh vật.</p>
+    <p>Họ dùng gen của họ, tạo ra khủng long.</p>
+    <p>Họ cũng phát hiện ra Alfheim, một ngôi sao chết với phóng xạ không sao sống được. Họ nghiên cứu một loại thực vật có thể hấp thu phóng xạ và trồng vào đó.</p>
+    <p>Họ phát hiện ra thế giới đại dương Nilfheim, và họ xây dựng ở đó hòn đảo Alantic khổng lồ. Họ tạo ra một chủng tộc khổng lồ gọi là Culthul để lặn xuống những vùng đất sâu nhất mà họ không thể tới được.</p>
+    <p>Họ cũng phát hiện ra Asgard, nơi được bao trùm bởi một loại vật chất đặc biệt mà họ nghĩ nó chỉ tồn tại ở xác của một hố đen. Ymir đã xây dựng một khu mỏ ở đây để khai thác và nghiên cứu nó, họ đặt tên nó là Valhalla.</p>
+    <p>Nền văn minh của họ trải dài khắp 9 thế giới. </p>
 </div>
 <p>Cho đến ngày đó, người Jotun gọi là ngày [Khải hoàn], hay [Ngày chia cắt].
 Một ngôi sao chổi vĩ đại lao thẳng vào Trái Đất. Vụ nổ xóa sạch nền văn minh Jotun trên hành tinh xanh, kéo theo đó là vô số sự sống.

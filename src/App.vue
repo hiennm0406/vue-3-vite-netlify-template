@@ -32,7 +32,10 @@ export default {
           {
             href: { name: 'History' },
             title: 'Lịch sử thế giới',
-            icon: 'fa fa-chart-area',
+            icon: {
+              element: 'span',
+              class: 'icon40 icon_history',
+            },
             child: [
               {
                 href: { name: 'firstRagnarok' },
@@ -43,7 +46,10 @@ export default {
           {
             href: { name: 'Setting' },
             title: 'Tổng quan - Setting',
-            icon: 'fa fa-chart-area',
+             icon: {
+              element: 'span',
+              class: 'icon40 icon_setting',
+            },
             child: [
               {
                 href: '/',
@@ -84,6 +90,10 @@ export default {
             href: { name: 'Character' },
             title: 'Nhân vật',
             icon: 'fa fa-chart-area',
+            icon: {
+              element: 'span',
+              class: 'icon40 icon_character',
+            },
             child: [
                {
                 href: '/',
