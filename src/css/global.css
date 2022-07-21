@@ -12,7 +12,7 @@ a {
 }
 
 .container{
-  width: 60%;
+  width: 80%;
   margin: 1rem auto;
   padding: 2rem;
   text-align: justify;
@@ -24,7 +24,7 @@ a {
   word-spacing: 2px;
 }
 
-.container p:first-child::first-letter{
+.first-letter::first-letter{
   color:#FE5F55;
   font-weight: bold;
   font-size: 70px;

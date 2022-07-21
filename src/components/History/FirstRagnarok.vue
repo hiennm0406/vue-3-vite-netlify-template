@@ -2,7 +2,7 @@
     <div class="container">
         <h2>Ragnarok lần đầu tiên</h2>
 
-        <p>Từ xa xưa, xưa còn hơn cả những gì con người có thể lật ngược lại được. Những thực thể cổ đại ấy đã đặt chân tới Trái Đất.
+        <p class="first-letter">Từ xa xưa, xưa còn hơn cả những gì con người có thể lật ngược lại được. Những thực thể cổ đại ấy đã đặt chân tới Trái Đất.
 Họ là những thực thể thông thái, mạnh mẽ và vĩ đại. Những cá thể nhỏ nhất của họ cũng cao hơn 20m, với làn da xanh sần và lớp vảy cứng dày, đủ để cho họ chịu đựng những bức sóng vũ trụ khi họ di chuyển qua các miền thế giới.
 Vào thời điểm đấy, các cánh cổng vẫn còn mở, những cánh cổng - hay họ - người Jotun - gọi chúng là Bifrost, ý chỉ cầu vồng. Một cách gọi thơ mộng cho những vết rách không gian vặn vẹo và phun ra bức xạ vũ trụ bảy màu. Những vết rách đó là những lỗ giun, bằng một phép màu của vũ trụ, nó nối thông 9 hành tinh, ở 9 hệ mặt trời khác nhau. Những vết rách đó không ổn định, lúc đóng lúc mở, đủ kích thước, nhưng rồi đã có những vết rách đủ to để Ymir, một người Jotun vĩ đại chui qua và bước chân lên Trái Đất.</p>
 
