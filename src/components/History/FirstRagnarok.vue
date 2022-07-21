@@ -6,7 +6,7 @@
 Họ là những thực thể thông thái, mạnh mẽ và vĩ đại. Những cá thể nhỏ nhất của họ cũng cao hơn 20m, với làn da xanh sần và lớp vảy cứng dày, đủ để cho họ chịu đựng những bức sóng vũ trụ khi họ di chuyển qua các miền thế giới.
 Vào thời điểm đấy, các cánh cổng vẫn còn mở, những cánh cổng - hay họ - người Jotun - gọi chúng là Bifrost, ý chỉ cầu vồng. Một cách gọi thơ mộng cho những vết rách không gian vặn vẹo và phun ra bức xạ vũ trụ bảy màu. Những vết rách đó là những lỗ giun, bằng một phép màu của vũ trụ, nó nối thông 9 hành tinh, ở 9 hệ mặt trời khác nhau. Những vết rách đó không ổn định, lúc đóng lúc mở, đủ kích thước, nhưng rồi đã có những vết rách đủ to để Ymir, một người Jotun vĩ đại chui qua và bước chân lên Trái Đất.</p>
 
-<image scr="./../../assets/giant.jpg"></image>
+<image scr="@assets/giant.jpg"></image>
 
 Thế rồi, như một cơn lũ, nền văn minh Jotun trải dài khắp 9 giới, họ phát triển như một phép màu, nghiên cứu các thảm thực vật và sinh vật.
 Họ dùng gen của họ, tạo ra khủng long.
