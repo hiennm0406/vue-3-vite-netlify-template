@@ -34,6 +34,10 @@ const routes = [
         component: Character,
         name: 'Character',
     },
+    {
+        path: '/:catchAll(.*)',
+        component: Main
+    },
 ]
 
 const router = createRouter({
