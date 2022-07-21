@@ -1,4 +1,9 @@
 <template>
+    <router-link class="link" to="/history">
+        <p class="item-menu">
+            History
+        </p>
+    </router-link>
     <button @click="increment">123</button>
 </template>
 
