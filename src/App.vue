@@ -155,7 +155,7 @@ export default {
 #Mainboard{
   padding-left: 290px;
 }
-#Mainboard .collapsed{
+#Mainboard.collapsed{
   padding-left: 65px !important;
 }
 </style>
