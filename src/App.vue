@@ -138,7 +138,7 @@ export default {
     },
     onToggleCollapse(collapsed) {
       alert(collapsed);
-      isCollapsed = !isCollapsed;
+      this.isCollapsed = !this.isCollapsed;
     },
   }
 }
