@@ -42,7 +42,8 @@ const routes = [
 
 const router = createRouter({
     history: createWebHistory(),
-    routes: routes
+    routes: routes,
+    mode: 'hash'
 })
 
 export default router
