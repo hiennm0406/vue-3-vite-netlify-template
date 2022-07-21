@@ -137,8 +137,7 @@ export default {
       console.log(this.$store.state.count)
     },
     onToggleCollapse(collapsed) {
-      alert(collapsed);
-      this.isCollapsed = !this.isCollapsed;
+      this.isCollapsed = collapsed;
     },
   }
 }
