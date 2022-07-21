@@ -1,6 +1,9 @@
 
 <template>
   <sidebar-menu @update:collapsed="onToggleCollapse" :menu="menu" />
+  <div id="Mainboard" :class="{ collapsed: isActive }">
+
+  </div>
   <router-view />
 </template>
 
@@ -11,6 +14,7 @@
 export default {
   data: function() {
     return {
+      isCollapsed: false,
       users: [],
       //https://yaminncco.github.io/vue-sidebar-menu/#/basic-usage
       menu: [
@@ -133,7 +137,8 @@ export default {
       console.log(this.$store.state.count)
     },
     onToggleCollapse(collapsed) {
-      alert(1);
+      alert(collapsed);
+      isCollapsed = !isCollapsed;
     },
   }
 }
@@ -148,5 +153,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#Mainboard{
+  padding-left: 290px;
+}
+#Mainboard .collapsed{
+  padding-left: 65px !important;
 }
 </style>
