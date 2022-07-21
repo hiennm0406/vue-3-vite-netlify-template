@@ -20,7 +20,7 @@ const routes = [
         name: 'History'
     },
     {
-        path: 'history/first',
+        path: 'first',
         component: FirstRagnarok,
         name: 'firstRagnarok'
     },
