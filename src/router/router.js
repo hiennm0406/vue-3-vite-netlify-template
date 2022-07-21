@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Main from '@/components/MainScreen.vue'
+import Main from './../components/MainScreen.vue'
 
 import History from '@/components/History/HistoryMain.vue'
 import Character from '@/components/Character/CharacterPage.vue'
