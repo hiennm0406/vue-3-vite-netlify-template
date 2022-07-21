@@ -34,8 +34,8 @@ export default {
             icon: 'fa fa-chart-area',
             child: [
               {
-                href: '/charts/sublink',
-                title: 'Sub Link'
+                href: { name: 'firstRagnarok' },
+                title: 'The first ragnarok'
               }
             ]
           },
