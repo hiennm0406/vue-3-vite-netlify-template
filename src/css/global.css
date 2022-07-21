@@ -33,3 +33,9 @@ a {
   padding-right: 8px;
   margin-top: -3px;
 }
+
+
+.text_contain{
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}

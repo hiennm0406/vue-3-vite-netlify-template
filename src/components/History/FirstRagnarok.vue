@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container text_contain">
         <h2>Ragnarok lần đầu tiên</h2>
 
         <p class="first-letter">Từ xa xưa, xưa còn hơn cả những gì con người có thể lật ngược lại được. Những thực thể cổ đại ấy đã đặt chân tới Trái Đất.
