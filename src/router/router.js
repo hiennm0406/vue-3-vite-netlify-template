@@ -15,24 +15,22 @@ const routes = [
         name: 'Main',
     },
     {
-        path: '/history',
+        path: 'history',
         component: History,
-        name: 'History',
-        children: [
-            {
-              path: 'first',
-              component: FirstRagnarok,
-              name: 'firstRagnarok'
-            },
-        ]
+        name: 'History'
     },
     {
-        path: '/setting',
+        path: 'history/first',
+        component: FirstRagnarok,
+        name: 'firstRagnarok'
+    },
+    {
+        path: 'setting',
         component: Setting,
         name: 'Setting',
     },
     {
-        path: '/character',
+        path: 'character',
         component: Character,
         name: 'Character',
     },
