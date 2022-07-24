@@ -3,7 +3,7 @@
    <table>
     <tr>
       <td>
-        <img src="@assets/character/001.jpg"/>
+        <img src="./assets/character/001.jpg"/>
       </td>
       <td>
         Stat:
