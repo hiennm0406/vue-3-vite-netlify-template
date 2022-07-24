@@ -7,13 +7,14 @@ Họ là những thực thể thông thái, mạnh mẽ và vĩ đại. Những 
 Vào thời điểm đấy, các cánh cổng vẫn còn mở, những cánh cổng - hay họ - người Jotun - gọi chúng là Bifrost, ý chỉ cầu vồng. Một cách gọi thơ mộng cho những vết rách không gian vặn vẹo và phun ra bức xạ vũ trụ bảy màu. Những vết rách đó là những lỗ giun, bằng một phép màu của vũ trụ, nó nối thông 9 hành tinh, ở 9 hệ mặt trời khác nhau. Những vết rách đó không ổn định, lúc đóng lúc mở, đủ kích thước, nhưng rồi đã có những vết rách đủ to để Ymir, một người Jotun vĩ đại chui qua và bước chân lên Trái Đất.</p>
 <div class="grid_contain">
     <img src="./../../assets/history/giant.jpg" />
-
-    <p>Thế rồi, như một cơn lũ, nền văn minh Jotun trải dài khắp 9 giới, họ phát triển như một phép màu, nghiên cứu các thảm thực vật và sinh vật.</p>
-    <p>Họ dùng gen của họ, tạo ra khủng long.</p>
-    <p>Họ cũng phát hiện ra Alfheim, một ngôi sao chết với phóng xạ không sao sống được. Họ nghiên cứu một loại thực vật có thể hấp thu phóng xạ và trồng vào đó.</p>
-    <p>Họ phát hiện ra thế giới đại dương Nilfheim, và họ xây dựng ở đó hòn đảo Alantic khổng lồ. Họ tạo ra một chủng tộc khổng lồ gọi là Culthul để lặn xuống những vùng đất sâu nhất mà họ không thể tới được.</p>
-    <p>Họ cũng phát hiện ra Asgard, nơi được bao trùm bởi một loại vật chất đặc biệt mà họ nghĩ nó chỉ tồn tại ở xác của một hố đen. Ymir đã xây dựng một khu mỏ ở đây để khai thác và nghiên cứu nó, họ đặt tên nó là Valhalla.</p>
-    <p>Nền văn minh của họ trải dài khắp 9 thế giới. </p>
+    <div>
+      <p>Thế rồi, như một cơn lũ, nền văn minh Jotun trải dài khắp 9 giới, họ phát triển như một phép màu, nghiên cứu các thảm thực vật và sinh vật.</p>
+      <p>Họ dùng gen của họ, tạo ra khủng long.</p>
+      <p>Họ cũng phát hiện ra Alfheim, một ngôi sao chết với phóng xạ không sao sống được. Họ nghiên cứu một loại thực vật có thể hấp thu phóng xạ và trồng vào đó.</p>
+      <p>Họ phát hiện ra thế giới đại dương Nilfheim, và họ xây dựng ở đó hòn đảo Alantic khổng lồ. Họ tạo ra một chủng tộc khổng lồ gọi là Culthul để lặn xuống những vùng đất sâu nhất mà họ không thể tới được.</p>
+      <p>Họ cũng phát hiện ra Asgard, nơi được bao trùm bởi một loại vật chất đặc biệt mà họ nghĩ nó chỉ tồn tại ở xác của một hố đen. Ymir đã xây dựng một khu mỏ ở đây để khai thác và nghiên cứu nó, họ đặt tên nó là Valhalla.</p>
+      <p>Nền văn minh của họ trải dài khắp 9 thế giới. </p>
+    </div>
 </div>
 <p>Cho đến ngày đó, người Jotun gọi là ngày [Khải hoàn], hay [Ngày chia cắt].
 Một ngôi sao chổi vĩ đại lao thẳng vào Trái Đất. Vụ nổ xóa sạch nền văn minh Jotun trên hành tinh xanh, kéo theo đó là vô số sự sống.
