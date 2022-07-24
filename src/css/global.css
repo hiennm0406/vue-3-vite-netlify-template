@@ -8,16 +8,16 @@ a {
   background-size: auto 100%;
 }
 .icon_main{
-  background-image: url("./../assets/main.ico");
+  background-image: url("../assets/icon/main.ico");
 }
 .icon_history{
-  background-image: url("./../assets/treeicon.ico");
+  background-image: url("../assets/icon/treeicon.ico");
 }
 .icon_setting{
-  background-image: url("./../assets/settingicon.ico");
+  background-image: url("../assets/icon/settingicon.ico");
 }
 .icon_character{
-  background-image: url("./../assets/charactericon.ico");
+  background-image: url("../assets/icon/charactericon.ico");
 }
 
 

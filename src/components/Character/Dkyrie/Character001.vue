@@ -1,6 +1,15 @@
 <template>
-    THIS IS CHARACTER PAGE
-    <button @click="show"></button>
+   <h2>Trần Ngọc Minh</h2>
+   <table>
+    <tr>
+      <td>
+        <img src="@assets/character/001.jpg"/>
+      </td>
+      <td>
+        Stat:
+      </td>
+    </tr>
+   </table>
 </template>
 
 <style scoped>
