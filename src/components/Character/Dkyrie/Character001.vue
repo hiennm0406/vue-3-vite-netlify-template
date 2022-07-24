@@ -11,7 +11,7 @@ a {
 
 
 <script>
-import json from './../data/data.json';
+import json from './../../data/data.json';
 export default {
   data: function() {
     return {
