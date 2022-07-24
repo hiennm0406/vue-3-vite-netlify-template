@@ -53,3 +53,7 @@ a {
 .grid_contain img{
   margin: 20px;
 }
+
+.vsm--link_level-2{
+  padding: 3px 23px;
+}
