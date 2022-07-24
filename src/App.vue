@@ -36,6 +36,10 @@ export default {
               element: 'span',
               class: 'icon40 icon_history',
             },
+             showOneChild: {
+              type: Boolean,
+              default: false
+            },
             child: [
               {
                 href: { name: 'firstRagnarok' },
@@ -49,6 +53,10 @@ export default {
              icon: {
               element: 'span',
               class: 'icon40 icon_setting',
+            },
+             showOneChild: {
+              type: Boolean,
+              default: false
             },
             child: [
               {
@@ -94,16 +102,14 @@ export default {
               element: 'span',
               class: 'icon40 icon_character',
             },
+            showOneChild: {
+              type: Boolean,
+              default: false
+            },
             child: [
                {
-                href: '/',
+                href: { name: 'CharacterDkyrie' },
                 title: 'Dkyrie',
-                child: [
-                  {
-                    href: { name: 'Character001' },
-                    title: 'Trần Ngọc Minh'
-                  }
-                ]
               },
               {
                 href: '/',
