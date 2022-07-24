@@ -97,7 +97,13 @@ export default {
             child: [
                {
                 href: '/',
-                title: 'Dkyrie'
+                title: 'Dkyrie',
+                child: [
+                  {
+                    href: { name: 'Character001' },
+                    title: 'Trần Ngọc Minh'
+                  }
+                ]
               },
               {
                 href: '/',
