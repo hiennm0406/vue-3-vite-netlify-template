@@ -38,7 +38,7 @@ export default {
             },
              showOneChild: {
               type: Boolean,
-              default: false
+              default: true
             },
             child: [
               {
@@ -56,7 +56,7 @@ export default {
             },
              showOneChild: {
               type: Boolean,
-              default: false
+              default: true
             },
             child: [
               {
@@ -104,7 +104,7 @@ export default {
             },
             showOneChild: {
               type: Boolean,
-              default: false
+              default: true
             },
             child: [
                {
