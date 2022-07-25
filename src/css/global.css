@@ -66,3 +66,7 @@ a {
   vertical-align: top;
   padding: 20px;
 }
+
+.text_left{
+  text-align: left;
+}

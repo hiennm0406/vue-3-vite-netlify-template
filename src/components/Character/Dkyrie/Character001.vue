@@ -5,12 +5,12 @@
       <td width="50%">
         <img src="../../../assets/character/001.jpg"/>
       </td>
-      <td>
+      <td class="text_left">
         <h2>Stat:</h2>
            <Slider v-model="value" :max="15" />
-           <span>Might:</span><br>
-           <span>Energy:</span><br>
-           <span>Endurance:</span><br>
+           <h3><b>Might:</b></h3>100<br/>
+           <h3><b>Energy:</b></h3>100<br/>
+           <h3><b>Endurance:</b></h3>100<br/>
       </td>
     </tr>
    </table>
