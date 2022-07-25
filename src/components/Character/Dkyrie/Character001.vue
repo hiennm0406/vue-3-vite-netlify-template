@@ -7,7 +7,7 @@
       </td>
       <td>
         <h2>Stat:</h2>
-           <Slider v-model="value" />
+           <Slider v-model="value" :max="15" />
       </td>
     </tr>
    </table>
