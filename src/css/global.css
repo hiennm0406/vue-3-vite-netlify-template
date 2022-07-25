@@ -61,3 +61,7 @@ a {
 .table_content{
   width: 100%;
 }
+
+.table_content tr td{
+  vertical-align: top;
+}
