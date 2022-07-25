@@ -26,7 +26,7 @@ import json from './../../data/data.json';
 import Slider from '@vueform/slider'
 export default {
   components: {
-    VueSlider
+    Slider
   },
   data: function() {
     return {
