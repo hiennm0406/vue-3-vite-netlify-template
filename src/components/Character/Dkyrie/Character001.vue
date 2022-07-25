@@ -1,12 +1,12 @@
 <template>
    <h2>Trần Ngọc Minh</h2>
-   <table>
+   <table class="table_content">
     <tr>
-      <td>
+      <td width="50%">
         <img src="../../../assets/character/001.jpg"/>
       </td>
       <td>
-        Stat:
+        <h2>Stat:</h2>
            <Slider v-model="value" />
       </td>
     </tr>

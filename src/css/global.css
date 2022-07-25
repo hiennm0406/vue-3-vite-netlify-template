@@ -56,5 +56,8 @@ a {
 
 .vsm--link_level-2{
   padding: 3px 23px;
-  
+}
+
+.table_content{
+  width: 100%;
 }
