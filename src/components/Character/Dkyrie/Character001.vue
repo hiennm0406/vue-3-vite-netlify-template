@@ -22,7 +22,6 @@ a {
 
 <script>
 import json from './../../data/data.json';
-import VueSlider from 'vue-slider-component';
 export default {
   components: {
     VueSlider
