@@ -7,13 +7,14 @@
       </td>
       <td>
         Stat:
-         <vue-slider v-model="value" />
+           <Slider v-model="value" />
       </td>
     </tr>
    </table>
 </template>
 
 <style scoped>
+
 a {
   color: #42b983;
 }
@@ -22,6 +23,7 @@ a {
 
 <script>
 import json from './../../data/data.json';
+import Slider from '@vueform/slider'
 export default {
   components: {
     VueSlider
