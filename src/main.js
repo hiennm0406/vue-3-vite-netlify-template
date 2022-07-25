@@ -13,6 +13,6 @@ import VueSlider from 'vue-slider-component'
 const app = createApp(App)
 app.use(VueSidebarMenu)
 app.use(store)
-app.use(VueSlider)
+// app.use(VueSlider)
 app.use(router)
 app.mount('#app')
