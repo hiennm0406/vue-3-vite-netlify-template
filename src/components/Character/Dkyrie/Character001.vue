@@ -7,6 +7,7 @@
       </td>
       <td>
         Stat:
+         <vue-slider v-model="value" />
       </td>
     </tr>
    </table>
@@ -25,6 +26,7 @@ export default {
   data: function() {
     return {
       users: [],
+      value:0
     };
   },
   methods: {

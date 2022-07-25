@@ -158,6 +158,7 @@ export default {
 
 <style>
 @import "./css/global.css";
+@import 'vue-slider-component/theme/antd.css';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
