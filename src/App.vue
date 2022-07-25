@@ -36,10 +36,7 @@ export default {
               element: 'span',
               class: 'icon40 icon_history',
             },
-             showOneChild: {
-              type: Boolean,
-              default: true
-            },
+             showOneChild: true,
             child: [
               {
                 href: { name: 'firstRagnarok' },
@@ -54,10 +51,7 @@ export default {
               element: 'span',
               class: 'icon40 icon_setting',
             },
-             showOneChild: {
-              type: Boolean,
-              default: true
-            },
+            showOneChild: true,
             child: [
               {
                 href: '/',
@@ -102,10 +96,7 @@ export default {
               element: 'span',
               class: 'icon40 icon_character',
             },
-            showOneChild: {
-              type: Boolean,
-              default: true
-            },
+            showOneChild: true,
             child: [
                {
                 href: { name: 'CharacterDkyrie' },
