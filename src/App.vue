@@ -19,7 +19,8 @@ export default {
       menu: [
           {
             header: 'RAGNAROK',
-            hiddenOnCollapse: true
+            hiddenOnCollapse: true,
+            showOneChild: true,
           },
           {
             to: '/',
@@ -36,7 +37,7 @@ export default {
               element: 'span',
               class: 'icon40 icon_history',
             },
-             showOneChild: true,
+            showOneChild: true,
             child: [
               {
                 href: { name: 'firstRagnarok' },
