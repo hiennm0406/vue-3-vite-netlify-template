@@ -64,4 +64,5 @@ a {
 
 .table_content tr td{
   vertical-align: top;
+  padding: 20px;
 }

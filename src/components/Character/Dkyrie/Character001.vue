@@ -8,6 +8,9 @@
       <td>
         <h2>Stat:</h2>
            <Slider v-model="value" :max="15" />
+           <span>Might:</span><br>
+           <span>Energy:</span><br>
+           <span>Endurance:</span><br>
       </td>
     </tr>
    </table>
