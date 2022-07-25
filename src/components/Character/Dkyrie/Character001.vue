@@ -7,7 +7,7 @@
       </td>
       <td>
         Stat:
-         <vue-slider v-model="value" />
+         <!-- <vue-slider v-model="value" /> -->
       </td>
     </tr>
    </table>
