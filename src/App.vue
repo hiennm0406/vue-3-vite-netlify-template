@@ -1,6 +1,6 @@
 
 <template>
-  <sidebar-menu @update:collapsed="onToggleCollapse" :menu="menu" />
+  <sidebar-menu @update:collapsed="onToggleCollapse" :menu="menu" :showOneChild="true" />
   <div id="Mainboard" :class="{ collapsed: isCollapsed }">
     <router-view />
   </div>
@@ -20,7 +20,6 @@ export default {
           {
             header: 'RAGNAROK',
             hiddenOnCollapse: true,
-            showOneChild: true,
           },
           {
             to: '/',
@@ -37,7 +36,6 @@ export default {
               element: 'span',
               class: 'icon40 icon_history',
             },
-            showOneChild: true,
             child: [
               {
                 href: { name: 'firstRagnarok' },
@@ -52,7 +50,6 @@ export default {
               element: 'span',
               class: 'icon40 icon_setting',
             },
-            showOneChild: true,
             child: [
               {
                 href: '/1',
@@ -97,7 +94,6 @@ export default {
               element: 'span',
               class: 'icon40 icon_character',
             },
-            showOneChild: true,
             child: [
                {
                 href: { name: 'CharacterDkyrie' },
