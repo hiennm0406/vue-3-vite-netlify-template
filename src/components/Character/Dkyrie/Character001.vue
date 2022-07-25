@@ -7,7 +7,7 @@
       </td>
       <td>
         Stat:
-         <!-- <vue-slider v-model="value" /> -->
+         <vue-slider v-model="value" />
       </td>
     </tr>
    </table>
@@ -22,7 +22,11 @@ a {
 
 <script>
 import json from './../../data/data.json';
+import VueSlider from 'vue-slider-component';
 export default {
+  components: {
+    VueSlider
+  },
   data: function() {
     return {
       users: [],
