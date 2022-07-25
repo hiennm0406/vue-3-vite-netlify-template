@@ -13,7 +13,7 @@
 export default {
   data: function() {
     return {
-      isCollapsed: false,
+      isCollapsed: true,
       users: [],
       //https://yaminncco.github.io/vue-sidebar-menu/#/basic-usage
       menu: [
