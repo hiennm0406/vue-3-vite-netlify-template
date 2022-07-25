@@ -55,35 +55,35 @@ export default {
             showOneChild: true,
             child: [
               {
-                href: '/',
+                href: '/1',
                 title: 'Atribute'
               },
                {
-                href: '/',
+                href: '/1',
                 title: 'Skill'
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Skill link'
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Tactic'
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Artifact'
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Rune'
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Trait'
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Awake'
               },
               
@@ -104,39 +104,39 @@ export default {
                 title: 'Dkyrie',
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Midgard'
               },
                {
-                href: '/',
+                href: '/1',
                 title: 'Asgard'
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Alfheim'
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Vanaheim'
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Muspelheim'
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Svartalfheim'
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Jotunheim'
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Nilfheim'
               },
               {
-                href: '/',
+                href: '/1',
                 title: 'Helheim'
               },
             ]
