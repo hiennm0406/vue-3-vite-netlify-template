@@ -28,20 +28,14 @@ a {
 <script>
 import json from './../../data/data.json';
 import Slider from '@vueform/slider'
-import { onMounted } from 'vue'
 export default {
-   setup() {
-    onMounted(() => {
-      json.Character.forEach(x => { 
+  mounted() {
+   json.Character.forEach(x => { 
           if(x.id == "001"){
-            dataChar = x;
+              this.dataChar = x;
             return;
           }
         }); ;
-    })
-  },
-  mounted() {
-    console.log(dataChar)
   },
   components: {
     Slider
