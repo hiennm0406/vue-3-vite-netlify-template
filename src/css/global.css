@@ -110,7 +110,7 @@ a {
   border-radius: 10px;
 }
 
-.skill_container img{
+.skill_container .img{
   float: left;
   width: 30%;
 }
