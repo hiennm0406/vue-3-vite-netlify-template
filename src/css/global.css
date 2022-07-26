@@ -101,3 +101,43 @@ a {
   background-color: #5205b8;
   columns: white;
 }
+
+
+/* Skill container */
+
+.skill_container{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.skill_container img{
+  float: left;
+  width: 30%;
+}
+
+.skill_container .name{
+  float: left;
+  width: 70%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.37)
+}
+
+.skill_container .type{
+  float: left;
+  width: 40%;
+}
+
+.skill_container .cost{
+  float: left;
+  width: 30%;
+}
+
+.skill_container .tag{
+  float: left;
+  width: 1000%;
+}
+
+.skill_container .description{
+  float: left;
+  width: 1000%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.37)
+}

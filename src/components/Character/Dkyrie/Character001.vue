@@ -29,19 +29,49 @@
       <td>
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
-          <div >Name</div>
-          <div>Type</div>
-          <div>Cost</div>
-          <div>Tag</div>
-          <div>Description 1 </div>
-          <div>Description 2 </div>
+          <div class="name">Name</div>
+          <div class="type">Type</div>
+          <div class="cost">Cost</div>
+          <div class="tag">Tag</div>
+          <div class="description">Description 1 </div>
+          <div class="description">Description 2 </div>
         </div>
       </td>
-      <td>Skill 2 </td>
+       <td>
+        <div class="skill_container">
+          <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
+          <div class="name">Name</div>
+          <div class="type">Type</div>
+          <div class="cost">Cost</div>
+          <div class="tag">Tag</div>
+          <div class="description">Description 1 </div>
+          <div class="description">Description 2 </div>
+        </div>
+      </td>
     </tr>
-      <tr v-if="active=='skill'">
-      <td>Skill 3</td>
-      <td>Skill 4</td>
+    <tr v-if="active=='skill'">
+      <td>
+        <div class="skill_container">
+          <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
+          <div class="name">Name</div>
+          <div class="type">Type</div>
+          <div class="cost">Cost</div>
+          <div class="tag">Tag</div>
+          <div class="description">Description 1 </div>
+          <div class="description">Description 2 </div>
+      </div>
+      </td>
+      <td>
+        <div class="skill_container">
+          <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
+          <div class="name">Name</div>
+          <div class="type">Type</div>
+          <div class="cost">Cost</div>
+          <div class="tag">Tag</div>
+          <div class="description">Description 1 </div>
+          <div class="description">Description 2 </div>
+        </div>
+      </td>
     </tr>
    </table>
 </template>
