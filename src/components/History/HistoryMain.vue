@@ -1,5 +1,7 @@
 <template>
-   THIS IS HISTORY PAGE
+   <h2>Kỷ xa xưa</h2>
+    <router-link :to="{ name: 'firstRagnarok'}">Ragnarokr lần đầu tiên</router-link>
+    <router-link :to="{ name: 'TheUnion'}">Ngày tái hợp</router-link>
 </template>
 
 <style scoped>

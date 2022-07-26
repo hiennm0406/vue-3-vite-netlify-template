@@ -4,6 +4,7 @@ import Main from './../components/MainScreen.vue'
 
 import History from './../components/History/HistoryMain.vue'
 import FirstRagnarok from './../components/History/FirstRagnarok.vue'
+import TheUnion from './../components/History/TheUnion.vue'
 
 import Character from './../components/Character/CharacterPage.vue'
 import CharacterDkyrie from './../components/Character/DkyrieChar.vue'
@@ -27,6 +28,11 @@ const routes = [
         path: '/first',
         component: FirstRagnarok,
         name: 'firstRagnarok'
+    },
+    {
+        path: '/theunion',
+        component: TheUnion,
+        name: 'TheUnion'
     },
     {
         path: '/setting',

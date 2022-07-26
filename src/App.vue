@@ -35,13 +35,7 @@ export default {
             icon: {
               element: 'span',
               class: 'icon40 icon_history',
-            },
-            child: [
-              {
-                href: { name: 'firstRagnarok' },
-                title: 'The first ragnarok'
-              }
-            ]
+            }            
           },
           {
             href: { name: 'Setting' },
@@ -87,7 +81,6 @@ export default {
             ]
           },
           {
-            href: { name: 'Character' },
             title: 'Nhân vật',
             icon: 'fa fa-chart-area',
             icon: {
