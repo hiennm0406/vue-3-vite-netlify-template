@@ -69,6 +69,7 @@ export default {
       this.endurance = this.increase(this.dataChar.Stat.Endurance,this.dataChar.Stat.EnduranceEvo,this.value-1);
     },
     increase(input,type,level){
+      console.log(parseInt(3.8));
       for (let index = 0; index < level; index++) {
        if(type == "early"){
         input = input * json.StatEvolution.early[index];
@@ -87,7 +88,7 @@ export default {
        }
       }
       console.log(input);
-      return input;
+      return parseInt(input);
     }
   }
 }
