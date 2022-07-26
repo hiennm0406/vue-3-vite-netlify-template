@@ -33,8 +33,8 @@
           <div class="type">Type: 1-o</div>
           <div class="cost">1AP</div>
           <div class="tag"><attack/> <melee/> <single/> <phys/></div>
-          <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 200% Might({{2*might}})</div>
-          <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 100% Might({{1*might}})</div>
+          <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 200% Might ({{2*might}})</div>
+          <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 100% Might ({{1*might}})</div>
         </div>
       </td>
        <td style="padding-left:5px">
@@ -43,9 +43,9 @@
           <div class="name">Martial art</div>
           <div class="type">Type: 2-o</div>
           <div class="cost">1AP</div>
-          <div class="tag">Tag</div>
-          <div class="description">Lao đến tấn công đối thủ bằng một cú đá mạnh, làm mất trọng tâm của địch thủ. Gây ra sát thương vật lý bằng 200% Might({{2*might}}), đồng thời giảm sát thương của kẻ địch đi 10% trong turn này.</div>
-          <div class="description">Lao đến tấn công đối thủ bằng một cú đá mạnh. Gây ra sát thương vật lý bằng 120% Might({{1.2*might}}).</div>
+          <div class="tag"><attack/> <melee/> <single/> <phys/> <effect/> <duration/> </div>
+          <div class="description">Lao đến tấn công đối thủ bằng một cú đá mạnh, làm mất trọng tâm của địch thủ. Gây ra sát thương vật lý bằng 200% Might ({{2*might}}), đồng thời giảm sát thương của kẻ địch đi 10% trong turn này.</div>
+          <div class="description">Lao đến tấn công đối thủ bằng một cú đá mạnh. Gây ra sát thương vật lý bằng 120% Might ({{1.2*might}}).</div>
         </div>
       </td>
     </tr>
@@ -53,23 +53,20 @@
       <td style="padding-right:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
-          <div class="name">Name</div>
-          <div class="type">Type</div>
-          <div class="cost">Cost</div>
-          <div class="tag">Tag</div>
-          <div class="description">Description 1 </div>
-          <div class="description">Description 2 </div>
+          <div class="name">Critical hit</div>
+          <div class="type">Type: o-3</div>
+          <div class="tag"><effect/> <phys/> <bond/> </div>
+          <div class="description">Đòn tấn công vật lý này được tăng thêm 10% sát thương.</div>
       </div>
       </td>
       <td style="padding-left:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
-          <div class="name">Name</div>
-          <div class="type">Type</div>
-          <div class="cost">Cost</div>
-          <div class="tag">Tag</div>
-          <div class="description">Description 1 </div>
-          <div class="description">Description 2 </div>
+          <div class="name">Quick hit</div>
+          <div class="type">Type: o-6</div>
+          <div class="tag"><attack/> <melee/> <single/> <phys/> <bond/> </div>
+          <div class="description">Sau khi tấn công, Trần Ngọc Minh sẽ tấn công đối thủ thêm 1 lần nữa, gây sát thương vật lý bằng 80% Might ({{0.8 * might}})</div>
+          <div class="description">Sau khi tấn công, Trần Ngọc Minh sẽ tấn công đối thủ thêm 1 lần nữa, gây sát thương vật lý bằng 40% Might ({{0.4 * might}})</div>
         </div>
       </td>
     </tr>
