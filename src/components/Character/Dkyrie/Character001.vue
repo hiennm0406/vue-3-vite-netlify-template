@@ -13,10 +13,6 @@
         <h3><b>Might: </b>{{might}}</h3>
         <h3><b>Energy: </b>{{energy}}</h3>
         <h3><b>Endurance: </b>{{endurance}}</h3>
-        <div class="skill_container" style="display: grid">
-          <span><b>Original:</b> Midgard</span><span></span>
-          <span><b>Age:</b> 25 </span><span><b>Height:</b>~192cm</span>
-        </div>
       </td>
     </tr>
     <tr>
@@ -33,23 +29,23 @@
       <td style="padding-right:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
-          <div class="name">Name</div>
-          <div class="type">Type</div>
-          <div class="cost">Cost</div>
-          <div class="tag">Tag</div>
-          <div class="description">Description 1 </div>
-          <div class="description">Description 2 </div>
+          <div class="name">Kick hit</div>
+          <div class="type">Type: 1-o</div>
+          <div class="cost">1AP</div>
+          <div class="tag">ATTACK MELEE PHYSIC SINGLE</div>
+          <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 200% Might({{2*might}})</div>
+          <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 100% Might({{1*might}})</div>
         </div>
       </td>
        <td style="padding-left:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
-          <div class="name">Name</div>
-          <div class="type">Type</div>
-          <div class="cost">Cost</div>
+          <div class="name">Martial art</div>
+          <div class="type">Type: 2-o</div>
+          <div class="cost">1AP</div>
           <div class="tag">Tag</div>
-          <div class="description">Description 1 </div>
-          <div class="description">Description 2 </div>
+          <div class="description">Lao đến tấn công đối thủ bằng một cú đá mạnh, làm mất trọng tâm của địch thủ. Gây ra sát thương vật lý bằng 200% Might({{2*might}}), đồng thời giảm sát thương của kẻ địch đi 10% trong turn này.</div>
+          <div class="description">Lao đến tấn công đối thủ bằng một cú đá mạnh. Gây ra sát thương vật lý bằng 120% Might({{1.2*might}}).</div>
         </div>
       </td>
     </tr>
