@@ -8,7 +8,7 @@
       <td class="text_left">
         <h2>Stat:</h2>
         <br/>
-        <Slider v-model="value" :max="15" />
+        <Slider v-model="value" :max="15" :change="changeValue" />
         <h3><b>Might: </b>{{might}}</h3><br/>
         <h3><b>Energy: </b>{{energy}}</h3><br/>
         <h3><b>Endurance: </b>{{endurance}}</h3><br/>
@@ -52,11 +52,8 @@ export default {
   },
   
   methods: {
-    show() {
-     json.forEach(x => { console.log(x.firstname, x.lastname); });
-    },
     changeValue(){
-
+      console.log(this.dataChar);
     }
   }
 }
