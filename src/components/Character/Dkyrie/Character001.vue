@@ -7,10 +7,11 @@
       </td>
       <td class="text_left">
         <h2>Stat:</h2>
-           <Slider v-model="value" :max="15" />
-           <h3><b>Might:</b></h3>100<br/>
-           <h3><b>Energy:</b></h3>100<br/>
-           <h3><b>Endurance:</b></h3>100<br/>
+        <br/>
+        <Slider v-model="value" :max="15" />
+        <h3><b>Might:</b>{{might}}</h3><br/>
+        <h3><b>Energy:</b>{{enegry}}</h3><br/>
+        <h3><b>Endurance:</b>{{endurance}}</h3><br/>
       </td>
     </tr>
    </table>
@@ -34,12 +35,21 @@ export default {
   data: function() {
     return {
       users: [],
-      value:0
+      value:0,
+      might:0,
+      energy:0,
+      endurance:0,
+      dataLevel:[],
+      dataChar:{}
     };
   },
+  
   methods: {
     show() {
      json.forEach(x => { console.log(x.firstname, x.lastname); });
+    },
+    changeValue(){
+
     }
   }
 }
