@@ -9,9 +9,9 @@
         <h2>Stat:</h2>
         <br/>
         <Slider v-model="value" :max="15" />
-        <h3><b>Might:</b>{{might}}</h3><br/>
-        <h3><b>Energy:</b>{{energy}}</h3><br/>
-        <h3><b>Endurance:</b>{{endurance}}</h3><br/>
+        <h3><b>Might: </b>{{might}}</h3><br/>
+        <h3><b>Energy: </b>{{energy}}</h3><br/>
+        <h3><b>Endurance: </b>{{endurance}}</h3><br/>
       </td>
     </tr>
    </table>
@@ -32,14 +32,19 @@ export default {
    setup() {
     const root = ref(null)
     onMounted(() => {
-      console.log("12312")
+      json.Character.forEach(x => { 
+          if(x.id == "001"){
+            dataChar = x;
+            return;
+          }
+        }); ;
     })
     return {
       root
     }
   },
   mounted() {
-    console.log("abc")
+    console.log(dataChar)
   },
   components: {
     Slider
@@ -51,7 +56,6 @@ export default {
       might:0,
       energy:0,
       endurance:0,
-      dataLevel:[],
       dataChar:{}
     };
   },
