@@ -136,10 +136,14 @@ a {
   float: left;
   width: 30%;
 }
+.skill_container .img img{
+ height: 60px;
+}
 
 .skill_container .name{
   float: left;
   width: 70%;
+  font-weight: bolder;
   border-bottom: 1px solid rgba(0, 0, 0, 0.27)
 }
 
@@ -164,4 +168,24 @@ a {
   padding: 4px;
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.27)
+}
+
+
+/* damage type */
+
+.phys{
+  color:purple;
+}
+
+.fire{
+  color: red;
+}
+.ice{
+  color:aqua;
+}
+.lightning{
+  color:yellow;
+}
+.anima{
+  color:#6f00ff;
 }

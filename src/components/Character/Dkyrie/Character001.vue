@@ -28,31 +28,31 @@
     <tr v-if="active=='skill'">
       <td style="padding-right:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
+          <div class="img"><img src="../../../assets/character/00101.png" style="height: 40px ;"/></div>
           <div class="name">Kick hit</div>
           <div class="type">Type: 1-o</div>
           <div class="cost">1AP</div>
           <div class="tag"><attack/> <melee/> <single/> <phys/></div>
-          <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 200% Might ({{2*might}})</div>
-          <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 100% Might ({{1*might}})</div>
+          <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 200% Might <span class="phys">({{2*might}})</span></div>
+          <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 100% Might <span class="phys">({{1*might}})</span></div>
         </div>
       </td>
        <td style="padding-left:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
+          <div class="img"><img src="../../../assets/character/00102.png" style="height: 40px ;"/></div>
           <div class="name">Martial art</div>
           <div class="type">Type: 2-o</div>
           <div class="cost">1AP</div>
           <div class="tag"><attack/> <melee/> <single/> <phys/> <effect/> <duration/> </div>
-          <div class="description">Lao đến tấn công đối thủ bằng một cú đá mạnh, làm mất trọng tâm của địch thủ. Gây ra sát thương vật lý bằng 200% Might ({{2*might}}), đồng thời giảm sát thương của kẻ địch đi 10% trong turn này.</div>
-          <div class="description">Lao đến tấn công đối thủ bằng một cú đá mạnh. Gây ra sát thương vật lý bằng 120% Might ({{1.2*might}}).</div>
+          <div class="description">Lao đến tấn công đối thủ bằng một cú đá mạnh, làm mất trọng tâm của địch thủ. Gây ra sát thương vật lý bằng 200% Might <span class="phys">({{2*might}})</span>, đồng thời giảm sát thương của kẻ địch đi 10% trong turn này.</div>
+          <div class="description">Lao đến tấn công đối thủ bằng một cú đá mạnh. Gây ra sát thương vật lý bằng 120% Might <span class="phys">({{1.2*might}})</span>.</div>
         </div>
       </td>
     </tr>
     <tr v-if="active=='skill'">
       <td style="padding-right:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
+          <div class="img"><img src="../../../assets/character/00103.png" style="height: 40px ;"/></div>
           <div class="name">Critical hit</div>
           <div class="type">Type: o-3</div>
           <div class="tag"><effect/> <phys/> <bond/> </div>
@@ -61,12 +61,12 @@
       </td>
       <td style="padding-left:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
+          <div class="img"><img src="../../../assets/character/00104.png" style="height: 40px ;"/></div>
           <div class="name">Quick hit</div>
           <div class="type">Type: o-6</div>
           <div class="tag"><attack/> <melee/> <single/> <phys/> <bond/> </div>
-          <div class="description">Sau khi tấn công, Trần Ngọc Minh sẽ tấn công đối thủ thêm 1 lần nữa, gây sát thương vật lý bằng 80% Might ({{0.8 * might}})</div>
-          <div class="description">Sau khi tấn công, Trần Ngọc Minh sẽ tấn công đối thủ thêm 1 lần nữa, gây sát thương vật lý bằng 40% Might ({{0.4 * might}})</div>
+          <div class="description">Sau khi tấn công, Trần Ngọc Minh sẽ tấn công đối thủ thêm 1 lần nữa, gây sát thương vật lý bằng 80% Might <span class="phys">({{0.8 * might}})</span></div>
+          <div class="description">Sau khi tấn công, Trần Ngọc Minh sẽ tấn công đối thủ thêm 1 lần nữa, gây sát thương vật lý bằng 40% Might <span class="phys">({{0.4 * might}})</span></div>
         </div>
       </td>
     </tr>
