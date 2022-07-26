@@ -43,42 +43,7 @@ export default {
              icon: {
               element: 'span',
               class: 'icon40 icon_setting',
-            },
-            child: [
-              {
-                href: { name: 'attribute' },
-                title: 'Attribute'
-              },
-               {
-                href: '/1',
-                title: 'Skill'
-              },
-              {
-                href: '/1',
-                title: 'Skill link'
-              },
-              {
-                href: '/1',
-                title: 'Tactic'
-              },
-              {
-                href: '/1',
-                title: 'Artifact'
-              },
-              {
-                href: '/1',
-                title: 'Rune'
-              },
-              {
-                href: '/1',
-                title: 'Trait'
-              },
-              {
-                href: '/1',
-                title: 'Awake'
-              },
-              
-            ]
+            }            
           },
           {
             title: 'Nhân vật',
