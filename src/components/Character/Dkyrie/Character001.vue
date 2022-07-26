@@ -3,7 +3,7 @@
    <table class="table_content">
     <tr>
       <td width="50%">
-        <img src="../../../assets/character/001.jpg" style="height: 4000px ;"/>
+        <img src="../../../assets/character/001.jpg" style="height: 400px ;"/>
       </td>
       <td class="text_left">
         <h2>Level:</h2>
