@@ -108,7 +108,7 @@ export default {
     }
   },
   components: {
-    Slider
+    Slider, Attack
   },
   data: function() {
     return {
