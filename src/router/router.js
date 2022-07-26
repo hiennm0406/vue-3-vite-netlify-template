@@ -11,7 +11,7 @@ import CharacterDkyrie from './../components/Character/DkyrieChar.vue'
 import Character001 from './../components/Character/Dkyrie/Character001.vue'
 
 import Setting from './../components/Setting/SettingMain.vue'
-import attribute from './../components/Setting/Artribute.vue'
+import attribute from './../components/Setting/Attribute.vue'
 
 const routes = [
     {
