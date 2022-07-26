@@ -6,8 +6,8 @@
 </p>
 <table class="table_content">
   <tr>
-    <td>
-      <img src="./../../assets/history/rebuild.jpg" width=""/>
+    <td width="50%">
+      <img src="./../../assets/history/rebuild.jpg"/>
     </td>
     <td>
       <p>Theo thế giới ngày càng ấm lên, rừng rậm cây cối và các loài động vật sinh sôi nảy nở. Manna bắt đầu chia ra sinh sống ở nhiều vùng đất, trở thành các thị tộc lớn, trải dài trên khắp các đại lục. Đây là mở đầu cho một nền văn minh mới. Trong đó, có 2 thị tộc lớn nhất, đã chiếm được các tàn tích Jotun và phát triển một cách vượt bậc hơn số Manna còn lại.</p>
