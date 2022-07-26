@@ -24,6 +24,14 @@
         </div>
       </td>
     </tr>
+    <tr v-if="active=='skill'">
+      <td>Skill 1</td>
+      <td>Skill 2 </td>
+    </tr>
+      <tr v-if="active=='skill'">
+      <td>Skill 3</td>
+      <td>Skill 4</td>
+    </tr>
    </table>
 </template>
 
