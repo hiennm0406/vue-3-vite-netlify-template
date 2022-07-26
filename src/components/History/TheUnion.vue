@@ -26,7 +26,7 @@
       <p>Dần dần, hai thị tộc bắt đầu đối đầu nhau, nổ ra cuộc chiến giữa Asgard và Vanna kéo dài hơn 30 năm. Cuộc chiến làm thương vong vô số cho cả hai bên.</p>
       <p>Trong thời gian đó, bộ lạc Asgard tìm được những di chỉ cổ đại, ở đây có ghi chép về một nơi được gọi là Valhalla nằm ở một miền đất khác. Họ bị tò mò về nó, sau nhiều tháng trời lần theo các dấu vết, họ không tìm được Valhalla, nhưng họ tìm được một thứ khác. Một thứ đã bị chính người Jotun chôn vùi sâu trong lòng đất và đã bị lãng quên từ rất, rất, rất lâu về trước... Đó là những viên khoáng thạch màu xanh biếc, mỹ miều, nhưng chết chóc. Người Jotun gọi nó là - Bom Anima -</p>
     </td>
-    <td width="60%">
+    <td width="40%">
      <img src="./../../assets/history/crystal.jpg" />
     </td>
   </tr>
