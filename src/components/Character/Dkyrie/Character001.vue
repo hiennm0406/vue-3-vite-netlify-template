@@ -26,7 +26,7 @@
       </td>
     </tr>
     <tr v-if="active=='skill'">
-      <td>
+      <td style="padding-right:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
           <div class="name">Name</div>
@@ -37,7 +37,7 @@
           <div class="description">Description 2 </div>
         </div>
       </td>
-       <td>
+       <td style="padding-left:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
           <div class="name">Name</div>
@@ -50,7 +50,7 @@
       </td>
     </tr>
     <tr v-if="active=='skill'">
-      <td>
+      <td style="padding-right:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
           <div class="name">Name</div>
@@ -61,7 +61,7 @@
           <div class="description">Description 2 </div>
       </div>
       </td>
-      <td>
+      <td style="padding-left:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
           <div class="name">Name</div>
