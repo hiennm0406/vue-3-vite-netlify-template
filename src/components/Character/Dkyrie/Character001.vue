@@ -28,6 +28,7 @@ a {
 <script>
 import json from './../../data/data.json';
 import Slider from '@vueform/slider'
+import { onMounted } from 'vue'
 export default {
    setup() {
     onMounted(() => {
