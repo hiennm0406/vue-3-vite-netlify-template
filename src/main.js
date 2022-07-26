@@ -14,3 +14,14 @@ app.use(VueSidebarMenu)
 app.use(store)
 app.use(router)
 app.mount('#app')
+
+
+import attack from './components/TitleComponent/Title/Attack.vue'
+import phys from './components/TitleComponent/Title/Physic.vue'
+import melee from './components/TitleComponent/Title/Melee.vue'
+import single from './components/TitleComponent/Title/Single.vue'
+
+app.component('attack', attack)
+.component('phys', phys)
+.component('melee', melee)
+.component('single', single)

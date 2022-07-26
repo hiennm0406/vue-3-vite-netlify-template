@@ -87,7 +87,6 @@ a {
 <script>
 import json from './../../data/data.json';
 import Slider from '@vueform/slider'
-import Attack from './../../TitleComponent/Title/Attack.vue'
 export default {
   mounted() {
    json.Character.forEach(x => { 
@@ -108,7 +107,7 @@ export default {
     }
   },
   components: {
-    Slider, Attack
+    Slider
   },
   data: function() {
     return {
