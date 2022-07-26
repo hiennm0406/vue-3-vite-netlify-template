@@ -7,7 +7,7 @@
 <table class="table_content">
   <tr>
     <td width="50%">
-      <img src="./../../assets/history/rebuild.jpg"/>
+      <img src="./../../assets/history/rebuild.jpg" style="width: 100%;"/>
     </td>
     <td>
       <p>Theo thế giới ngày càng ấm lên, rừng rậm cây cối và các loài động vật sinh sôi nảy nở. Manna bắt đầu chia ra sinh sống ở nhiều vùng đất, trở thành các thị tộc lớn, trải dài trên khắp các đại lục. Đây là mở đầu cho một nền văn minh mới. Trong đó, có 2 thị tộc lớn nhất, đã chiếm được các tàn tích Jotun và phát triển một cách vượt bậc hơn số Manna còn lại.</p>
@@ -27,7 +27,7 @@
       <p>Trong thời gian đó, bộ lạc Asgard tìm được những di chỉ cổ đại, ở đây có ghi chép về một nơi được gọi là Valhalla nằm ở một miền đất khác. Họ bị tò mò về nó, sau nhiều tháng trời lần theo các dấu vết, họ không tìm được Valhalla, nhưng họ tìm được một thứ khác. Một thứ đã bị chính người Jotun chôn vùi sâu trong lòng đất và đã bị lãng quên từ rất, rất, rất lâu về trước... Đó là những viên khoáng thạch màu xanh biếc, mỹ miều, nhưng chết chóc. Người Jotun gọi nó là - Bom Anima -</p>
     </td>
     <td width="40%">
-     <img src="./../../assets/history/crystal.jpg" />
+     <img src="./../../assets/history/crystal.jpg" style="width: 100%;"/>
     </td>
   </tr>
 </table>
