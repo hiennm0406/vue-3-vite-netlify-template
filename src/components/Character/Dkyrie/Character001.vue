@@ -56,7 +56,7 @@ export default {
   
   methods: {
     changeValue(){
-      console.log(this.dataChar);
+      console.log(this.value);
       this.might = this.increase(this.dataChar.Stat.Might,this.dataChar.Stat.MightEvo,this.value);
       this.energy = this.increase(this.dataChar.Stat.Energy,this.dataChar.Stat.EnergyEvo,this.value);
       this.endurance = this.increase(this.dataChar.Stat.Endurance,this.dataChar.Stat.EnduranceEvo,this.value);
