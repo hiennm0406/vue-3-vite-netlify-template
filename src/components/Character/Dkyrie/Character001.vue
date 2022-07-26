@@ -33,6 +33,9 @@ export default {
    json.Character.forEach(x => { 
           if(x.id == "001"){
               this.dataChar = x;
+              this.might = x.Stat.Might;
+              this.energy = x.Stat.Energy;
+              this.endurance = x.Stat.Endurance;
             return;
           }
         }); ;
@@ -54,6 +57,30 @@ export default {
   methods: {
     changeValue(){
       console.log(this.dataChar);
+      this.might = increase(x.Stat.Might,x.Stat.MightEvo,this.value);
+      this.energy = increase(x.Stat.Energy,x.Stat.EnergyEvo,this.value);
+      this.endurance = increase(x.Stat.Endurance,x.Stat.EnduranceEvo,this.value);
+    },
+    increase(input,type,level){
+      for (let index = 0; index < level; index++) {
+       if(type == "early"){
+        input = input * json.StatEvolution.early[index];
+       }
+       else if(type == "late"){
+        input = input * json.StatEvolution.late[index];
+       }
+       else if(type == "U"){
+        input = input * json.StatEvolution.U[index];
+       }
+       else if(type == "uptodownU"){
+        input = input * json.StatEvolution.uptodownU[index];
+       }
+       else if(type == "semi"){
+        input = input * json.StatEvolution.semi[index];
+       }
+      }
+      console.log(input);
+      return input;
     }
   }
 }
