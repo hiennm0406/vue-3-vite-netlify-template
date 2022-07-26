@@ -8,7 +8,7 @@
       <td class="text_left">
         <h2>Stat:</h2>
         <br/>
-        <Slider v-model="value" :max="15" @change="changeValue" />
+        <Slider v-model="value" :max="15" />
         <h3><b>Might: </b>{{might}}</h3><br/>
         <h3><b>Energy: </b>{{energy}}</h3><br/>
         <h3><b>Endurance: </b>{{endurance}}</h3><br/>
@@ -41,9 +41,10 @@ export default {
         }); ;
   },
   watch: {
-    // whenever question changes, this function will run
-    value:{
-       console.log(this.value);
+    value(newValue, oldValue) {
+      if (newValue != oldValue) {
+        this.changeValue()
+      }
     }
   },
   components: {
