@@ -63,7 +63,6 @@ export default {
   
   methods: {
     changeValue(){
-      console.log(this.value);
       this.might = this.increase(this.dataChar.Stat.Might,this.dataChar.Stat.MightEvo,this.value-1);
       this.energy = this.increase(this.dataChar.Stat.Energy,this.dataChar.Stat.EnergyEvo,this.value-1);
       this.endurance = this.increase(this.dataChar.Stat.Endurance,this.dataChar.Stat.EnduranceEvo,this.value-1);
@@ -87,7 +86,7 @@ export default {
         input = input * json.StatEvolution.semi[index];
        }
       }
-      console.log(input);
+      console.log(parseInt(input));
       return parseInt(input);
     }
   }
