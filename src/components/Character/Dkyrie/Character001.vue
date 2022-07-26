@@ -19,13 +19,24 @@
       <td colspan="2">
         <div class="btn-group">
           <button :class="{active:active=='skill'}" @click="active='skill'">Skill</button>
+          <button :class="{active:active=='link'}" @click="active='link'">Link</button>
           <button :class="{active:active=='perk'}" @click="active='perk'">Perk</button>
           <button :class="{active:active=='bg'}" @click="active='bg'">Background</button>
         </div>
       </td>
     </tr>
     <tr v-if="active=='skill'">
-      <td>Skill 1</td>
+      <td>
+        <div class="skill_container">
+          <div class="img"><img src="../../../assets/character/001.jpg" style="height: 40px ;"/></div>
+          <div >Name</div>
+          <div>Type</div>
+          <div>Cost</div>
+          <div>Tag</div>
+          <div>Description 1 </div>
+          <div>Description 2 </div>
+        </div>
+      </td>
       <td>Skill 2 </td>
     </tr>
       <tr v-if="active=='skill'">
