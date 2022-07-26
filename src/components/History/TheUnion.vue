@@ -4,14 +4,18 @@
 
         <p class="first-letter">Sau khi nền văn minh Jotun sụp đổ, những Jotun cuối cùng bị chết, ngay cả khi đã tử nạn, thi thể của họ cũng không được toàn vẹn. Các Manna bắt đầu mổ xẻ họ, nghiên cứu và tìm hiểu về những công nghệ Jotun đã thống trị hàng triệu năm. Những tàn tích của Jotun là một mỏ thông tin quý giá vô cùng tận, ngay cả khi rất nhiều đã bị phá hủy, những di sản còn lại cũng đủ để khiến một chủng tộc thấp kém, từng được tạo ra để làm thức ăn cho các đấng vĩ đại, phát triển một bước dài thành những kẻ trị vì.
 </p>
-<div class="grid_contain">
-    <img src="./../../assets/history/rebuild.jpg" width=""/>
-    <div>
+<table class="table_content">
+  <tr>
+    <td>
+      <img src="./../../assets/history/rebuild.jpg" width=""/>
+    </td>
+    <td>
       <p>Theo thế giới ngày càng ấm lên, rừng rậm cây cối và các loài động vật sinh sôi nảy nở. Manna bắt đầu chia ra sinh sống ở nhiều vùng đất, trở thành các thị tộc lớn, trải dài trên khắp các đại lục. Đây là mở đầu cho một nền văn minh mới. Trong đó, có 2 thị tộc lớn nhất, đã chiếm được các tàn tích Jotun và phát triển một cách vượt bậc hơn số Manna còn lại.</p>
       <p>Ở phía Bắc, vùng đồng bằng rộng lớn ngày nay được gọi là lục địa Á Âu. Được chiếm hữu bởi ba người Manna già nua - Odin, Vili, và Vé - 3 người đã có công lao dẫn dắt phần đông Manna đứng lên chống lại các đấng sáng tạo. Họ lập nên một vương quốc mang tên Asgard.</p>
       <p>Ở phía Nam, vùng rừng rậm xanh tươi, mà ngày nay, sau nhiều triệu năm biến động địa chất, đã phân thành 2 lục địa Châu Phi và Nam Mỹ. Được cai trị bởi một thị tộc khác, bởi những con người hiền hòa yêu thiên nhiên. Họ tự gọi mình là Vanna.</p>
-    </div>
-</div>
+    </td>
+  </tr>
+</table>
 
 <p>Những người Vanna hòa mình vào thiên nhiên, yêu rừng rậm, họ phát triển nghề nông, bằng những di sản của Jotun, và cả sự ủng hộ của môi trường. Người Vanna nhanh chóng phát triển và không bao giờ còn phải lo đến lương thực, nhờ đó, họ có đủ thời gian để phát triển những công nghệ khác, đột phá từ nền tảng của chủng tộc Jotun.</p>
 <p>Còn những người Asgard, mang trong mình sự hiếu chiến sẵn có, họ gọi mình là các Viking, họ ăn thịt, uống máu, họ dùng những cuộc chiến làm phần thưởng cho bản thân, họ cướp bóc các Manna khác để lấy thức ăn.</p>
