@@ -29,6 +29,18 @@ a {
 import json from './../../data/data.json';
 import Slider from '@vueform/slider'
 export default {
+   setup() {
+    const root = ref(null)
+    onMounted(() => {
+      console.log("12312")
+    })
+    return {
+      root
+    }
+  },
+  mounted() {
+    console.log("abc")
+  },
   components: {
     Slider
   },
