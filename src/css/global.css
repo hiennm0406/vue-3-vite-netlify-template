@@ -109,6 +109,7 @@ a {
   border: 1px solid black;
   border-radius: 10px;
   display: inline-block;
+  width: 100%;
 }
 
 .skill_container .img{
