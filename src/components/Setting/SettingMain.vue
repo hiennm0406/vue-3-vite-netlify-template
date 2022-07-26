@@ -1,6 +1,6 @@
 <template>
    <h2>Setting game</h2>
-   <table>
+   <table  class="table_content">
     <tr>
       <td>
         <h3>Character</h3>
@@ -8,7 +8,7 @@
           <li><router-link :to="{ name: 'attribute'}">Attribute</router-link></li>
         </ul>
       </td>
-      <td>Battle</td>
+      <td><h3>Battle</h3></td>
     </tr>
    </table>
 </template>
