@@ -133,11 +133,11 @@ a {
 
 .skill_container .tag{
   float: left;
-  width: 1000%;
+  width: 100%;
 }
 
 .skill_container .description{
   float: left;
-  width: 1000%;
+  width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.37)
 }
