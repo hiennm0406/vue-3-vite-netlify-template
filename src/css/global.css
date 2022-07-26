@@ -20,6 +20,13 @@ a {
   background-image: url("../assets/icon/charactericon.ico");
 }
 
+.title_note{
+  position: absolute;
+  border: 1px solid #5c5858;
+  background: #c5c0c0;
+  top: 16px;
+  left: 0;
+}
 
 .container{
   width: 80%;
@@ -120,7 +127,7 @@ a {
 .skill_container .name{
   float: left;
   width: 70%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.37)
+  border-bottom: 1px solid rgba(0, 0, 0, 0.27)
 }
 
 .skill_container .type{
@@ -136,10 +143,11 @@ a {
 .skill_container .tag{
   float: left;
   width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.27)
 }
 
 .skill_container .description{
   float: left;
   width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.37)
+  border-bottom: 1px solid rgba(0, 0, 0, 0.27)
 }
