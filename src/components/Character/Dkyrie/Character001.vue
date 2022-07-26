@@ -3,15 +3,25 @@
    <table class="table_content">
     <tr>
       <td width="50%">
-        <img src="../../../assets/character/001.jpg"/>
+        <img src="../../../assets/character/001.jpg" style="height: 4000px ;"/>
       </td>
       <td class="text_left">
-        <h2>Stat:</h2>
+        <h2>Level:</h2>
         <br/>
         <Slider v-model="value" :max="15" :min="1" />
+         <h2>Stat:</h2>
         <h3><b>Might: </b>{{might}}</h3><br/>
         <h3><b>Energy: </b>{{energy}}</h3><br/>
         <h3><b>Endurance: </b>{{endurance}}</h3><br/>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="btn-group">
+          <button :class="{active:active=='skill'}" @click="{active=='skill'}">Skill</button>
+          <button :class="{active:active=='perk'}" @click="{active=='perk'}">Perk</button>
+          <button :class="{active:active=='bg'}" @click="{active=='bg'}">Background</button>
+        </div>
       </td>
     </tr>
    </table>
@@ -57,7 +67,8 @@ export default {
       might:0,
       energy:0,
       endurance:0,
-      dataChar:{}
+      dataChar:{},
+      active:'skill'
     };
   },
   
@@ -68,8 +79,6 @@ export default {
       this.endurance = this.increase(this.dataChar.Stat.Endurance,this.dataChar.Stat.EnduranceEvo,this.value-1);
     },
     increase(input,type,level){
-      var test = parseInt(3.8);
-      console.log(test);
       for (let index = 0; index < level; index++) {
        if(type == "early"){
         input = input * json.StatEvolution.early[index];
