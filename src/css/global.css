@@ -20,12 +20,25 @@ a {
   background-image: url("../assets/icon/charactericon.ico");
 }
 
+.note_containter{
+  position: relative;
+}
+
 .title_note{
   position: absolute;
   border: 1px solid #5c5858;
   background: #c5c0c0;
   top: 16px;
   left: 0;
+  width: 200px;
+}
+
+.note_containter .title_note{
+  display: none;
+}
+
+.note_containter:hover .title_note{
+  display: block;
 }
 
 .container{
