@@ -18,9 +18,9 @@
     <tr>
       <td colspan="2">
         <div class="btn-group">
-          <button :class="{active:active=='skill'}" @click="{active=='skill'}">Skill</button>
-          <button :class="{active:active=='perk'}" @click="{active=='perk'}">Perk</button>
-          <button :class="{active:active=='bg'}" @click="{active=='bg'}">Background</button>
+          <button :class="{active:active=='skill'}">Skill</button>
+          <button :class="{active:active=='perk'}">Perk</button>
+          <button :class="{active:active=='bg'}">Background</button>
         </div>
       </td>
     </tr>
