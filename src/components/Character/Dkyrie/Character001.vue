@@ -30,7 +30,6 @@ import json from './../../data/data.json';
 import Slider from '@vueform/slider'
 export default {
    setup() {
-    const root = ref(null)
     onMounted(() => {
       json.Character.forEach(x => { 
           if(x.id == "001"){
@@ -39,9 +38,6 @@ export default {
           }
         }); ;
     })
-    return {
-      root
-    }
   },
   mounted() {
     console.log(dataChar)
