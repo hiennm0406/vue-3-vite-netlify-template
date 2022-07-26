@@ -40,6 +40,12 @@ export default {
           }
         }); ;
   },
+  watch: {
+    // whenever question changes, this function will run
+    value:{
+       console.log(this.value);
+    }
+  },
   components: {
     Slider
   },
