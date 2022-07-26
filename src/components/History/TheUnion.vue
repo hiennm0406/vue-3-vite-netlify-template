@@ -23,16 +23,24 @@
 <table class="table_content">
   <tr>
     <td>
-      <p>Dần dần, hai thị tộc bắt đầu đối đầu nhau, nổ ra cuộc chiến giữa Asgard và Vanna kéo dài hơn 30 năm.</p>
-      <p>Cuộc chiến làm thương vong vô số cho cả hai bên, đỉnh điểm của cuộc chiến là khi người Asgard sử dụng một thứ vũ khí hủy diệt. Một trong những di sản của người Jotun trong công cuộc khai phá năng lượng vũ trụ. Đó là bom Anima.</p>
+      <p>Dần dần, hai thị tộc bắt đầu đối đầu nhau, nổ ra cuộc chiến giữa Asgard và Vanna kéo dài hơn 30 năm. Cuộc chiến làm thương vong vô số cho cả hai bên.</p>
+      <p>Trong thời gian đó, bộ lạc Asgard tìm được những di chỉ cổ đại, ở đây có ghi chép về một nơi được gọi là Valhalla nằm ở một miền đất khác. Họ bị tò mò về nó, sau nhiều tháng trời lần theo các dấu vết, họ không tìm được Valhalla, nhưng họ tìm được một thứ khác. Một thứ đã bị chính người Jotun chôn vùi sâu trong lòng đất và đã bị lãng quên từ rất, rất, rất lâu về trước... Đó là những viên khoáng thạch màu xanh biếc, mỹ miều, nhưng chết chóc. Người Jotun gọi nó là - Bom Anima -</p>
     </td>
     <td width="60%">
-     <img src="./../../assets/history/battle.jpg" />
+     <img src="./../../assets/history/crystal.jpg" />
     </td>
   </tr>
 </table>
 
-<p>Nhưng vụ nổ đã vượt qua cả sự tưởng tượng của Asgard. Quả bom Anima trở thành một cái hố đen nuốt chửng mọi thứ, người Asgard, người Vanna, tàn tích Jotun cuối cùng trên Trái Đất, nhần chìm cả lục địa xuống đáy đại dương, xóa sạch mọi tàn tích, mọi thứ… biến thành từng phân tử li ti tan biến vào trong bầu trời.</p>
+<p>Bộ lạc Asgard chỉ biết là thứ đó có một sức mạnh khủng khiếp. Nhưng họ không biết cách sử dụng nó, Vili và Vé nói rằng, trong viên đá chứa một nguồn năng lượng khủng khiếp. Tin tức đến tai người Vanna, bọn họ tổ chức một cuộc tấn công vào nơi người Asgard cất giữ viên đá.</p>
+
+<p>Chẳng ai biết chuyện gì đã xảy ra sau đó. Tất cả những gì ghi chép được là kết quả thảm khốc của nó. </p>
+
+<p>Tất cả mọi thứ, người Asgard, người Vanna, các công trình vĩ đại cuối cùng còn nguyên vẹn của Jotun, tất cả, biến mất. Ánh sáng màu xanh lóe lên, mọi thứ chỉ đơn giản bốc hơi. Không có âm thanh ồn ào, không có rung chấn... Nhanh như thể các đấng tạo hóa cầm một cục tẩy và ngoáy nó lên Trái Đất.</p>
+<p>Mọi thứ còn lại, là một cái hố sâu trống rỗng, vết thương sâu trên mặt mẹ Trái Đất, mà phải hàng triệu năm sau mới lành lại. </p>
+
+ <img src="./../../assets/history/boom.jpg" />
+
 <p>Thậm chí, vụ nổ còn khai mở ra những thứ bí mật vĩ đại mà các Manna không ngờ đến.</p>
 <p>Những cánh cổng.</p>
 <p>Những cánh cổng đã mở ra sau hàng triệu năm đóng chặt.</p>
