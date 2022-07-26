@@ -9,10 +9,14 @@
         <h2>Level:</h2>
         <br/>
         <Slider v-model="value" :max="15" :min="1" />
-         <h2>Stat:</h2>
-        <h3><b>Might: </b>{{might}}</h3><br/>
-        <h3><b>Energy: </b>{{energy}}</h3><br/>
-        <h3><b>Endurance: </b>{{endurance}}</h3><br/>
+        <h2>Stat:</h2>
+        <h3><b>Might: </b>{{might}}</h3>
+        <h3><b>Energy: </b>{{energy}}</h3>
+        <h3><b>Endurance: </b>{{endurance}}</h3>
+        <div class="skill_container" style="display: grid">
+          <span><b>Original:</b> Midgard</span><span></span>
+          <span><b>Age:</b> 25 </span><span><b>Height:</b>~192cm</span>
+        </div>
       </td>
     </tr>
     <tr>
