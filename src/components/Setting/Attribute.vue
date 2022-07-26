@@ -1,16 +1,7 @@
 <template>
-   <h2>Setting game</h2>
-   <table>
-    <tr>
-      <td>
-        <h3>Character</h3>
-        <ul>
-          <li><router-link :to="{ name: 'attribute'}">Attribute</router-link></li>
-        </ul>
-      </td>
-      <td>Battle</td>
-    </tr>
-   </table>
+   <h2>Attribute</h2>
+
+   
 </template>
 
 <style scoped>

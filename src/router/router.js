@@ -8,7 +8,9 @@ import FirstRagnarok from './../components/History/FirstRagnarok.vue'
 import Character from './../components/Character/CharacterPage.vue'
 import CharacterDkyrie from './../components/Character/DkyrieChar.vue'
 import Character001 from './../components/Character/Dkyrie/Character001.vue'
+
 import Setting from './../components/Setting/SettingMain.vue'
+import attribute from './../components/Setting/Artribute.vue'
 
 const routes = [
     {
@@ -30,6 +32,11 @@ const routes = [
         path: '/setting',
         component: Setting,
         name: 'Setting',
+    },
+    {
+        path: '/attribute',
+        component: attribute,
+        name: 'attribute',
     },
     {
         path: '/character',

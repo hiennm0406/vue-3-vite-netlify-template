@@ -52,8 +52,8 @@ export default {
             },
             child: [
               {
-                href: '/1',
-                title: 'Atribute'
+                href: { name: 'attribute' },
+                title: 'Attribute'
               },
                {
                 href: '/1',
@@ -159,7 +159,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 #Mainboard{

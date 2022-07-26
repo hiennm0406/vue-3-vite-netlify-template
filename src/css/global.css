@@ -175,17 +175,22 @@ a {
 
 .phys{
   color:purple;
+  font-weight: bold;
 }
 
 .fire{
   color: red;
+  font-weight: bold;
 }
 .ice{
   color:aqua;
+  font-weight: bold;
 }
 .lightning{
   color:yellow;
+  font-weight: bold;
 }
 .anima{
   color:#6f00ff;
+  font-weight: bold;
 }

@@ -70,6 +70,9 @@
         </div>
       </td>
     </tr>
+    <tr>
+      <td colspan="2"><span style="font-size: smaller;">Lưu ý chỉ số sát thương trong skill là tương đối, chưa tính hiệu ứng tăng lên từ artifact, trait.</span></td>
+    </tr>
    </table>
 </template>
 
