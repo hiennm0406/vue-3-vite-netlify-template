@@ -32,7 +32,7 @@
           <div class="name">Kick hit</div>
           <div class="type">Type: 1-o</div>
           <div class="cost">1AP</div>
-          <div class="tag"><Attack></Attack> MELEE PHYSIC SINGLE</div>
+          <div class="tag"><attack/> <melee/> <single/> <phys/></div>
           <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 200% Might({{2*might}})</div>
           <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 100% Might({{1*might}})</div>
         </div>
