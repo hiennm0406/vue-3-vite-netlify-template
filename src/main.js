@@ -6,10 +6,6 @@ import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
 import router from './router/router'
 import store from './store/store'
 
-global.jQuery = require('jquery');
-var $ = global.jQuery;
-window.$ = $;
-
 // createApp.prototype.$axios = axios
 // createApp.prototype.$api_url = "https://jsonplaceholder.typicode.com/"
 
