@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>
-      <img src="./../../assets/icon/Enegry.jpg" class="icon"/>
+      <img src="./../../assets/icon/Enegry.png" class="icon"/>
     </td>
     <td>
       <h4>Enegry</h4>
