@@ -5,6 +5,7 @@ import Main from './../components/MainScreen.vue'
 import History from './../components/History/HistoryMain.vue'
 import FirstRagnarok from './../components/History/FirstRagnarok.vue'
 import TheUnion from './../components/History/TheUnion.vue'
+import MuspelheimHis from './../components/History/MuspelheimHis.vue'
 
 import Character from './../components/Character/CharacterPage.vue'
 import CharacterDkyrie from './../components/Character/DkyrieChar.vue'
@@ -33,6 +34,11 @@ const routes = [
         path: '/theunion',
         component: TheUnion,
         name: 'TheUnion'
+    },
+    {
+        path: '/MuspelheimHis',
+        component: MuspelheimHis,
+        name: 'MuspelheimHis'
     },
     {
         path: '/setting',

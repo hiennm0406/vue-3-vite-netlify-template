@@ -3,6 +3,7 @@
    <ul>
       <li><router-link :to="{ name: 'firstRagnarok'}">Ragnarokr lần đầu tiên</router-link></li>
       <li><router-link :to="{ name: 'TheUnion'}">Ngày tái hợp</router-link></li>
+      <li><router-link :to="{ name: 'MuspelheimHis'}">Muspelheim: Tái sinh trong lửa</router-link></li>
    </ul>
 </template>
 
