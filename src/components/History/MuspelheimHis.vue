@@ -17,52 +17,68 @@
     </td>
   </tr>
 </table>
+<p>Cho đến cuối cùng, khi chỉ còn lại duy nhất 3 Jotun. Những Jotun mạnh mẽ nhất, kiên cường nhất, nhưng cũng tàn ác nhất, rời bỏ khu căn cứ giờ chỉ còn là một cái vỏ rỗng tuếch. Đã chẳng còn lại gì ở đó cho họ ăn.</p>
 
-<p>Nhưng rồi, họ tìm ra một thứ… một thứ giúp cho những sinh vật bản địa có thể sống sót trong thế giới tràn đầy khí độc này.
-</p>
+<p>Ba người cứ thế đi, đi mãi. Sự tuyệt vọng trong họ ngày càng dâng lên, đôi mắt họ đục ngầu lê những bước chân trên cát cháy.</p>
+
+<p>Và rồi, trước khi cả ba trở nên phát điên và lao vào nhau. Họ tìm thấy một thứ.</p>
+
+<p>Một thứ cứu rỗi cuộc sống của họ. Hoặc nguyền rủa nó.</p>
+
 <p>Một vị thần.</p>
-<p>Vào ngày hôm đó, ba người Jotun trẻ tuổi, làn da khô quắt vì cái nóng tột cùng của Muspelheim trở về nhà sau nhiều ngày dài mất tích. Những người ở lại vô cùng ngạc nhiên khi họ quay về mà không đeo mặt nạ trợ giúp hô hấp. Ba người đó xòe tay ra, trong bàn tay là mười quả mọng đỏ rực, mỗi quả mọng to lớn vừa đủ để thỏa mãn cơn khát của mỗi người, mười bốn người đã đánh nhau tranh giành mười quả mọng đó, cơn đói khát che mờ lý trí và cả sự thông tuệ của họ, khiến họ không nhận ra sự thờ ơ lạnh lẽo đến ma mị trong đôi mắt của ba người Jotun trẻ vừa quay lại.
-</p>
 
-<table class="table_content">
-  <tr>
-    <td>
-      <p>Khi mười quả mọng được nuốt xuống, đầu tiên, họ cảm thấy sảng khoái, cơn đói và khát như được xoa dịu sau hàng tháng trời. Rồi rất nhanh, rất nhanh, họ cảm thấy cái gì đó.
-</p>
-<p><b>Khác.</b></p>
-      <p>Họ thở được trong bầu không khí của Muspelheim. Và rồi, dưới những tấm ảnh chụp lớp họ tự chụp trong phòng thí nghiệm. Bọn họ rùng mình khi thấy những cái rễ cây mảnh dẻ đang xuyên thấu khắp trong mạch máu của họ, xuyên vào phổi họ, những cành cây như con rắn độc len lỏi trong từng thớ thịt, và đang dần lan lên não của họ.
-</p>
-    </td>
-    <td width="40%">
-     <img src="./../../assets/history/crystal.jpg" style="width: 100%;"/>
-    </td>
-  </tr>
-</table>
+<p>Ở đó, giữa vùng sa mạc rộng lớn, xung quanh hàng ngàn dặm không có một bóng cây ngọn cỏ, chẳng có đến một dấu vết nào của sự sống.</p>
 
-<p>Lúc này họ mới nhận ra, ba Jotun kia đã không còn là đồng bọn của họ nữa.</p>
+<p>Cái cây đó vươn mình sải những tán lá rậm, trên cây mọc ra vài quả mọng đầy dụ hoặc.</p>
 
-<p>Một số người đưa ra yêu cầu được phẫu thuật, nhưng sự ăn sâu của thứ thực vật kỳ lạ kia làm tất cả phải bó tay với sự thiếu thốn máy móc. Hơn nữa, những rễ cây xuyên qua phổi của họ đã thay họ tinh lọc không khí, ít nhất nó làm họ sống sót ở thế giới này khi các nguyên liệu đã cạn kiệt.
-</p>
+<p>Cái cây đó vươn mình sải những tán lá rậm, trên cây mọc ra vài quả mọng đầy dụ hoặc.</p>
 
-<p>Thời gian trôi qua, chính họ cũng không nhận thấy được sự thay đổi của mình. Họ trở nên hung bạo, khó kiểm soát, làn da của họ lằn lên những đường máu đỏ rực như thể sắp vỡ ra. Và… họ có thể cảm thấy nó.
-</p>
+<p>Ba Jotun không nghĩ ngợi một chút nào, họ trèo lên cây, hái những quả mọng màu đỏ lửa xuống và ăn ngon lành. Cả cuộc đời họ chưa bao giờ ăn một món gì ngon đến như thế.</p>
 
-<p>Vị thần của Muspelheim.
-</p>
-<p>Mọi thứ còn lại, là một cái hố sâu trống rỗng, vết thương sâu trên mặt mẹ Trái Đất, mà phải hàng triệu năm sau mới lành lại. </p>
+<p>Cơn đói cồn cào nhanh chóng bị xua tan. Cả ba thỏa mãn tiếp tục lên đường tìm kiếm lối thoát. Họ tiếp tục băng qua sa mạc.</p>
+
+<p>Nhưng rồi, khi thời gian trôi qua, các Jotun bắt đầu nhận thấy sự thay đổi.</p>
+
+<p>Người đầu tiên phát hiện bầu không khí ở đây đã có thể thở được. Họ không cần máy lọc nữa.</p>
+
+<p>Người thứ hai phát hiện ra những rễ cây nhỏ li ti len lỏi qua các mạch máu trong cơ thể của mình. Ông ta có thể cảm thấy nó ngay dưới lớp vảy của bản thân.</p>
+
+<p>Người thứ ba phát hiện ra mình bắt đầu có thể đọc được mơ hồ các suy nghĩ của các Jotun khác.</p>
+
+<p>Cả ba người dần cảm thấy một kẻ khác hiện diện trong cơ thể họ, trong đầu họ...</p>
+
+<p>Giết chóc, đói khát, cắn nuốt, hủy diệt...</p>
+
+<p>Hỗn loạn.</p>
 
  <img src="./../../assets/history/boom.jpg" />
 
-<p>Vị thần của Muspelheim.
-Đến tận khi những chiếc rễ cây đâm vào não của họ, họ đã có thể cảm thấy tiếng nói của nó vang lên trong đầu, lời thì thầm của nó cứ âm ỉ trong tai họ. Không những thế, chính bọn họ lúc này đã thuộc về một phần cơ thể của vị thần đó.  Mười ba người như thể chia sẻ cho nhau tất cả, cảm giác, suy nghĩ, ký ức... 
-</p>
-<p>Không! Không chỉ mười ba Jotun…
-Mà là hàng tỷ, hàng tỷ những cá thể khác…
-Họ, tất cả... là một thể.
-Phải rồi. Với máu và thịt, với sự dâng hiến.
-Hỡi đấng toàn năng vĩ đại.
-</p>
+
+<p>Khi những cành lá nhỏ chĩa ra khỏi tai, mũi của họ. Cả 3 Jotun đã hoàn toàn chìm trong sự hỗn loạn. Ý thức của họ bị nhấn chìm trong một biển ý thức khác mạnh mẽ như một cơn sóng. Làn da của họ nứt nẻ, những rễ cây thô to xiên ra khỏi lớp vảy cứng, máu của họ chảy ra lúc này cũng mang một cái nóng và rực rỡ như nham thạch.</p>
+
+<p>Cả ba còn có thể suy nghĩ, nhưng những suy nghĩ của họ không thể lấn át được nó.</p>
+
+<p>Không. Tại sao lại phải chống cự cơ chứ?</p>
+
+<p>Nó là thần.</p>
+
+<p>Một vị thần.</p>
+
+<p>Là đấng toàn năng vĩ đại.</p>
+
 <p>Surtur...</p>
+
+<p>Ngày đó, ở nơi sâu thẳm trong sa mạc mà bất cứ loài sinh vật nào trên Muspelheim cũng không dám lại gần, ba bóng đen khổng lồ từ từ bước ra. Đôi mắt chúng đỏ rực vì tơ máu, người chúng nứt nẻ vì vết thương, nhưng có vẻ những vết thương đó chẳng ảnh hưởng gì đến hành động của chúng. Ba bóng đen khổng lồ cứ lững thững đi, hủy diệt bất cứ thứ gì nào cản đường chúng.</p>
+
+<p>Giữa sự hoang dại đấy, trên đầu chìa ra những cái cây kết quả mọng đỏ chót, ma mị, như hai thứ đối nghịch nhau trong một bức tranh. Theo những bước chân của chúng, quả mọng rơi xuống đất, tỏa ra mùi hương đầy mê hoặc.</p>
+
+<p>Và rồi khi ba kẻ hủy diệt rời đi xa, nhưng sinh vật nhỏ tò mò kéo đến...</p>
+
+<p>Chẳng mấy lâu sau, đội quân hủy diệt bỗng trở nên đông đúc.</p>
+
+<p>Sự hỗn loạn bắt đầu.</p>
+
+<p>Khởi đầu là Muspelheim.</p>
     </div>
 </template>
 
