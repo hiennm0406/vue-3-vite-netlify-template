@@ -33,7 +33,7 @@ export default {
     };
   },
   mounted: function() {
-      $("#myTimeline").Timeline()
+      // $("#myTimeline").Timeline()
   } ,
   methods: {
     increment() {
