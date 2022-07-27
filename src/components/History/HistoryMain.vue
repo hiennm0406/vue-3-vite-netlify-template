@@ -22,19 +22,19 @@ a {
   color: #42b983;
 }
 </style>
-<script>
-$(function () {
-    $("#myTimeline").Timeline()
-})
-</script>
+
 
 <script>
+import $ from "jquery";
 export default {
   data: function() {
     return {
       users: [],
     };
   },
+  mounted: function() {
+      $("#myTimeline").Timeline()
+  } ,
   methods: {
     increment() {
       this.$store.commit('increment')
