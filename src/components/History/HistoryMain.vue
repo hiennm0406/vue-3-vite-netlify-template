@@ -1,7 +1,9 @@
 <template>
-   <h2>Kỷ xa xưa</h2>
-    <router-link :to="{ name: 'firstRagnarok'}">Ragnarokr lần đầu tiên</router-link><br/>
-    <router-link :to="{ name: 'TheUnion'}">Ngày tái hợp</router-link><br/>
+   <h1>Kỷ xa xưa</h1>
+   <ul>
+      <li><router-link :to="{ name: 'firstRagnarok'}">Ragnarokr lần đầu tiên</router-link></li>
+      <li> <router-link :to="{ name: 'TheUnion'}">Ngày tái hợp</router-link></li>
+   </ul>
 </template>
 
 <style scoped>
