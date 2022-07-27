@@ -51,7 +51,7 @@
 
 <p>Hỗn loạn.</p>
 
- <img src="./../../assets/history/boom.jpg" />
+ <img src="./../../assets/history/tree.jpg" />
 
 
 <p>Khi những cành lá nhỏ chĩa ra khỏi tai, mũi của họ. Cả 3 Jotun đã hoàn toàn chìm trong sự hỗn loạn. Ý thức của họ bị nhấn chìm trong một biển ý thức khác mạnh mẽ như một cơn sóng. Làn da của họ nứt nẻ, những rễ cây thô to xiên ra khỏi lớp vảy cứng, máu của họ chảy ra lúc này cũng mang một cái nóng và rực rỡ như nham thạch.</p>
