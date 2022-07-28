@@ -17,6 +17,9 @@ import Setting from './../components/Setting/SettingMain.vue'
 import attribute from './../components/Setting/Attribute.vue'
 import skill from './../components/Setting/Skill.vue'
 import tactic from './../components/Setting/Tactic.vue'
+import ascen from './../components/Setting/Ascensions.vue'
+import level from './../components/Setting/Level.vue'
+import trait from './../components/Setting/Trait.vue'
 
 
 const routes = [
@@ -64,6 +67,21 @@ const routes = [
         path: '/tactic',
         component: tactic,
         name: 'tactic',
+    },
+    {
+        path: '/ascen',
+        component: ascen,
+        name: 'ascen',
+    },
+    {
+        path: '/level',
+        component: level,
+        name: 'level',
+    },
+    {
+        path: '/trait',
+        component: trait,
+        name: 'trait',
     },
     {
         path: '/character',

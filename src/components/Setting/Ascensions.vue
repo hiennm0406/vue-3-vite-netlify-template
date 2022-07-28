@@ -1,103 +1,13 @@
 <template>
-   <h2>Attribute</h2>
-
-<p>Mỗi nhân vật có 3 Attribute chính, 3 attribute này kiểm soát gần như toàn bộ các chỉ số chính của trò chơi.</p>
-<p>Ngoài ra nhân vật còn có các Attribute phụ khác.</p>
-
-<h3>Main Attribute</h3>
-<table>
-  <tr>
-    <td>
-      <img src="./../../assets/icon/might.jpg" class="icon"/>
-    </td>
-    <td>
-      <h4>Might</h4>
-    </td>
-    <td>
-      Sức mạnh. Sức mạnh thuần túy của nhân vật. <b class="anima"> Chỉ số này ảnh hưởng đa số đến các sát thương vật lý nhân vật gây ra, đồng thời ảnh hưởng một phần đến sức chịu đựng sát thương vật lý của nhân vật (Armor)</b>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="./../../assets/icon/Enegry.png" class="icon"/>
-    </td>
-    <td>
-      <h4>Enegry</h4>
-    </td>
-    <td>
-      Năng lượng, khoa học công nghệ cao đã phát hiện không chỉ ở những cỗ máy mới có năng lượng, mà ngay cả ở những cơ thể nhỏ bé nhất cũng tồn tại năng lượng. Đó là thứ mà từ thời xa xưa đã được gọi là năng lượng sống. Đối với mỗi người, năng lượng trong cơ thể họ khác nhau. Điều này lý giải vì sao hai người đều bị sét đánh, nhưng một người bị thương nặng, người còn lại chỉ bị thương nhẹ. <b class="anima">Enegry ảnh hưởng đa số đến các kỹ năng nguyên tố, đồng thời một phần nào đó ảnh hưởng đến khả năng kháng lại các sát thương nguyên tố (Resis)</b>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="./../../assets/icon/Endurance.png" class="icon"/>
-    </td>
-    <td>
-      <h4>Endurance</h4>
-    </td>
-    <td>
-      Sức chịu đựng. <b class="anima" >Sức chịu đựng trực tiếp ảnh hưởng đến máu của nhân vật, khi máu nhân vật giảm xuống 0, họ sẽ chết. Ngoài ra Endurance còn ảnh hưởng đến cả sức chịu đựng (Armor) và kháng nguyên tố (Resis)</b>
-    </td>
-  </tr>
-</table>
-
-<div class="round_content">
-  <table class="table_icon">
-    <tr>
-      <td colspan="3" class="anima">- Formula -</td>
-    </tr>
-    <tr>
-      <td> <img src="./../../assets/icon/health.png" class="icon"/></td>
-      <td> <img src="./../../assets/icon/Armor.png" class="icon"/></td>
-      <td> <img src="./../../assets/icon/resis.png" class="icon"/></td>
-    </tr>
-    <tr>
-      <td>Health = Endurance x 10<br/>
-      (Đa số, có thể bị thay đổi do Trait)
-      </td>
-      <td>Armor = Might + Endurance</td>
-      <td>Resis = Enegry + Endurance</td>
-    </tr>
-  </table>
-</div>
+   <h2>Ascensions</h2>
+   <p>Hệ thống Ascensions sinh ra để đa dạng hóa các hướng đi của nhân vật. Với mỗi điểm Ascen, nhân vật sẽ càng trở nên mạnh hơn. Và đặc biệt khi lựa chọn được Ascen đỏ sẽ sinh ra thay đổi quan trọng về mặt lối chơi của từng nhân vật.</p>
    
-<h3>Side Attribute</h3>
-<table>
-  <tr>
-    <td>
-      <img src="./../../assets/icon/focus.png" class="icon"/>
-    </td>
-    <td>
-      <h4>Focus</h4>
-    </td>
-    <td>
-      Điểm tập trung. <b class="anima">Chỉ số này ảnh hưởng đến toàn bộ các thuộc tính khác( tăng 1% cho mỗi điểm Focus). Đồng thời đội nào tổng điểm Focus hơn sẽ được đi trước khi trận đấu bắt đầu.</b>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="./../../assets/icon/ap.png" class="icon"/>
-    </td>
-    <td>
-      <h4>Action Point</h4>
-    </td>
-    <td>
-      Điểm hành động. <b class="anima">Đây là một chỉ số đặc biệt, mỗi khi sử dụng kỹ năng sẽ tiêu tốn Action Point (AP). Số AP là có giới hạn tùy theo mỗi nhân vật, có nhân vật max = 1, có nhân vật max = 3. Và sẽ hồi lại 1 điểm AP vào đầu mỗi lượt.</b>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="./../../assets/icon/eleResis.png" class="icon"/>
-    </td>
-    <td>
-      <h4>Element Resistant</h4>
-    </td>
-    <td>
-      Kháng nguyên tố. <b class="anima" >Chỉ số này trong game sẽ chia ra 3 chỉ số khác là Fire Res, Ice Res, Lightning Res. Bắt đầu = 0. Với mỗi điểm sẽ giảm 1% sát thương nguyên tố tương ứng. Chỉ số này có thể bị tụt xuống âm bởi Trait hoặc kỹ năng của đối thủ..</b>
-    </td>
-  </tr>
-</table>
-
+  <img src="./../../assets/other/Ascentree.png"/>
+  <p>Đây là 1 ví dụ về cây Ascension. Về cơ bản, có thể tưởng tượng nó giống với Ascen của Genshin Impact khi quay được trùng Character. Nhưng ở đây, người chơi sẽ lựa chọn tăng điểm vào 1 trong 2 nhánh của Ascen. Với mỗi nhánh sẽ tăng các chỉ số khác nhau. Đồng thời ở những ô Ascension màu đỏ, sẽ là những Node quan trọng. Thay đổi gần như hoàn toàn lối chơi của nhân vật. Chúng ta có thể coi như 1 nhân vật sẽ tiến hóa thành 2 class khác nhau. Và ở cuối Ascension Tree, sẽ lại tiếp tục phân ra 2 nhánh class khác nhau nữa.</p>
+  <p>Về vấn đề Pay to Win. Những ô Ascen thường có thể được tăng bằng Soul, kiếm được khi roll các nhân vật có cùng Realm, có thể hiểu là Free - dễ up.</p>
+  <p>Ví dụ để tăng cây Ascen cho 1 nhân vật thuộc Midgard, chúng ta có thể roll các nhân vật ở Midgard khác và chuyển hóa nhân vật đó thành [Midgard soul]. Sau đó tăng Ascen cho nhân vật này.</p>
+  <p>Những ô Ascen đỏ bắt buộc phải roll chính nhân vật này để.</p>
+  <p>Vậy nên muốn max Ascen một nhân vật, cần roll thêm 2 bản sao của nhân vật đó.</p>
 
 
 </template>
