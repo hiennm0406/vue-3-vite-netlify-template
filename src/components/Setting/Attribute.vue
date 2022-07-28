@@ -44,7 +44,7 @@
 <div class="round_content">
   <table class="table_icon">
     <tr>
-      <td colspan="3">- Formula -</td>
+      <td colspan="3" class="anima">- Formula -</td>
     </tr>
     <tr>
       <td> <img src="./../../assets/icon/health.png" class="icon"/></td>
