@@ -59,7 +59,7 @@
 
 
 
-<div class="btn-group">
+<div class="btn-group" style="text-align: center;">
   <button :class="{active:active=='Type'}" @click="active='Type'">Type</button>
   <button :class="{active:active=='Cost'}" @click="active='Cost'">Cost</button>
   <button :class="{active:active=='Description'}" @click="active='Description'">Description</button>
@@ -108,7 +108,35 @@
     </tr>
   </table>
 
-  <b>Lưu ý: Số lượng ô Tactic liền nhau phải khớp chính xác yêu cầu của skill. 3 ô Tactic liền nhau chỉ kích hoạt những skill 3-o. Không thể kích hoạt các skill 1-o và 2-o. Trong trận đánh. Nếu đã chọn xong Tactic mà nhân vật không có bất kỳ skill nào trung Type với số lượng Tactic đã chọn. Nhân vật sẽ được tính là [Idle] - vẫn được coi là Action, nhưng không có bất kỳ hành động nào cả.</b>
+  <b>Lưu ý: Số lượng ô Tactic liền nhau phải khớp chính xác yêu cầu của skill. 3 ô Tactic liền nhau chỉ kích hoạt những skill 3-o. Không thể kích hoạt các skill 1-o và 2-o. Trong trận đánh. Nếu đã chọn xong Tactic mà nhân vật không có bất kỳ skill nào trùng Type với số lượng Tactic đã chọn. Nhân vật sẽ được tính là [Idle] - vẫn được coi là Action, nhưng không có bất kỳ hành động nào cả.</b>
+
+  <br/>
+  <br/>
+  <h3>Bond skill</h3>
+  <p>Bond skill là những skill Chỉ kích hoạt khi có 1 Active skill được kích hoạt, đồng thời Active skill chứa 1 ô Tactic phù hợp với yêu cầu của Bond Skill. Xem <router-link :to="{ name: 'tactic'}">Tactic</router-link> để nắm thêm thông tin.</p>
+  <p>Có 8 loại Bond skill:</p>
+  <ul>
+    <li>o-1</li>
+    <li>o-2</li>
+    <li>o-3</li>
+    <li>o-4</li>
+    <li>o-5</li>
+    <li>o-6</li>
+    <li>o-7</li>
+    <li>o-8</li>
+  </ul>
+  <p>Con số ở đây thể hiện ô Tactic mà nó yêu cầu.</p>
+  <p>Ví dụ Bond Skill o-4 sẽ được kích hoạt khi có 1 Active Skill được sử dụng thành công, và Active skill đó phải nằm trên ô Tactic số 4.</p>
+  <div>
+    <span class="tactic"></span>
+    <span class="tactic"></span>
+    <span class="tactic"></span>
+    <img class="tactic_img ally" src="../../assets/character/demo4.png"/>
+    <span class="tactic"></span>
+    <span class="tactic"></span>
+    <span class="tactic"></span>
+    <span class="tactic"></span>
+  </div>
 
 </div>
 <br/>
