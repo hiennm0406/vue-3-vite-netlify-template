@@ -80,7 +80,7 @@
     <li>3-o</li>
     <li>4-o</li>
   </ul>
-  <p>Ứng với mỗi ô Tactic Skill yêu cầu.</p>
+  <p>Ứng với mỗi ô Tactic Skill xếp ngay sát nhau của nhân vật đó trong Tactic Phase:</p>
   <table class="table_content">
     <tr>
       <td>1-o</td>
