@@ -137,6 +137,11 @@
     <span class="tactic"></span>
     <span class="tactic"></span>
   </div>
+  <p>Ở đây <router-link :to="{ name: 'Character001'}">[Trần Ngọc Minh]</router-link> có 2 Active Skill là <span class="anima">[Kick hit]</span> và <span class="anima">[Martial art]</span>. Cùng với 2 Bond Skill là <span class="anima">[Critical hit]</span> và <span class="anima">[Quick hit]</span></p>
+  <p>Với 1 ô Tactic skill đã chọn, Nhân vật thành công kích hoạt Active skill đầu tiên với Type <span class="anima">[1-o]</span> là <span class="anima">[Kick hit]</span></p>
+  <p>Đồng thời với ô Tactic Skill nằm ở vị trí số 4, nhân vật thành công kích hoạt Bond Skill với Type <span class="anima">[o-4]</span> là <span class="anima">[Critical hit]</span></p>
+  <p>Bond skill <span class="anima">[Critical hit]</span> khiến cho <span class="anima">[Kick hit]</span> được tăng 10% sát thương.</p>
+
 
 </div>
 <br/>
