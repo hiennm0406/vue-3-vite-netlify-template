@@ -62,9 +62,9 @@
 <div class="btn-group" style="text-align: center;">
   <button :class="{active:active=='Type'}" @click="active='Type'">Type</button>
   <button :class="{active:active=='Cost'}" @click="active='Cost'">Cost</button>
-  <button :class="{active:active=='Description'}" @click="active='Description'">Description</button>
+   <button :class="{active:active=='Description'}" @click="active='Description'">Description</button>
 </div>
-<div v-if="active=='Type'">
+<div v-if="active=='Type'" class="data_container" >
   <h3>Tất cả skill của các nhân vật được chia làm 2 loại chính:</h3>
   <ul>
     <li>Active skill</li>
@@ -142,14 +142,58 @@
   <p>Đồng thời với ô Tactic Skill nằm ở vị trí số 3, nhân vật thành công kích hoạt Bond Skill với Type <span class="anima">[o-3]</span> là <span class="anima">[Critical hit]</span></p>
   <p>Bond skill <span class="anima">[Critical hit]</span> khiến cho <span class="anima">[Kick hit]</span> được tăng 10% sát thương.</p>
 
-
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
 </div>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<div v-if="active=='Cost'" class="data_container" >
+  <h3>Cost</h3>
+  <p>Hầu như tất cả Active Skill của các nhân vật đều có Cost:</p>
+  <p>Cost ở đây là Action Point. Mỗi nhân vật đều có 1 số lượng AP khởi điểm riêng của mình, có thể là 1, có thể là 3</p>
+  <p>Trong trận đấu, sau khi lựa chọn Tactic, các nhân vật sẽ bắt đầu sử dụng Skill của mình và tiêu hao AP.</p>
+  <p>Tại đầu mỗi vòng đấu, nhân vật sẽ hồi 1 điểm AP, không vượt qua chỉ số tối đa.</p>
+
+  <br/>
+
+  
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+</div>
+
+<div v-if="active=='Description'" class="data_container" >
+  <h3>Description</h3>
+  <p>Hầu như tất cả Skill của các nhân vật đều 2 dạng.</p>
+  <p>Dạng Cường hóa, được ghi thông tin ở phần Description phía trên : - Description Empowered</p>
+  <p>Dạng Suy yếu, được ghi thông tin ở phần Description phía dưới : - Description Weakened</p>
+
+  <p>Lưu ý: Dù là ghi Cường Hóa - Suy Yếu. Nhưng có nhiều trường hợp dạng Suy Yếu có nhiều hiệu ứng và sát thương hơn. Điều này là tùy thuộc vào nhân vật.</p>
+
+  <p>Đối với Action Skill</p>
+  <p>Khi nhân vật sử dụng Action Skill mà không đủ Action Point (Khi skill yêu cầu 2 AP nhưng nhân vật chỉ còn 1) <a @click="active='Cost'">Xem Cost để nắm thêm thông tin</a>. Skill sử dụng sẽ là dạng Suy Yếu. Lưu ý: Lượng AP còn lại cũng bị trừ về 0 (hầu hết trường hợp).</p>
+  <p>Còn nếu nhân vật sử dụng Action Skill trong lúc vẫn còn đủ AP. Skill sử dụng sẽ ở dạng Cường Hóa.</p>
+
+
+  <p>Đối với Bond Skill</p>
+  <p>Có 1 số trường hợp Bond Skill chỉ có 1 dạng. Như <span class="anima">[Critical hit]</span> của <router-link :to="{ name: 'Character001'}">[Trần Ngọc Minh]</router-link>. Với những trường hợp này, Bond skill luôn được sử dụng giống nhau ở mọi trường hợp.</p>
+  <p>Nếu Bond Skill có 2 dạng. Như <span class="anima">[Quick hit]</span> của <router-link :to="{ name: 'Character001'}">[Trần Ngọc Minh]</router-link>. Nếu Active Skill đi kèm được sử dụng ở dạng Empowered, Bond skill cũng sẽ được sử dụng ở dạng Empowered, và nếu Active Skill được sử dụng ở dạng Weakened, Bond Skill cũng sẽ được sử dụng ở dạng Weakened.</p>
+  <br/>
+
+  
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+</div>
+
 
 </template>
 
@@ -171,6 +215,12 @@ a {
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.493);
   border-radius: 20px;
+}
+.data_container{
+    padding: 0 50px;
+    border: 1px solid #00000017;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px;
 }
 </style>
 
