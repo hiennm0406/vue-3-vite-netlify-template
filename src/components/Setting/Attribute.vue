@@ -99,7 +99,11 @@
 </table>
 
 
-
+<br/>
+<br/>
+<SettingBot/>
+<br/>
+<br/>
 </template>
 
 <style scoped>
@@ -125,18 +129,20 @@ a {
 
 
 <script>
+import SettingBot from './SettingBot.vue';
 export default {
-  data: function() {
-    return {
-      users: [],
-    };
-  },
-  methods: {
-    increment() {
-      this.$store.commit('increment')
-      console.log(this.$store.state.count)
-    }
-  }
+    data: function () {
+        return {
+            users: [],
+        };
+    },
+    methods: {
+        increment() {
+            this.$store.commit("increment");
+            console.log(this.$store.state.count);
+        }
+    },
+    components: { SettingBot }
 }
  
 </script>

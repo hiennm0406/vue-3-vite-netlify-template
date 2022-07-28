@@ -227,6 +227,7 @@
   <br/>
   <br/>
   <br/>
+  <SettingBot/>
   <br/>
   <br/>
 </div>
@@ -262,18 +263,20 @@ a {
 
 
 <script>
+import SettingBot from './SettingBot.vue';
 export default {
-  data: function() {
-    return {
-      active:'Type'
-    };
-  },
-  methods: {
-    increment() {
-      this.$store.commit('increment')
-      console.log(this.$store.state.count)
-    }
-  }
+    data: function () {
+        return {
+            active: "Type"
+        };
+    },
+    methods: {
+        increment() {
+            this.$store.commit("increment");
+            console.log(this.$store.state.count);
+        }
+    },
+    components: { SettingBot }
 }
  
 </script>

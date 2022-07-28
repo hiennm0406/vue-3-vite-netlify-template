@@ -108,6 +108,12 @@
 <p>Nếu nhân vật chết hoặc bị khống chế (immobile, stuned,...) khi đến lượt sẽ bỏ qua lượt.</p>
 <img src="../../assets/other/tacticPhase.png"/>
 
+
+<br/>
+<br/>
+<SettingBot/>
+<br/>
+<br/>
 </template>
 
 <style scoped>
@@ -133,18 +139,20 @@ a {
 
 
 <script>
+import SettingBot from './SettingBot.vue';
 export default {
-  data: function() {
-    return {
-      active:'Type'
-    };
-  },
-  methods: {
-    increment() {
-      this.$store.commit('increment')
-      console.log(this.$store.state.count)
-    }
-  }
+    data: function () {
+        return {
+            active: "Type"
+        };
+    },
+    methods: {
+        increment() {
+            this.$store.commit("increment");
+            console.log(this.$store.state.count);
+        }
+    },
+    components: { SettingBot }
 }
  
 </script>
