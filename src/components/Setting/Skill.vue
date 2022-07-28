@@ -73,10 +73,48 @@
 
   <h3>Active skill</h3>
   <p>Active skill là những skill tiêu tốn Action point để phát động. Để cast được Active Skill cần lựa chọn Tactic phù hợp với Type mà skill yêu cầu. Xem <router-link :to="{ name: 'tactic'}">Tactic</router-link> để nắm thêm thông tin.</p>
-  
+  <p>Có 4 loại Active skill:</p>
+  <ul>
+    <li>1-o</li>
+    <li>2-o</li>
+    <li>3-o</li>
+    <li>4-o</li>
+  </ul>
+  <p>Ứng với mỗi ô Tactic Skill yêu cầu.</p>
+  <table>
+    <tr>
+      <td>1-o</td>
+      <td>2-o</td>
+      <td>3-o</td>
+      <td>4-o</td>
+    </tr>
+    <tr>
+      <td><img class="tactic_img ally" src="../../assets/character/demo4.png"/></td>
+      <td>
+        <img class="tactic_img ally" src="../../assets/character/demo4.png"/>
+        <img class="tactic_img ally" src="../../assets/character/demo4.png"/>
+      </td>
+      <td>
+        <img class="tactic_img ally" src="../../assets/character/demo3.png"/>
+        <img class="tactic_img ally" src="../../assets/character/demo3.png"/>
+        <img class="tactic_img ally" src="../../assets/character/demo3.png"/>
+      </td>
+      <td>
+        <img class="tactic_img ally" src="../../assets/character/demo3.png"/>
+        <img class="tactic_img ally" src="../../assets/character/demo3.png"/>
+        <img class="tactic_img ally" src="../../assets/character/demo3.png"/>
+        <img class="tactic_img ally" src="../../assets/character/demo3.png"/>
+      </td>
+    </tr>
+  </table>
 
 </div>
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 </template>
 
