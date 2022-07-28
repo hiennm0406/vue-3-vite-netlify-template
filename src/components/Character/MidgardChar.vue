@@ -54,6 +54,10 @@ a {
 }
 .char_table{
   display: grid;
+   grid-template-columns: repeat( auto-fit, minmax(50px, 200px) );
+}
+.char_table div{
+  width:120px;
 }
 
 </style>
