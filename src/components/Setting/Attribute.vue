@@ -53,7 +53,7 @@
     </tr>
     <tr>
       <td>Health = Endurance x 10<br/>
-      (Đa số - có thể bị thay đổi do Trait)
+      (Đa số, có thể bị thay đổi do Trait)
       </td>
       <td>Armor = Might + Endurance</td>
       <td>Resis = Enegry + Endurance</td>
