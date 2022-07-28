@@ -72,7 +72,8 @@
   </ul>
 
   <h3>Active skill</h3>
-  <p>Active skill là những skill tiêu tốn Action point để phát động. Để cast được Active Skill cần lựa chọn Tactic phù hợp với Type mà skill yêu cầu.</p>
+  <p>Active skill là những skill tiêu tốn Action point để phát động. Để cast được Active Skill cần lựa chọn Tactic phù hợp với Type mà skill yêu cầu. Xem <router-link :to="{ name: 'tactic'}">Tactic</router-link> để nắm thêm thông tin.</p>
+  
 
 </div>
 

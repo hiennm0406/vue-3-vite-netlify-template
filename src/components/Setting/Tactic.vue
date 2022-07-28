@@ -104,6 +104,7 @@
 </table>
 
 <p>Sau khi cả 2 đội đã xếp xong Tactic, các nhân vật của cả 2 đội sẽ bắt đầu hành động theo thứ tự các Tactic đã xếp từ trái qua phải.</p>
+<p>Với các ô Tactic giống nhau nằm cạnh nhau sẽ được tính là 1 Action. Xem <router-link :to="{ name: 'skill'}">Skill</router-link> để nắm thêm thông tin chi tiết.</p>
 <p>Nếu nhân vật chết hoặc bị khống chế (immobile, stuned,...) khi đến lượt sẽ bỏ qua lượt.</p>
 <img src="../../assets/other/tacticPhase.png"/>
 
