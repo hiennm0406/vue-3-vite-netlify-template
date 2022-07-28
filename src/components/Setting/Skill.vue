@@ -126,9 +126,8 @@
     <li>o-8</li>
   </ul>
   <p>Con số ở đây thể hiện ô Tactic mà nó yêu cầu.</p>
-  <p>Ví dụ Bond Skill o-4 sẽ được kích hoạt khi có 1 Active Skill được sử dụng thành công, và Active skill đó phải nằm trên ô Tactic số 4.</p>
+  <p>Ví dụ Bond Skill o-3 sẽ được kích hoạt khi có 1 Active Skill được sử dụng thành công, và Active skill đó phải nằm trên ô Tactic số 3.</p>
   <div>
-    <span class="tactic"></span>
     <span class="tactic"></span>
     <span class="tactic"></span>
     <img class="tactic_img ally" src="../../assets/character/demo4.png"/>
@@ -136,10 +135,11 @@
     <span class="tactic"></span>
     <span class="tactic"></span>
     <span class="tactic"></span>
+    <span class="tactic"></span>
   </div>
   <p>Ở đây <router-link :to="{ name: 'Character001'}">[Trần Ngọc Minh]</router-link> có 2 Active Skill là <span class="anima">[Kick hit]</span> và <span class="anima">[Martial art]</span>. Cùng với 2 Bond Skill là <span class="anima">[Critical hit]</span> và <span class="anima">[Quick hit]</span></p>
   <p>Với 1 ô Tactic skill đã chọn, Nhân vật thành công kích hoạt Active skill đầu tiên với Type <span class="anima">[1-o]</span> là <span class="anima">[Kick hit]</span></p>
-  <p>Đồng thời với ô Tactic Skill nằm ở vị trí số 4, nhân vật thành công kích hoạt Bond Skill với Type <span class="anima">[o-4]</span> là <span class="anima">[Critical hit]</span></p>
+  <p>Đồng thời với ô Tactic Skill nằm ở vị trí số 3, nhân vật thành công kích hoạt Bond Skill với Type <span class="anima">[o-3]</span> là <span class="anima">[Critical hit]</span></p>
   <p>Bond skill <span class="anima">[Critical hit]</span> khiến cho <span class="anima">[Kick hit]</span> được tăng 10% sát thương.</p>
 
 
