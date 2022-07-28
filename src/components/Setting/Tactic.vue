@@ -5,6 +5,11 @@
 
 <table>
   <tr>
+    <td colspan="2">Team 1</td>
+    <td></td>
+    <td colspan="2">Team 2</td>
+  </tr>
+  <tr>
     <td><img class="tactic_img ally" src="../../assets/character/demo1.png"/></td>
     <td><img class="tactic_img ally" src="../../assets/character/demo2.png"/></td>
     <td><div style="width:100px;"></div></td>
@@ -17,6 +22,11 @@
     <td></td>
     <td><img class="tactic_img enemy" src="../../assets/character/demo7.png"/></td>
     <td><img class="tactic_img enemy" src="../../assets/character/demo8.png"/></td>
+  </tr>
+  <tr>
+    <td colspan="5">
+      ---------------------------------------
+    </td>
   </tr>
   <tr>
     <td colspan="5">
