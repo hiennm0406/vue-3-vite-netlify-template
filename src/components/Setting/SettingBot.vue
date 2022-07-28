@@ -6,6 +6,7 @@
         <li> •<router-link :to="{ name: 'skill'}">Skill</router-link></li>
         <li> •<router-link :to="{ name: 'trait'}">Trait</router-link></li>
         <li> •<router-link :to="{ name: 'ascen'}">Ascensions</router-link></li>
+        <li> •<router-link :to="{ name: 'tactic'}">Tactic</router-link></li>
       </ul>
   </div>
 </template>
