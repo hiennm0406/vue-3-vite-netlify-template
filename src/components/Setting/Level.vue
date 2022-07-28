@@ -14,11 +14,11 @@
     </tr>
     <tr>
       <td>1</td>
-      <td>-</td>
+      <td>1 phút</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>1 phút</td>
+      <td>3 phút</td>
     </tr>
     <tr>
       <td>3</td>
