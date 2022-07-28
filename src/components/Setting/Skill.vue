@@ -89,17 +89,17 @@
       <td>4-o</td>
     </tr>
     <tr>
-      <td><img class="tactic_img ally" src="../../assets/character/demo4.png"/></td>
-      <td>
+      <td style="border-right: 1px solid gray;"><img class="tactic_img ally" src="../../assets/character/demo4.png"/></td>
+      <td style="border-right: 1px solid gray;">
         <img class="tactic_img ally" src="../../assets/character/demo4.png"/>
         <img class="tactic_img ally" src="../../assets/character/demo4.png"/>
       </td>
-      <td>
+      <td style="border-right: 1px solid gray;">
         <img class="tactic_img ally" src="../../assets/character/demo3.png"/>
         <img class="tactic_img ally" src="../../assets/character/demo3.png"/>
         <img class="tactic_img ally" src="../../assets/character/demo3.png"/>
       </td>
-      <td>
+      <td style="border-left: 1px solid gray;">
         <img class="tactic_img ally" src="../../assets/character/demo3.png"/>
         <img class="tactic_img ally" src="../../assets/character/demo3.png"/>
         <img class="tactic_img ally" src="../../assets/character/demo3.png"/>
