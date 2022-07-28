@@ -82,7 +82,7 @@
       <h4>Action Point</h4>
     </td>
     <td>
-      Điểm hành động. <b class="anima">Đây là một chỉ số đặc biệt, mỗi khi sử dụng kỹ năng sẽ tiêu tốn Action Point (AP). Số AP là có giới hạn và sẽ hồi lại 1 điểm AP vào đầu mỗi lượt.</b>
+      Điểm hành động. <b class="anima">Đây là một chỉ số đặc biệt, mỗi khi sử dụng kỹ năng sẽ tiêu tốn Action Point (AP). Số AP là có giới hạn (max = 3) và sẽ hồi lại 1 điểm AP vào đầu mỗi lượt.</b>
     </td>
   </tr>
   <tr>
