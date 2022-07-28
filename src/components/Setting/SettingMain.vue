@@ -6,6 +6,7 @@
         <h3>Character</h3>
         <ul>
           <li><router-link :to="{ name: 'attribute'}">Attribute</router-link></li>
+            <li><router-link :to="{ name: 'skill'}">Skill</router-link></li>
         </ul>
       </td>
       <td><h3>Battle</h3></td>
