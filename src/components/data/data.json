@@ -18,6 +18,18 @@
                 "Endurance":100,
                 "EnduranceEvo":"semi"
             }
+        },
+        {
+            "id":"002",
+            "name":"Rachel Carney",
+            "Stat":{
+                "Might":70,
+                "MightEvo":"semi",
+                "Energy":150,
+                "EnergyEvo":"semi",
+                "Endurance":80,
+                "EnduranceEvo":"semi"
+            }
         }
     ]
 }

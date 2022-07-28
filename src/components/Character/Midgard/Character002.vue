@@ -3,7 +3,7 @@
    <table class="table_content">
     <tr>
       <td width="50%">
-        <img src="../../../assets/character/001.jpg" style="height: 400px ;"/>
+        <img src="../../../assets/character/002.jpg" style="height: 400px ;"/>
       </td>
       <td class="text_left">
         <h2>Level:</h2>
@@ -13,6 +13,10 @@
         <h3><b>Might: </b>{{might}}</h3>
         <h3><b>Energy: </b>{{energy}}</h3>
         <h3><b>Endurance: </b>{{endurance}}</h3>
+         <br/>
+        <h3><b>Health: </b>{{endurance * 10}}</h3>
+        <h3><b>Armor: </b>{{might + endurance}}</h3>
+        <h3><b>Resis: </b>{{energy + endurance}}</h3>
       </td>
     </tr>
     <tr>
