@@ -58,10 +58,10 @@ export default {
                 title: 'Dkyrie',
               },
               {
-                href: '/1',
+               href: { name: 'CharacterMidgard' },
                 title: 'Midgard'
               },
-               {
+              {
                 href: '/1',
                 title: 'Asgard'
               },
