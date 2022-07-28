@@ -1,11 +1,11 @@
 <template>
   <div class="data_container">
     <ul>
-        <li>&#2022;<router-link :to="{ name: 'level'}">Level</router-link></li>
-        <li>&#2022;<router-link :to="{ name: 'attribute'}">Attribute</router-link></li>
-        <li>&#2022;<router-link :to="{ name: 'skill'}">Skill</router-link></li>
-        <li>&#2022;<router-link :to="{ name: 'trait'}">Trait</router-link></li>
-        <li>&#2022;<router-link :to="{ name: 'ascen'}">Ascensions</router-link></li>
+        <li>•<router-link :to="{ name: 'level'}">Level</router-link></li>
+        <li>•<router-link :to="{ name: 'attribute'}">Attribute</router-link></li>
+        <li>•<router-link :to="{ name: 'skill'}">Skill</router-link></li>
+        <li>•<router-link :to="{ name: 'trait'}">Trait</router-link></li>
+        <li>•<router-link :to="{ name: 'ascen'}">Ascensions</router-link></li>
       </ul>
   </div>
 </template>
