@@ -62,7 +62,8 @@
 <div class="btn-group" style="text-align: center;">
   <button :class="{active:active=='Type'}" @click="active='Type'">Type</button>
   <button :class="{active:active=='Cost'}" @click="active='Cost'">Cost</button>
-   <button :class="{active:active=='Description'}" @click="active='Description'">Description</button>
+  <button :class="{active:active=='Description'}" @click="active='Description'">Description</button>
+  <button :class="{active:active=='Tag'}" @click="active='Description'">Tag</button>
 </div>
 <div v-if="active=='Type'" class="data_container" >
   <h3>Tất cả skill của các nhân vật được chia làm 2 loại chính:</h3>
@@ -193,7 +194,42 @@
   <br/>
   <br/>
 </div>
+<div v-if="active=='Tag'" class="data_container" >
+  <h3>Tag</h3>
+  <p>Key Tag là thông tin tổng hợp của 1 skill. Thông tin này chỉ được sử dụng trong 1 vài trường hợp đặc biệt như lúc lắp Artifact.</p>
+  <p>Ví dụ 1 số loại Artifact sẽ tăng sức mạnh cho các Skill Melee + Physic</p>
 
+  <p>Những Tag hiện có:</p>
+  <ul>
+    <li><attack/></li>
+    <li><melee/></li>
+    <li>Ranger</li>
+    <li>Instantly</li>
+    <li><single/></li>
+    <li>Multi</li>
+    <li><phys/></li>
+    <li>Anima</li>
+    <li>Fire</li>
+    <li>Ice</li>
+    <li>Lightning</li>
+    <li><effect/></li>
+    <li><duration/></li>
+    <li>Shapeshift</li>
+    <li>Move</li>
+    <li>Heal</li>
+    <li>Shield</li>
+    <li>DOT</li>
+    <li><bond/></li>
+  </ul>
+  <p style="font-size:smaller;">Sẽ update thêm</p>
+  
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+</div>
 
 </template>
 
