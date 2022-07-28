@@ -40,6 +40,26 @@
     </td>
   </tr>
 </table>
+
+<div >
+  <table>
+    <tr>
+      <td colspan="3">- Formula -</td>
+    </tr>
+    <tr>
+      <td> <img src="./../../assets/icon/health.png" class="icon"/></td>
+      <td> <img src="./../../assets/icon/Armor.png" class="icon"/></td>
+      <td> <img src="./../../assets/icon/resis.png" class="icon"/></td>
+    </tr>
+    <tr>
+      <td>Health = Endurance x 10<br/>
+      (Đa số - có thể bị thay đổi do Trait)
+      </td>
+      <td>Armor = Might + Endurance</td>
+      <td>Resis = Enegry + Endurance</td>
+    </tr>
+  </table>
+</div>
    
 <h3>Side Attribute</h3>
 <table>
