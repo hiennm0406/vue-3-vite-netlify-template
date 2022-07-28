@@ -1,7 +1,8 @@
 <template>
    <h2>Trait</h2>
 
-  <p>Trait là những đặc điểm chính của một nhân vật. Có thể coi là các Passive xuất hiện từ đầu đến cuối game và không thể bị xóa đi.</p>
+  <p>Trait là những đặc điểm chính của một nhân vật. Có thể coi là các Passive xuất hiện từ đầu đến cuối trận đấu và không thể bị xóa đi.</p>
+  <p>Mỗi người có 1 hoặc vài Trait khác nhau. Một số Trait còn không có tác dụng gì cả.</p>
   <p>Some Trait:</p>
 
   <table>
