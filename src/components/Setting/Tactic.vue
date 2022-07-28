@@ -93,6 +93,10 @@
   </tr>
 </table>
 
+<p>Sau khi cả 2 đội đã xếp xong Tactic, các nhân vật của cả 2 đội sẽ bắt đầu hành động theo thứ tự các Tactic đã xếp từ trái qua phải.</p>
+<p>Nếu nhân vật chết hoặc bị khống chế (immobile, stuned,...) khi đến lượt sẽ bỏ qua lượt.</p>
+<img src="../../assets/other/tacticPhase.png"/>
+
 </template>
 
 <style scoped>
