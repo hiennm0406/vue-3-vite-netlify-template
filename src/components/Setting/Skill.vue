@@ -60,10 +60,22 @@
 
 
 <div class="btn-group">
-  <button :class="{active:active=='Type'}" @click="active='Type'">Skill</button>
-  <button :class="{active:active=='Cost'}" @click="active='Cost'">Link</button>
-  <button :class="{active:active=='Description'}" @click="active='Description'">Perk</button>
+  <button :class="{active:active=='Type'}" @click="active='Type'">Type</button>
+  <button :class="{active:active=='Cost'}" @click="active='Cost'">Cost</button>
+  <button :class="{active:active=='Description'}" @click="active='Description'">Description</button>
 </div>
+<div v-if="active=='Type'">
+  <h3>Tất cả skill của các nhân vật được chia làm 2 loại chính:</h3>
+  <ul>
+    <li>Active skill</li>
+    <li>Bond skill</li>
+  </ul>
+
+  <h3>Active skill</h3>
+  <p>Active skill là những skill tiêu tốn Action point để phát động. Để cast được Active Skill cần lựa chọn Tactic phù hợp với Type mà skill yêu cầu.</p>
+
+</div>
+
 
 </template>
 

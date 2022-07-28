@@ -16,6 +16,8 @@ import Character002 from './../components/Character/Midgard/Character002.vue'
 import Setting from './../components/Setting/SettingMain.vue'
 import attribute from './../components/Setting/Attribute.vue'
 import skill from './../components/Setting/Skill.vue'
+import tactic from './../components/Setting/Tactic.vue'
+
 
 const routes = [
     {
@@ -57,6 +59,11 @@ const routes = [
         path: '/skill',
         component: skill,
         name: 'skill',
+    },
+    {
+        path: '/tactic',
+        component: tactic,
+        name: 'tactic',
     },
     {
         path: '/character',

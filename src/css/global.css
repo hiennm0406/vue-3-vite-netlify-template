@@ -194,3 +194,20 @@ a {
   color:#6f00ff;
   font-weight: bold;
 }
+
+.tactic {
+  height: 60px;
+  width: 60px;
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.tactic_img {
+  height: 60px;
+  width: 60px;
+  border: 2px solid red;
+  border-radius: 50%;
+  display: inline-block;
+}
