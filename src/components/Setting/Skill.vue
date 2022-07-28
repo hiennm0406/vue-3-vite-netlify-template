@@ -81,7 +81,7 @@
     <li>4-o</li>
   </ul>
   <p>Ứng với mỗi ô Tactic Skill yêu cầu.</p>
-  <table>
+  <table class="table_content">
     <tr>
       <td>1-o</td>
       <td>2-o</td>
