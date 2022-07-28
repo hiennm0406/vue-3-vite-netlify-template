@@ -41,8 +41,8 @@
   </tr>
 </table>
 
-<div >
-  <table>
+<div class="round_content">
+  <table class="table_icon">
     <tr>
       <td colspan="3">- Formula -</td>
     </tr>
@@ -108,6 +108,15 @@ a {
 }
 .icon{
   width: 60px;
+}
+
+.table_icon{
+  width: 100%;
+}
+.round_content{
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.493);
+  border-radius: 20px;
 }
 </style>
 
