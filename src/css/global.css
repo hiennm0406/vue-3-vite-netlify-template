@@ -199,15 +199,28 @@ a {
   height: 60px;
   width: 60px;
   background-color: black;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   border-radius: 50%;
   display: inline-block;
+}
+
+.tactic.ally {
+  border: 2px solid blue;
+}
+.tactic.enemy {
+  border: 2px solid red;
 }
 
 .tactic_img {
   height: 60px;
   width: 60px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   border-radius: 50%;
   display: inline-block;
+}
+.tactic_img.ally {
+  border: 2px solid blue;
+}
+.tactic_img.enemy {
+  border: 2px solid red;
 }
