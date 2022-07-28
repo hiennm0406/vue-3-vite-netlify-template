@@ -169,18 +169,18 @@
 
 <div v-if="active=='Description'" class="data_container" >
   <h3>Description</h3>
-  <p>Hầu như tất cả Skill của các nhân vật đều 2 dạng.</p>
+  <p>Hầu như tất cả Skill của các nhân vật đều có 2 dạng.</p>
   <p>Dạng Cường hóa, được ghi thông tin ở phần Description phía trên : - Description Empowered</p>
   <p>Dạng Suy yếu, được ghi thông tin ở phần Description phía dưới : - Description Weakened</p>
 
-  <p>Lưu ý: Dù là ghi Cường Hóa - Suy Yếu. Nhưng có nhiều trường hợp dạng Suy Yếu có nhiều hiệu ứng và sát thương hơn. Điều này là tùy thuộc vào nhân vật.</p>
+  <p style="font-size:smaller">Lưu ý: Dù là ghi Cường Hóa - Suy Yếu. Nhưng có nhiều trường hợp dạng Suy Yếu có nhiều hiệu ứng và sát thương hơn. Điều này là tùy thuộc vào nhân vật.</p>
 
-  <p>Đối với Action Skill</p>
-  <p>Khi nhân vật sử dụng Action Skill mà không đủ Action Point (Khi skill yêu cầu 2 AP nhưng nhân vật chỉ còn 1) <a @click="active='Cost'">Xem Cost để nắm thêm thông tin</a>. Skill sử dụng sẽ là dạng Suy Yếu. Lưu ý: Lượng AP còn lại cũng bị trừ về 0 (hầu hết trường hợp).</p>
+  <p><b>Đối với Action Skill</b></p>
+  <p>Khi nhân vật sử dụng Action Skill mà không đủ Action Point (Khi skill yêu cầu 2 AP nhưng nhân vật chỉ còn 1) <a style="cursor: pointer;" @click="active='Cost'">Xem Cost để nắm thêm thông tin</a>. Skill sử dụng sẽ là dạng Suy Yếu. Lưu ý: Lượng AP còn lại cũng bị trừ về 0 (hầu hết trường hợp).</p>
   <p>Còn nếu nhân vật sử dụng Action Skill trong lúc vẫn còn đủ AP. Skill sử dụng sẽ ở dạng Cường Hóa.</p>
 
 
-  <p>Đối với Bond Skill</p>
+  <p><b>Đối với Bond Skill</b></p>
   <p>Có 1 số trường hợp Bond Skill chỉ có 1 dạng. Như <span class="anima">[Critical hit]</span> của <router-link :to="{ name: 'Character001'}">[Trần Ngọc Minh]</router-link>. Với những trường hợp này, Bond skill luôn được sử dụng giống nhau ở mọi trường hợp.</p>
   <p>Nếu Bond Skill có 2 dạng. Như <span class="anima">[Quick hit]</span> của <router-link :to="{ name: 'Character001'}">[Trần Ngọc Minh]</router-link>. Nếu Active Skill đi kèm được sử dụng ở dạng Empowered, Bond skill cũng sẽ được sử dụng ở dạng Empowered, và nếu Active Skill được sử dụng ở dạng Weakened, Bond Skill cũng sẽ được sử dụng ở dạng Weakened.</p>
   <br/>
