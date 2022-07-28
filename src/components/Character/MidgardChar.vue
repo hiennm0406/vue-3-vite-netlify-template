@@ -5,7 +5,7 @@
 
   <div class="char_table">
     <div>
-      <img src="./../../assets/character/rachel.png" class="img_char"/>
+      <img src="./../../assets/character/002.png" class="img_char"/>
       <router-link :to="{ name: 'Character002'}">Rachel Carney</router-link>
     </div>
   </div>
