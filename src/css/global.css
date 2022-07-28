@@ -91,6 +91,10 @@ a {
   text-align: left;
 }
 
+.text_cen{
+  text-align: center;
+}
+
  /* group button */
  .btn-group button {
   background-color: white; /* Green background */
@@ -133,6 +137,7 @@ a {
 }
 
 .skill_container .img{
+  text-align: center;
   float: left;
   width: 30%;
 }
@@ -141,6 +146,7 @@ a {
 }
 
 .skill_container .name{
+  text-align: center;
   float: left;
   width: 70%;
   font-weight: bolder;
@@ -158,6 +164,7 @@ a {
 }
 
 .skill_container .tag{
+  text-align: center;
   float: left;
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.27)
