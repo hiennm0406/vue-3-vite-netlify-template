@@ -83,10 +83,10 @@
   <p>Ứng với mỗi ô Tactic Skill xếp ngay sát nhau của nhân vật đó trong Tactic Phase:</p>
   <table class="table_content">
     <tr>
-      <td>1-o</td>
-      <td>2-o</td>
-      <td>3-o</td>
-      <td>4-o</td>
+      <td class="text_cen">1-o</td>
+      <td class="text_cen">2-o</td>
+      <td class="text_cen">3-o</td>
+      <td class="text_cen">4-o</td>
     </tr>
     <tr>
       <td class="text_cen" style="border-right: 1px solid gray;"><img class="tactic_img ally" src="../../assets/character/demo4.png"/></td>
@@ -107,6 +107,8 @@
       </td>
     </tr>
   </table>
+
+  <b>Lưu ý: Số lượng ô Tactic liền nhau phải khớp chính xác yêu cầu của skill. 3 ô Tactic liền nhau chỉ kích hoạt những skill 3-o. Không thể kích hoạt các skill 1-o và 2-o. Trong trận đánh. Nếu đã chọn xong Tactic mà nhân vật không có bất kỳ skill nào trung Type với số lượng Tactic đã chọn. Nhân vật sẽ được tính là [Idle] - vẫn được coi là Action, nhưng không có bất kỳ hành động nào cả.</b>
 
 </div>
 <br/>
