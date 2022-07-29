@@ -113,7 +113,7 @@
         </div>
       </td>
     </tr>
-    <tr>
+    <tr v-if="active=='skill'">
       <td colspan="2"><span style="font-size: smaller;">Lưu ý chỉ số sát thương trong skill là tương đối, chưa tính hiệu ứng tăng lên từ artifact, trait.</span></td>
     </tr>
     <tr v-if="active=='skill'">
