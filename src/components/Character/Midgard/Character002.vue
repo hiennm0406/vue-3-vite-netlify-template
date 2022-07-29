@@ -120,8 +120,8 @@
       <td colspan="2">
         <table>
           <tr>
-            <td><img src="../../../assets/character/00204.png" class="icon"/></td>
-            <td>Static Electric: Tăng 5% sát thương Sét nhận. Kéo dài 2 turn.</td>
+            <td><img src="../../../assets/character/00204.png" class="icon40"/></td>
+            <td>Static Electric: Tăng 5% sát thương Lightning nhận. Kéo dài 2 turn.</td>
           </tr>
         </table>
       </td>
