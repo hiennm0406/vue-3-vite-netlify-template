@@ -223,6 +223,8 @@
   </ul>
   <p style="font-size:smaller;">Sẽ update thêm</p>
   
+</div>
+
   <br/>
   <br/>
   <br/>
@@ -230,8 +232,6 @@
   <SettingBot/>
   <br/>
   <br/>
-</div>
-
 </template>
 
 <style scoped>
