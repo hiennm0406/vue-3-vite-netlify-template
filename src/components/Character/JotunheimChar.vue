@@ -4,7 +4,7 @@
   <div class="char_table">
     <div>
       <router-link :to="{ name: 'Character003'}">
-        <img src="./../../assets/character/003.png" class="img_char"/>
+        <img src="./../../assets/character/003.jpg" class="img_char"/>
         Obri The Exalted
       </router-link>
     </div>
