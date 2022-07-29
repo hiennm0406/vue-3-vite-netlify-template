@@ -32,45 +32,84 @@
     <tr v-if="active=='skill'">
       <td style="padding-right:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00101.png" style="height: 40px ;"/></div>
-          <div class="name">Kick hit</div>
+          <div class="img"><img src="../../../assets/character/00201.png" style="height: 40px ;"/></div>
+          <div class="name">Light knife</div>
           <div class="type">Type: 1-o</div>
           <div class="cost">1AP</div>
-          <div class="tag"><attack/> <melee/> <single/> <phys/></div>
-          <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 200% Might <span class="phys">({{2*might}})</span></div>
-          <div class="description">Lao đến tấn công đối thủ bằng một cú đấm, gây ra sát thương vật lý bằng 100% Might <span class="phys">({{1*might}})</span></div>
+          <div class="tag"><attack/> <range/> <single/> <lightning/> </div>
+          <div class="description">Bằng cách cho dòng điện chạy qua cơ thể và dồn năng lượng vào các ngón tay, 
+            cô có thể gia tốc con dao trong tay đi với một luồng chớp điện mạnh, 
+            gây ra sát thương vật lý bằng 120% Enegry <span class="phys">({{1.2*enegry}})</span>, 
+            gây ra sát thương Sét bằng 100% Enegry <span class="lightning">({{1*enegry}}). 
+            Để lại trên người kẻ địch 1 dấu [Static Electric]</span></div>
+          <div class="description">Bằng cách cho dòng điện chạy qua cơ thể và dồn năng lượng vào các ngón tay, 
+            cô có thể phóng ra một luồng chớp điện mạnh, gây ra sát thương Sét bằng 100% Enegry <span class="lightning">({{1*enegry}}). 
+            Để lại trên người kẻ địch 1 dấu [Static Electric]</span></div>
         </div>
       </td>
        <td style="padding-left:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00102.png" style="height: 40px ;"/></div>
-          <div class="name">Martial art</div>
+          <div class="img"><img src="../../../assets/character/00202.png" style="height: 40px ;"/></div>
+          <div class="name">Ultra voltage</div>
           <div class="type">Type: 2-o</div>
-          <div class="cost">1AP</div>
-          <div class="tag"><attack/> <melee/> <single/> <phys/> <effect/> <duration/> </div>
-          <div class="description">Lao đến tấn công đối thủ bằng một cú đá mạnh, làm mất trọng tâm của địch thủ. Gây ra sát thương vật lý bằng 200% Might <span class="phys">({{2*might}})</span>, đồng thời giảm sát thương của kẻ địch đi 10% trong turn này.</div>
-          <div class="description">Lao đến tấn công đối thủ bằng một cú đá mạnh. Gây ra sát thương vật lý bằng 120% Might <span class="phys">({{1.2*might}})</span>.</div>
+          <div class="cost">2AP</div>
+          <div class="tag"><attack/> <range/> <multi/> <lightning/> </div>
+          <div class="description">Kéo dòng điện chạy từ tay trái qua tay phải, 
+            tạo thành một trường lực đối cực, sau đó đổi dòng điện ở 1 tay, 
+            cô có thể đẩy 1 dòng cường áp mạnh mẽ về phía trước. 
+            Gây ra sát thương Sét bằng 200% Enegry <span class="lightning">({{2*enegry}})</span> cho kẻ địch trước mặt. 
+            Sau đó gây ra sát thương Sét bằng 150% Enegry <span class="lightning">({{1.5*enegry}})</span> cho 1 kẻ địch gần đó, 
+            và tiếp tục gây ra sát thương Sét bằng 100% Enegry <span class="lightning">({{1*enegry}})</span> cho 1 kẻ địch khác. 
+            Mục tiêu sẽ không lặp lại. Nếu không còn đối tượng nào khác chuỗi dòng điện sẽ kết thúc.
+            Để lại trên người mỗi kẻ địch 1 dấu [Static Electric].
+            </div>
+          <div class="description">Kéo dòng điện chạy từ tay trái qua tay phải, 
+            tạo thành một trường lực đối cực, sau đó đổi dòng điện ở 1 tay, 
+            cô có thể đẩy 1 dòng cường áp mạnh mẽ về phía trước. 
+            Gây ra sát thương Sét bằng 150% Enegry <span class="lightning">({{1.5*enegry}})</span> cho kẻ địch trước mặt. 
+            Sau đó gây ra sát thương Sét bằng 100% Enegry <span class="lightning">({{1*enegry}})</span> cho 1 kẻ địch gần đó. 
+            Mục tiêu sẽ không lặp lại. Nếu không còn đối tượng nào khác chuỗi dòng điện sẽ kết thúc.
+            Để lại trên người mỗi kẻ địch 1 dấu [Static Electric].
+            </div>
         </div>
       </td>
     </tr>
     <tr v-if="active=='skill'">
       <td style="padding-right:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00103.png" style="height: 40px ;"/></div>
-          <div class="name">Critical hit</div>
-          <div class="type">Type: o-3</div>
-          <div class="tag"><effect/> <phys/> <bond/> </div>
-          <div class="description">Đòn tấn công vật lý này được tăng thêm 10% sát thương.</div>
+          <div class="img"><img src="../../../assets/character/00203.png" style="height: 40px ;"/></div>
+          <div class="name">R.A.D.A.R</div>
+          <div class="type">Type: 3-o</div>
+          <div class="cost">2AP</div>
+          <div class="tag"><effect/> <lightning/> COUNTER </div>
+          <div class="description">Sử dụng 1 dòng điện nhỏ phát xạ ra xung quanh, đưa bản thân vào trường điện cảm. 
+            Cô có thể cảm nhận rõ bất cứ xung động nào xung quanh. Phát hiện kẻ thù đến gần. 
+            Khi bị tấn công bởi các đòn tấn công <melee/>, giảm 30% sát thương phải nhận, sau đó đánh trả lại đối thủ
+            sát thương sét bằng 120% Enegry <span class="lightning">({{1.2*enegry}})</span>.
+            Để lại trên người kẻ địch 1 dấu [Static Electric].
+          </div>
+           <div class="description">Sử dụng 1 dòng điện nhỏ phát xạ ra xung quanh, đưa bản thân vào trường điện cảm. 
+            Cô có thể cảm nhận rõ bất cứ xung động nào xung quanh. Phát hiện kẻ thù đến gần. 
+            Khi bị tấn công bởi các đòn tấn công <melee/>, giảm 10% sát thương phải nhận, sau đó đánh trả lại đối thủ
+            sát thương vật lý bằng 120% Might <span class="phys">({{1.2*might}})</span>.
+          </div>
       </div>
       </td>
       <td style="padding-left:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00104.png" style="height: 40px ;"/></div>
-          <div class="name">Quick hit</div>
-          <div class="type">Type: o-6</div>
-          <div class="tag"><attack/> <melee/> <single/> <phys/> <bond/> </div>
-          <div class="description">Sau khi tấn công, Trần Ngọc Minh sẽ tấn công đối thủ thêm 1 lần nữa, gây sát thương vật lý bằng 80% Might <span class="phys">({{0.8 * might}})</span></div>
-          <div class="description">Sau khi tấn công, Trần Ngọc Minh sẽ tấn công đối thủ thêm 1 lần nữa, gây sát thương vật lý bằng 40% Might <span class="phys">({{0.4 * might}})</span></div>
+          <div class="img"><img src="../../../assets/character/00204.png" style="height: 40px ;"/></div>
+          <div class="name">Static charged</div>
+          <div class="type">Type: o-4</div>
+          <div class="tag"> <attack/> <lightning/> <multi/> <instantly/> <bond/> </div>
+          <div class="description">Sau khi hành động, cô tạo 1 trường điện tĩnh ra xung quanh, 
+            gây sát thương sét toàn bộ đối thủ bằng 20% Enegry <span class="phys">({{0.2 * enegry}})</span> 
+            nhân với mỗi [Static Electric] trên người mục tiêu.
+            Các [Static Electric] trên người mục tiêu sẽ được kéo dài thêm 1 lượt.
+          </div>
+          <div class="description">Sau khi hành động, cô tạo 1 trường điện tĩnh ra xung quanh, 
+            gây sát thương sét toàn bộ đối thủ bằng 20% Enegry <span class="phys">({{0.2 * enegry}})</span> 
+            nhân với mỗi [Static Electric] trên người mục tiêu.
+          </div>
         </div>
       </td>
     </tr>
@@ -94,7 +133,7 @@ import Slider from '@vueform/slider'
 export default {
   mounted() {
    json.Character.forEach(x => { 
-          if(x.id == "001"){
+          if(x.id == "002"){
               this.dataChar = x;
               this.might = x.Stat.Might;
               this.energy = x.Stat.Energy;
