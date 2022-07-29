@@ -7,7 +7,6 @@
 <table class="table_content">
   <tr>
     <td width="50%">
-      <img src="./../../assets/history/muspel.jpg" style="width: 100%;"/>
     </td>
     <td>
       <p>Vào ngày phát sinh sự kiện Chia cắt lần thứ nhất. Những Jotun bị kẹt ở Muspel heim là những nhà nghiên cứu, những kẻ quan sát, và cả các thợ khai khoáng. Muspelheim vốn là nơi họ rèn các vật chất quý hiếm mà họ không thể rèn được ở những nơi khác. Đồng thời quan sát các sinh vật sống ở những vùng đất khắc nghiệt đến như này.
@@ -51,7 +50,6 @@
 
 <p>Hỗn loạn.</p>
 
- <img src="./../../assets/history/tree.jpg" />
 
 
 <p>Khi những cành lá nhỏ chĩa ra khỏi tai, mũi của họ. Cả 3 Jotun đã hoàn toàn chìm trong sự hỗn loạn. Ý thức của họ bị nhấn chìm trong một biển ý thức khác mạnh mẽ như một cơn sóng. Làn da của họ nứt nẻ, những rễ cây thô to xiên ra khỏi lớp vảy cứng, máu của họ chảy ra lúc này cũng mang một cái nóng và rực rỡ như nham thạch.</p>
