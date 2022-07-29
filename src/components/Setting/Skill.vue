@@ -65,7 +65,7 @@
   <button :class="{active:active=='Description'}" @click="active='Description'">Description</button>
   <button :class="{active:active=='Tag'}" @click="active='Tag'">Tag</button>
 </div>
-<div v-if="active=='Type'" class="data_container" >
+<div v-if="active=='Type'" class="data_container">
   <h3>Tất cả skill của các nhân vật được chia làm 2 loại chính:</h3>
   <ul>
     <li>Active skill</li>
