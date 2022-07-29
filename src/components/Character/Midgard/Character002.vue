@@ -1,5 +1,5 @@
 <template>
-   <h2>Trần Ngọc Minh</h2>
+   <h2>Rachel Carney</h2>
    <table class="table_content">
     <tr>
       <td width="50%">
