@@ -116,6 +116,16 @@
     <tr>
       <td colspan="2"><span style="font-size: smaller;">Lưu ý chỉ số sát thương trong skill là tương đối, chưa tính hiệu ứng tăng lên từ artifact, trait.</span></td>
     </tr>
+    <tr v-if="active=='skill'">
+      <td colspan="2">
+        <table>
+          <tr>
+            <td><img src="../../../assets/character/00204.png" class="icon"/></td>
+            <td>Static Electric: Tăng 5% sát thương Sét nhận. Kéo dài 2 turn.</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
    </table>
 </template>
 
