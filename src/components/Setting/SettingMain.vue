@@ -26,11 +26,11 @@
           <!-- <li><router-link :to="{ name: 'asgard'}">Asgard</router-link></li> -->
           <li><router-link :to="{ name: 'alfheim'}">Alfheim</router-link></li>
           <!-- <li><router-link :to="{ name: 'vanaheim'}">Vanaheim</router-link></li> -->
-          <!-- <li><router-link :to="{ name: 'muspelheim'}">Muspelheim</router-link></li>
-          <li><router-link :to="{ name: 'svartalfheim'}">Svartalfheim</router-link></li>
+          <li><router-link :to="{ name: 'muspelheim'}">Muspelheim</router-link></li>
+          <!-- <li><router-link :to="{ name: 'svartalfheim'}">Svartalfheim</router-link></li> -->
           <li><router-link :to="{ name: 'jotunheim'}">Jotunheim</router-link></li>
-          <li><router-link :to="{ name: 'nilfheim'}">Nilfheim</router-link></li>
-          <li><router-link :to="{ name: 'helheim'}">Helheim</router-link></li> -->
+          <!-- <li><router-link :to="{ name: 'nilfheim'}">Nilfheim</router-link></li> -->
+          <!-- <li><router-link :to="{ name: 'helheim'}">Helheim</router-link></li> -->
         </ul>
       </td>
     </tr>

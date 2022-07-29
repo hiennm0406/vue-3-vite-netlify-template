@@ -30,6 +30,18 @@
                 "Endurance":80,
                 "EnduranceEvo":"semi"
             }
+        },
+        {
+            "id":"003",
+            "name":"Obri The Exalted",
+            "Stat":{
+                "Might":120,
+                "MightEvo":"semi",
+                "Energy":80,
+                "EnergyEvo":"semi",
+                "Endurance":110,
+                "EnduranceEvo":"semi"
+            }
         }
     ]
 }
