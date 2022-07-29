@@ -61,38 +61,38 @@ export default {
                href: { name: 'CharacterMidgard' },
                 title: 'Midgard'
               },
+              // {
+              //   href: '/1',
+              //   title: 'Asgard'
+              // },
+              // {
+              //   href: '/CharacterJotunheim',
+              //   title: 'Alfheim'
+              // },
+              // {
+              //   href: '/1',
+              //   title: 'Vanaheim'
+              // },
+              // {
+              //   href: '/1',
+              //   title: 'Muspelheim'
+              // },
+              // {
+              //   href: '/1',
+              //   title: 'Svartalfheim'
+              // },
               {
-                href: '/1',
-                title: 'Asgard'
-              },
-              {
-                href: '/1',
-                title: 'Alfheim'
-              },
-              {
-                href: '/1',
-                title: 'Vanaheim'
-              },
-              {
-                href: '/1',
-                title: 'Muspelheim'
-              },
-              {
-                href: '/1',
-                title: 'Svartalfheim'
-              },
-              {
-                href: '/1',
+                 href: { name: 'CharacterJotunheim' },
                 title: 'Jotunheim'
               },
-              {
-                href: '/1',
-                title: 'Nilfheim'
-              },
-              {
-                href: '/1',
-                title: 'Helheim'
-              },
+              // {
+              //   href: '/1',
+              //   title: 'Nilfheim'
+              // },
+              // {
+              //   href: '/1',
+              //   title: 'Helheim'
+              // },
             ]
           }
         ]

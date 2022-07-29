@@ -1,9 +1,9 @@
 <template>
-   <h2>Rachel Carney</h2>
+   <h2>Obri The Exalted</h2>
    <table class="table_content">
     <tr>
       <td width="50%">
-        <img src="../../../assets/character/002.png" style="height: 400px ;"/>
+        <img src="../../../assets/character/003.jpg" style="height: 400px ;"/>
       </td>
       <td class="text_left">
         <h2>Level:</h2>
@@ -32,7 +32,7 @@
     <tr v-if="active=='skill'">
       <td style="padding-right:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00201.png" style="height: 40px ;"/></div>
+          <div class="img"><img src="../../../assets/character/00301.png" style="height: 40px ;"/></div>
           <div class="name">Light knife</div>
           <div class="type">Type: 1-o</div>
           <div class="cost">1AP</div>
@@ -49,7 +49,7 @@
       </td>
        <td style="padding-left:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00202.png" style="height: 40px ;"/></div>
+          <div class="img"><img src="../../../assets/character/00302.png" style="height: 40px ;"/></div>
           <div class="name">Ultra voltage</div>
           <div class="type">Type: 2-o</div>
           <div class="cost">2AP</div>
@@ -77,7 +77,7 @@
     <tr v-if="active=='skill'">
       <td style="padding-right:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00203.png" style="height: 40px ;"/></div>
+          <div class="img"><img src="../../../assets/character/00303.png" style="height: 40px ;"/></div>
           <div class="name">R.A.D.A.R</div>
           <div class="type">Type: 3-o</div>
           <div class="cost">2AP</div>
@@ -97,7 +97,7 @@
       </td>
       <td style="padding-left:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00204.png" style="height: 40px ;"/></div>
+          <div class="img"><img src="../../../assets/character/00304.png" style="height: 40px ;"/></div>
           <div class="name">Static charged</div>
           <div class="type">Type: o-4</div>
           <div class="tag"> <attack/> <lightning/> <multi/> <instantly/> <bond/> </div>
@@ -143,7 +143,7 @@ import Slider from '@vueform/slider'
 export default {
   mounted() {
    json.Character.forEach(x => { 
-          if(x.id == "002"){
+          if(x.id == "003"){
               this.dataChar = x;
               this.might = x.Stat.Might;
               this.energy = x.Stat.Energy;
