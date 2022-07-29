@@ -22,15 +22,15 @@
       <td>
         <h3>World</h3>
         <ul>
-          <li><router-link :to="{ name: 'Midgard'}">Midgard</router-link></li>
-          <li><router-link :to="{ name: 'Asgard'}">Asgard</router-link></li>
-          <li><router-link :to="{ name: 'Alfheim'}">Alfheim</router-link></li>
-          <li><router-link :to="{ name: 'Vanaheim'}">Vanaheim</router-link></li>
-          <li><router-link :to="{ name: 'Muspelheim'}">Muspelheim</router-link></li>
-          <li><router-link :to="{ name: 'Svartalfheim'}">Svartalfheim</router-link></li>
-          <li><router-link :to="{ name: 'Jotunheim'}">Jotunheim</router-link></li>
-          <li><router-link :to="{ name: 'Nilfheim'}">Nilfheim</router-link></li>
-          <li><router-link :to="{ name: 'Helheim'}">Helheim</router-link></li>
+          <li><router-link :to="{ name: 'midgard'}">Midgard</router-link></li>
+          <li><router-link :to="{ name: 'asgard'}">Asgard</router-link></li>
+          <li><router-link :to="{ name: 'alfheim'}">Alfheim</router-link></li>
+          <li><router-link :to="{ name: 'vanaheim'}">Vanaheim</router-link></li>
+          <li><router-link :to="{ name: 'muspelheim'}">Muspelheim</router-link></li>
+          <li><router-link :to="{ name: 'svartalfheim'}">Svartalfheim</router-link></li>
+          <li><router-link :to="{ name: 'jotunheim'}">Jotunheim</router-link></li>
+          <li><router-link :to="{ name: 'nilfheim'}">Nilfheim</router-link></li>
+          <li><router-link :to="{ name: 'helheim'}">Helheim</router-link></li>
         </ul>
       </td>
     </tr>

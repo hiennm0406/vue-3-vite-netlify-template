@@ -21,6 +21,16 @@ import ascen from './../components/Setting/Ascensions.vue'
 import level from './../components/Setting/Level.vue'
 import trait from './../components/Setting/Trait.vue'
 
+import Midgard from './../components/Setting/World/Midgard.vue'
+import Asgard from './../components/Setting/World/Asgard.vue'
+import Alfheim from './../components/Setting/World/Alfheim.vue'
+import Vanaheim from './../components/Setting/World/Vanaheim.vue'
+import Svartalfheim from './../components/Setting/World/Svartalfheim.vue'
+import Jotunheim from './../components/Setting/World/Jotunheim.vue'
+import Muspelheim from './../components/Setting/World/Muspelheim.vue'
+import Nilfheim from './../components/Setting/World/Nilfheim.vue'
+import Helheim from './../components/Setting/World/Helheim.vue'
+
 
 const routes = [
     {
@@ -53,6 +63,52 @@ const routes = [
         component: Setting,
         name: 'Setting',
     },
+    {
+        path: '/midgard',
+        component: Midgard,
+        name: 'midgard',
+    },
+    {
+        path: '/asgard',
+        component: Asgard,
+        name: 'asgard',
+    },
+    {
+        path: '/alfheim',
+        component: Alfheim,
+        name: 'alfheim',
+    },
+    {
+        path: '/vanaheim',
+        component: Vanaheim,
+        name: 'vanaheim',
+    },
+    {
+        path: '/jotunheim',
+        component: Jotunheim,
+        name: 'jotunheim',
+    },
+    {
+        path: '/muspelheim',
+        component: Muspelheim,
+        name: 'muspelheim',
+    },
+    {
+        path: '/svartalfheim',
+        component: Svartalfheim,
+        name: 'svartalfheim',
+    },
+    {
+        path: '/nilfheim',
+        component: Nilfheim,
+        name: 'nilfheim',
+    },
+    {
+        path: '/helheim',
+        component: Helheim,
+        name: 'helheim',
+    },
+
     {
         path: '/attribute',
         component: attribute,
