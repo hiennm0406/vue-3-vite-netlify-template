@@ -5,8 +5,10 @@
 
   <div class="char_table">
     <div>
-      <img src="./../../assets/character/002.png" class="img_char"/>
-      <router-link :to="{ name: 'Character002'}">Rachel Carney</router-link>
+      <router-link :to="{ name: 'Character002'}">
+        <img src="./../../assets/character/002.png" class="img_char"/>
+        Rachel Carney
+      </router-link>
     </div>
   </div>
 </template>

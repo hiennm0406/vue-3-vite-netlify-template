@@ -6,8 +6,10 @@
   <table>
     <tr>
       <td>
-        <img src="./../../assets/character/001.jpg" class="img_char"/>
-        <router-link :to="{ name: 'Character001'}">Trần Ngọc Minh</router-link>
+        <router-link :to="{ name: 'Character001'}">
+          <img src="./../../assets/character/001.jpg" class="img_char"/>
+          Trần Ngọc Minh
+        </router-link>
       </td>
        <td>
         <img src="./../../assets/character/stefanie.png" class="img_char"/>

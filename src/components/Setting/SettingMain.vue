@@ -18,6 +18,22 @@
         </ul>
       </td>
     </tr>
+    <tr>
+      <td>
+        <h3>World</h3>
+        <ul>
+          <li><router-link :to="{ name: 'Midgard'}">Midgard</router-link></li>
+          <li><router-link :to="{ name: 'Asgard'}">Asgard</router-link></li>
+          <li><router-link :to="{ name: 'Alfheim'}">Alfheim</router-link></li>
+          <li><router-link :to="{ name: 'Vanaheim'}">Vanaheim</router-link></li>
+          <li><router-link :to="{ name: 'Muspelheim'}">Muspelheim</router-link></li>
+          <li><router-link :to="{ name: 'Svartalfheim'}">Svartalfheim</router-link></li>
+          <li><router-link :to="{ name: 'Jotunheim'}">Jotunheim</router-link></li>
+          <li><router-link :to="{ name: 'Nilfheim'}">Nilfheim</router-link></li>
+          <li><router-link :to="{ name: 'Helheim'}">Helheim</router-link></li>
+        </ul>
+      </td>
+    </tr>
    </table>
 </template>
 
