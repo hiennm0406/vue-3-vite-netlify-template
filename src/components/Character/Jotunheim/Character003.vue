@@ -50,7 +50,7 @@
           <div class="name">Violence</div>
           <div class="type">Type: o-3</div>
           <div class="tag"><effect/> </div>
-          <div class="description">Nghệ thuật của cái chết nằm trên mỗi đường kiếm. Nhát chém này của hắn sẽ bỏ qua 20% armor của kẻ địch
+          <div class="description">Nghệ thuật của cái chết nằm trên mỗi đường kiếm. <b>Nhát chém này của hắn sẽ bỏ qua 20% armor của kẻ địch.</b>
             </div>
         </div>
       </td>
@@ -64,13 +64,13 @@
           <div class="tag"><effect/> <bond/> </div>
           <div class="description">Bằng cơn khát máu tiềm tàng trong cơ thể, 
             Obri thay vì sử dụng thanh kiếm thép, hắn rút thanh kiếm đang xuyên qua ngực mình ra và 
-            tấn công đối thủ. Tự gây sát thương vật lý cho bản thân bằng 50% máu tối đa. Obri tăng 
-            100% sát thương gây ra trong lần tấn công này.
+            tấn công đối thủ. <b>Tự gây sát thương vật lý cho bản thân bằng 50% máu tối đa. Obri tăng 
+            100% sát thương gây ra trong lần tấn công này.</b>
           </div>
           <div class="description">Bằng cơn khát máu tiềm tàng trong cơ thể, 
             Obri thay vì sử dụng thanh kiếm thép, hắn rút thanh kiếm đang xuyên qua ngực mình ra và 
-            tấn công đối thủ. Tự gây sát thương vật lý cho bản thân bằng 30% máu tối đa. Obri tăng 
-            50% sát thương gây ra trong lần tấn công này.
+            tấn công đối thủ. <b>Tự gây sát thương vật lý cho bản thân bằng 30% máu tối đa. Obri tăng 
+            50% sát thương gây ra trong lần tấn công này.</b>
           </div>
       </div>
       </td>
@@ -81,10 +81,10 @@
           <div class="type">Type: o-7</div>
           <div class="tag"> <effect/> <bond/> </div>
           <div class="description">Djinn là một cỗ máy vĩnh hằng, chúng có thể hấp thụ năng lượng xung quanh để tái
-            tạo lại bất kỳ thương tổn nào. Trong đòn đánh lần này, Obri hồi lại lượng máu tương đương 50% sát thương gây ra.
+            tạo lại bất kỳ thương tổn nào. <b>Trong đòn đánh lần này, Obri hồi lại lượng máu tương đương 50% sát thương gây ra.</b>
           </div>
                 <div class="description">Djinn là một cỗ máy vĩnh hằng, chúng có thể hấp thụ năng lượng xung quanh để tái
-            tạo lại bất kỳ thương tổn nào. Trong đòn đánh lần này, Obri hồi lại lượng máu tương đương 20% sát thương gây ra.
+            tạo lại bất kỳ thương tổn nào. <b>Trong đòn đánh lần này, Obri hồi lại lượng máu tương đương 20% sát thương gây ra.</b>
           </div>
         </div>
       </td>
