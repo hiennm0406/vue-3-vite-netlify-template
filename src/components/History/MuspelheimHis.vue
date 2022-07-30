@@ -70,7 +70,7 @@
 
 <p>Ngày đó, ở nơi sâu thẳm trong sa mạc mà bất cứ loài sinh vật nào trên Muspelheim cũng không dám lại gần, ba bóng đen khổng lồ từ từ bước ra. Đôi mắt chúng đỏ rực vì tơ máu, người chúng nứt nẻ vì vết thương, nhưng có vẻ những vết thương đó chẳng ảnh hưởng gì đến hành động của chúng. Ba bóng đen khổng lồ cứ lững thững đi, hủy diệt bất cứ thứ gì nào cản đường chúng.</p>
 
-<p>Giữa sự hoang dại đấy, trên đầu chìa ra những cái cây kết quả mọng đỏ chót, ma mị, như hai thứ đối nghịch nhau trong một bức tranh. Theo những bước chân của chúng, quả mọng rơi xuống đất, tỏa ra mùi hương đầy mê hoặc.</p>
+<p>Giữa sự hoang dại đấy, trên đầu 3 Jotun chìa ra những cái cây kết quả mọng đỏ chót, ma mị, như hai thứ đối nghịch nhau trong một bức tranh. Theo những bước chân của chúng, quả mọng rơi xuống đất, tỏa ra mùi hương đầy mê hoặc.</p>
 
 <p>Và rồi khi ba kẻ hủy diệt rời đi xa, nhưng sinh vật nhỏ tò mò kéo đến...</p>
 

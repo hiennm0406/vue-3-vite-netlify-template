@@ -6,6 +6,7 @@ import History from './../components/History/HistoryMain.vue'
 import FirstRagnarok from './../components/History/FirstRagnarok.vue'
 import TheUnion from './../components/History/TheUnion.vue'
 import MuspelheimHis from './../components/History/MuspelheimHis.vue'
+import SecondRagnarok from './../components/History/SecondRagnarok.vue'
 
 import Character from './../components/Character/CharacterPage.vue'
 import CharacterDkyrie from './../components/Character/DkyrieChar.vue'
@@ -49,6 +50,11 @@ const routes = [
         path: '/first',
         component: FirstRagnarok,
         name: 'firstRagnarok'
+    },
+    {
+        path: '/second',
+        component: SecondRagnarok,
+        name: 'SecondRagnarok'
     },
     {
         path: '/theunion',
