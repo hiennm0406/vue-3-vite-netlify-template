@@ -10,13 +10,14 @@
         <br/>
         <Slider v-model="value" :max="15" :min="1" />
         <h2>Stat:</h2>
-        <h4><b>Might: </b>{{might}}</h4>
-        <h4><b>Energy: </b>{{energy}}</h4>
-        <h4><b>Endurance: </b>{{endurance}}</h4>
+        <p><b>Might: </b>{{might}}</p>
+        <p><b>Energy: </b>{{energy}}</p>
+        <p><b>Endurance: </b>{{endurance}}</p>
          <br/>
-        <h4><b>Health: </b>{{endurance * 10}}</h4>
-        <h4><b>Armor: </b>{{might + endurance}}</h4>
-        <h4><b>Resis: </b>{{energy + endurance}}</h4>
+        <p><b>Health: </b>{{endurance * 10}}</p>
+        <p><b>Armor: </b>{{might + endurance}}</p>
+        <p><b>Resis: </b>{{energy + endurance}}</p>
+        <p>Class: Djinn - Original: Jotunheim</p>
       </td>
     </tr>
     <tr>
@@ -33,43 +34,23 @@
       <td style="padding-right:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00301.png" style="height: 40px ;"/></div>
-          <div class="name">Light knife</div>
+          <div class="name">Brutalize slash </div>
           <div class="type">Type: 1-o</div>
           <div class="cost">1AP</div>
-          <div class="tag"><attack/> <range/> <single/> <lightning/> </div>
-          <div class="description">Bằng cách cho dòng điện chạy qua cơ thể và dồn năng lượng vào các ngón tay, 
-            cô có thể gia tốc con dao trong tay đi với một luồng chớp điện mạnh, 
-            gây ra sát thương vật lý bằng 120% Energy <span class="phys">({{1.2*energy}})</span>, 
-            gây ra sát thương Sét bằng 100% Energy <span class="lightning">({{1*energy}})</span>. 
-            Để lại trên người kẻ địch 1 dấu [Static Electric]</div>
-          <div class="description">Bằng cách cho dòng điện chạy qua cơ thể và dồn năng lượng vào các ngón tay, 
-            cô có thể phóng ra một luồng chớp điện mạnh, gây ra sát thương Sét bằng 100% Energy <span class="lightning">({{1*energy}})</span>. 
-            Để lại trên người kẻ địch 1 dấu [Static Electric]</div>
+          <div class="tag"><attack/> <melee/> <single/> <phys/> </div>
+          <div class="description">Vung thanh gươm chém trực diện kẻ địch, 
+            gây ra sát thương vật lý bằng 200% Might <span class="phys">({{2*might}})</span></div>
+          <div class="description">Vung thanh gươm chém trực diện kẻ địch, 
+            gây ra sát thương vật lý bằng 120% Might <span class="phys">({{1.2*might}})</span></div>
         </div>
       </td>
        <td style="padding-left:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00302.png" style="height: 40px ;"/></div>
-          <div class="name">Ultra voltage</div>
-          <div class="type">Type: 2-o</div>
-          <div class="cost">2AP</div>
-          <div class="tag"><attack/> <range/> <multi/> <lightning/> </div>
-          <div class="description">Kéo dòng điện chạy từ tay trái qua tay phải, 
-            tạo thành một trường lực đối cực, sau đó đổi dòng điện ở 1 tay, 
-            cô có thể đẩy 1 dòng cường áp mạnh mẽ về phía trước. 
-            Gây ra sát thương Sét bằng 200% Energy <span class="lightning">({{2*energy}})</span> cho kẻ địch trước mặt. 
-            Sau đó gây ra sát thương Sét bằng 150% Energy <span class="lightning">({{1.5*energy}})</span> cho 1 kẻ địch gần đó, 
-            và tiếp tục gây ra sát thương Sét bằng 100% Energy <span class="lightning">({{1*energy}})</span> cho 1 kẻ địch khác. 
-            Mục tiêu sẽ không lặp lại. Nếu không còn đối tượng nào khác chuỗi dòng điện sẽ kết thúc.
-            Để lại trên người mỗi kẻ địch 1 dấu [Static Electric].
-            </div>
-          <div class="description">Kéo dòng điện chạy từ tay trái qua tay phải, 
-            tạo thành một trường lực đối cực, sau đó đổi dòng điện ở 1 tay, 
-            cô có thể đẩy 1 dòng cường áp mạnh mẽ về phía trước. 
-            Gây ra sát thương Sét bằng 150% Energy <span class="lightning">({{1.5*energy}})</span> cho kẻ địch trước mặt. 
-            Sau đó gây ra sát thương Sét bằng 100% Energy <span class="lightning">({{1*energy}})</span> cho 1 kẻ địch gần đó. 
-            Mục tiêu sẽ không lặp lại. Nếu không còn đối tượng nào khác chuỗi dòng điện sẽ kết thúc.
-            Để lại trên người mỗi kẻ địch 1 dấu [Static Electric].
+          <div class="name">Violence</div>
+          <div class="type">Type: o-3</div>
+          <div class="tag"><effect/> </div>
+          <div class="description">Nghệ thuật của cái chết nằm trên mỗi đường kiếm. Nhát chém này của hắn sẽ bỏ qua 20% armor của kẻ địch
             </div>
         </div>
       </td>
@@ -78,37 +59,32 @@
       <td style="padding-right:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00303.png" style="height: 40px ;"/></div>
-          <div class="name">R.A.D.A.R</div>
-          <div class="type">Type: 3-o</div>
-          <div class="cost">2AP</div>
-          <div class="tag"><effect/> <lightning/> COUNTER </div>
-          <div class="description">Sử dụng 1 dòng điện nhỏ phát xạ ra xung quanh, đưa bản thân vào trường điện cảm. 
-            Cô có thể cảm nhận rõ bất cứ xung động nào xung quanh. Phát hiện kẻ thù đến gần. 
-            Khi bị tấn công bởi các đòn tấn công <melee/>, giảm 30% sát thương phải nhận, sau đó đánh trả lại đối thủ
-            sát thương sét bằng 120% Energy <span class="lightning">({{1.2*energy}})</span>.
-            Để lại trên người kẻ địch 1 dấu [Static Electric].
+          <div class="name">Bloody</div>
+          <div class="type">Type: o-5</div>
+          <div class="tag"><effect/> <bond/> </div>
+          <div class="description">Bằng cơn khát máu tiềm tàng trong cơ thể, 
+            Obri thay vì sử dụng thanh kiếm thép, hắn rút thanh kiếm đang xuyên qua ngực mình ra và 
+            tấn công đối thủ. Tự gây sát thương vật lý cho bản thân bằng 50% máu tối đa. Obri tăng 
+            100% sát thương gây ra trong lần tấn công này.
           </div>
-           <div class="description">Sử dụng 1 dòng điện nhỏ phát xạ ra xung quanh, đưa bản thân vào trường điện cảm. 
-            Cô có thể cảm nhận rõ bất cứ xung động nào xung quanh. Phát hiện kẻ thù đến gần. 
-            Khi bị tấn công bởi các đòn tấn công <melee/>, giảm 10% sát thương phải nhận, sau đó đánh trả lại đối thủ
-            sát thương vật lý bằng 120% Might <span class="phys">({{1.2*might}})</span>.
+          <div class="description">Bằng cơn khát máu tiềm tàng trong cơ thể, 
+            Obri thay vì sử dụng thanh kiếm thép, hắn rút thanh kiếm đang xuyên qua ngực mình ra và 
+            tấn công đối thủ. Tự gây sát thương vật lý cho bản thân bằng 30% máu tối đa. Obri tăng 
+            50% sát thương gây ra trong lần tấn công này.
           </div>
       </div>
       </td>
       <td style="padding-left:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00304.png" style="height: 40px ;"/></div>
-          <div class="name">Static charged</div>
-          <div class="type">Type: o-4</div>
-          <div class="tag"> <attack/> <lightning/> <multi/> <instantly/> <bond/> </div>
-          <div class="description">Sau khi hành động, cô tạo 1 trường điện tĩnh ra xung quanh, 
-            gây sát thương sét toàn bộ đối thủ bằng 20% Energy <span class="phys">({{0.2 * energy}})</span> 
-            nhân với mỗi [Static Electric] trên người mục tiêu.
-            Các [Static Electric] trên người mục tiêu sẽ được kéo dài thêm 1 lượt.
+          <div class="name">Eternal one</div>
+          <div class="type">Type: o-7</div>
+          <div class="tag"> <effect/> <bond/> </div>
+          <div class="description">Djinn là một cỗ máy vĩnh hằng, chúng có thể hấp thụ năng lượng xung quanh để tái
+            tạo lại bất kỳ thương tổn nào. Trong đòn đánh lần này, Obri hồi lại lượng máu tương đương 50% sát thương gây ra.
           </div>
-          <div class="description">Sau khi hành động, cô tạo 1 trường điện tĩnh ra xung quanh, 
-            gây sát thương sét toàn bộ đối thủ bằng 20% Energy <span class="phys">({{0.2 * energy}})</span> 
-            nhân với mỗi [Static Electric] trên người mục tiêu.
+                <div class="description">Djinn là một cỗ máy vĩnh hằng, chúng có thể hấp thụ năng lượng xung quanh để tái
+            tạo lại bất kỳ thương tổn nào. Trong đòn đánh lần này, Obri hồi lại lượng máu tương đương 20% sát thương gây ra.
           </div>
         </div>
       </td>

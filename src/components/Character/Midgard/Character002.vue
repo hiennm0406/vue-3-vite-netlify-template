@@ -10,13 +10,14 @@
         <br/>
         <Slider v-model="value" :max="15" :min="1" />
         <h2>Stat:</h2>
-        <h4><b>Might: </b>{{might}}</h4>
-        <h4><b>Energy: </b>{{energy}}</h4>
-        <h4><b>Endurance: </b>{{endurance}}</h4>
+        <p><b>Might: </b>{{might}}</p>
+        <p><b>Energy: </b>{{energy}}</p>
+        <p><b>Endurance: </b>{{endurance}}</p>
          <br/>
-        <h4><b>Health: </b>{{endurance * 10}}</h4>
-        <h4><b>Armor: </b>{{might + endurance}}</h4>
-        <h4><b>Resis: </b>{{energy + endurance}}</h4>
+        <p><b>Health: </b>{{endurance * 10}}</p>
+        <p><b>Armor: </b>{{might + endurance}}</p>
+        <p><b>Resis: </b>{{energy + endurance}}</p>
+        <p>Class: Human (esper) - Original: Midgard</p>
       </td>
     </tr>
     <tr>
