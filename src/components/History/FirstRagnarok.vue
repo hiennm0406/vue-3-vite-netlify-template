@@ -28,7 +28,7 @@ Họ đang chết dần trong Ragnarok đầu tiên, trong ba mùa đông dài �
 Sự thông minh của chúng làm người Jotun dè chừng. Phải rồi, ai mà muốn những miếng thịt biết đi bé nhỏ của mình thông minh hơn chứ.</p>
 
 <p>Mọi thứ diễn ra đúng như những gì người Jotun muốn, suốt hàng triệu năm, con người trở thành thực phẩm, trở thành công cụ, trở thành nô lệ. Nền văn minh Jotun ngỡ như đã trở lại, phồn hoa hơn. Nhưng thực chất, nó đang bị ăn mòn, bị mục ruỗng từ sâu thẳm bên trong, nền văn minh Jotun từ một nền văn minh hiền hòa, yêu khám phá, thích sáng tạo thế giới và chiêm ngưỡng nó phát triển, trở thành một nền văn minh nuôi cấy, giết thịt, một giống loài hủy diệt.
-Với những tia nắng ló ra từ bầu trời, báo hiệu mùa đông của tro bụi sắp chấm dứt. Cũng là một kỷ nguyên mới bắt đầu.
+Với những tia nắng ló ra từ bầu trời, báo hiệu mùa đông của tro bụi sắp chấm dứt, kỷ băng hà sắp trôi qua. Cũng là một kỷ nguyên mới bắt đầu.
 Ba Manna, với cái tên Odin, Vili, and Vé, đã đứng lên, dẫn dắt những Manna khác, cầm vũ khí, nhỏ bé và thô sơ, tấn công vào thành phố Jotun. Những Jotun bất ngờ không kịp làm gì cho đến lúc sụp đổ. Ymir bị chết bởi một thanh kiếm đâm xuyên qua mắt. Thực thể Jotun vĩ đại nhất đã chết như thế, báo hiệu một cái kết cho nền văn minh Jotun kéo dài hàng trăm triệu năm…</p>
     </div>
 </template>
