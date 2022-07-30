@@ -1,6 +1,6 @@
 <template>
   <h3>Jotunheim</h3>
-
+  <p></p>
   <div class="char_table">
     <div>
       <router-link :to="{ name: 'Character003'}">

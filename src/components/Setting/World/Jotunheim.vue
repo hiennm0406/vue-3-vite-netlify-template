@@ -1,6 +1,5 @@
 <template>
     <div class="container">
-        <h2>Tái sinh trong lửa</h2>
 
         <p class="first-letter">Jotunheim là quê nhà của người khổng lồ. 
           Nhưng nơi đó cũng là một mảnh đất cằn cỗi. Sau đại chia cắt. 
