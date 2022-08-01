@@ -231,3 +231,17 @@ a {
 .tactic_img.enemy {
   border: 2px solid red;
 }
+
+/* perk table */
+.perk_table{
+  width: 100%;
+}
+
+.perk_table tr td:nth-child(1){
+  border-right: 2px solid black;
+}
+
+.perk_table tr .box{
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+}

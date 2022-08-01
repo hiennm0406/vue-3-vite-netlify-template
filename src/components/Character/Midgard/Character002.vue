@@ -127,6 +127,37 @@
         </table>
       </td>
     </tr>
+
+    <tr v-if="active=='perk'">
+      <td colspan="2">
+          <table class="perk_table">
+            <tr>
+              <td></td>
+              <td class="box">12321312</td>
+              <td class="box">12321312</td>
+              <td></td>
+            </tr>
+              <tr>
+              <td></td>
+              <td class="box">12321312</td>
+              <td class="box">12321312</td>
+              <td></td>
+            </tr>
+              <tr>
+              <td></td>
+              <td class="box">12321312</td>
+              <td class="box">12321312</td>
+              <td></td>
+            </tr>
+              <tr>
+              <td></td>
+              <td class="box">12321312</td>
+              <td class="box">12321312</td>
+              <td></td>
+            </tr>
+          </table>
+      </td>
+    </tr>
    </table>
 </template>
 
