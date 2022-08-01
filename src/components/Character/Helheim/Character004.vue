@@ -17,7 +17,7 @@
         <p><b>Health: </b>{{endurance * 10}}</p>
         <p><b>Armor: </b>{{might + endurance}}</p>
         <p><b>Resis: </b>{{energy + endurance}}</p>
-        <p>Class: Human (esper) - Original: Midgard</p>
+        <p>Class: Ghost - Original: Helheim</p>
       </td>
     </tr>
     <tr>
@@ -40,11 +40,11 @@
           <div class="cost">1 AP</div>
           <div class="tag"><effect/> SHIELD HAUNTED </div>
           <div class="description"> Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh bên cạnh.
-            Nếu đang ở trạng thái [Haunted], hủy trạng thái và xuất hiện ở ô trống bất kỳ. 
+            Nếu đang ở trạng thái [Haunted] hoặc [Evoke], hủy trạng thái và xuất hiện ở ô trống bất kỳ. 
           </div>
            <div class="description">Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh ít máu nhất, hồi phục lại cho
             đồng minh đó 5% máu tối đa.
-            Nếu đang ở trạng thái [Haunted], hồi phục lại cho đồng minh đó 5% máu tối đa, 
+            Nếu đang ở trạng thái [Haunted] hoặc [Evoke], hồi phục lại cho đồng minh đó 5% máu tối đa, 
             rồi hủy trạng thái và xuất hiện ở ô trống bất kỳ. .
           </div>
         </div>
@@ -57,12 +57,12 @@
           <div class="cost">1AP</div>
           <div class="tag"><effect/> HAUNTED </div>
           <div class="description">Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh bên cạnh.
-            Nếu đang ở trạng thái [Haunted]. Hủy trạng thái và [Haunted] vào đồng minh ít máu nhất ngoài
+            Nếu đang ở trạng thái [Haunted] hoặc [Evoke], Hủy trạng thái và [Haunted] vào đồng minh ít máu nhất ngoài
             đồng minh đang nhập. Tạo một liên kết giữa 2 đồng minh đó. Khi một người nhận sát thương,
             người còn lại nhận hộ 30% sát thương.
           </div>
           <div class="description">Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh bên cạnh.
-            Nếu đang ở trạng thái [Haunted]. Tạo một liên kết giữa đồng minh đang nhập và đồng minh ít máu nhất khác. 
+            Nếu đang ở trạng thái [Haunted] hoặc [Evoke]. Tạo một liên kết giữa đồng minh đang nhập và đồng minh ít máu nhất khác. 
             Khi một người nhận sát thương, người còn lại nhận hộ 30% sát thương.
           </div>
         </div>
@@ -72,13 +72,13 @@
       <td style="padding-right:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00403.png" style="height: 40px ;"/></div>
-          <div class="name">Usurp</div>
+          <div class="name">Evoke</div>
           <div class="type">Type: 4-o</div>
           <div class="tag">SHIELD </div>
-          <div class="description">Lựa chọn 1 đồng minh đã chết ngẫu nhiên, [Chiếm hữu] thân thể đồng minh đó.
+          <div class="description">Lựa chọn 1 đồng minh đã chết ngẫu nhiên, [Evoke] thân thể đồng minh đó.
             Hồi sinh đồng minh đó với 1 máu.
           </div>
-          <div class="description">Lựa chọn 1 đồng minh đã chết ngẫu nhiên, [Chiếm hữu] thân thể đồng minh đó.
+          <div class="description">Lựa chọn 1 đồng minh đã chết ngẫu nhiên, [Evoke] thân thể đồng minh đó.
             Hồi sinh đồng minh đó với 1 máu và có một lớp giáp vật lý bằng 200% Endurance (<span class="phys">({{2 * endurance}})</span>)
           </div>
       </div>
@@ -157,20 +157,33 @@
         <table>
           <tr>
             <td><img src="../../../assets/character/ghost.png" class="icon40"/></td>
-            <td>Haunted: Ma ám, có một bóng ma đang trú ngụ trong thân thể này.</td>
+            <td>Haunted: Ám vào một đối tượng, cộng đồn 3 chỉ số Might, Enegry, Endurance cho đối tượng đó.</td>
           </tr>
           <tr>
             <td><img src="../../../assets/character/00403.png" class="icon40"/></td>
-            <td>Usurp: Kẻ này đã chết và đang bị chiếm đoạt thân thể. Sẽ chết khi linh hồn đó rời khỏi.</td>
+            <td>Evoke: Ám vào một đối tượng, cộng đồn 3 chỉ số Might, Enegry, Endurance cho đối tượng đó. Đối tượng sẽ chết khi mất trạng thái hiện tại.</td>
           </tr>
         </table>
       </td>
     </tr>
     <tr v-if="active=='info'">
       <td colspan="2">
-          <p>Rachel là 1 trong những nhân vật xuất hiện từ đầu game. Và cũng là nhân vật hướng dẫn chúng ta trong tutorial.</p>
-
-<p>Về lối chơi, cô ấy là một trong những core char tôi sử dụng để làm minh chứng về sự đa dạng của xây dựng nhân vật. Một cô gái nhỏ nhắn đáng yêu, nhưng có thể vừa là một khẩu railgun gây sát thương kinh khủng. Hoặc có thể chọn hướng làm kẻ chống chịu với kỹ năng counter đáng sợ, đương nhiên là kèm theo một chút rủi ro.</p>
+          <p>Bóng ma không có tên. Nó chỉ được đánh số khi bóng ma trở nên quá mạnh mẽ.</p>
+          <p>Về cơ bản, chủng tộc này không hẳn là 1 chủng tộc. 
+            Ghost là 1 tập hợp các hạt nano sinh học có kết nối với nhau - công nghệ của người Vanir. 
+            Nhưng nó đã bị vô số linh hồn ám, trở nên mất kiểm soát. Những thông tin này sẽ nói rõ khi đề cập đến lịch sử
+            Helheim. 
+          </p>
+          
+          <p>Về nhân vật này, tôi giới thiệu cho các bạn về Haunted và Evoke. Một trạng thái được coi là Fusion 2 nhân vật
+            khác nhau làm 1. Nếu đứng đơn lẻ, các Ghost rất yếu ớt. Họ miễn nhiễm vật lý, nhưng dễ tổn thương với nguyên tố.
+            Khi fusion, họ trở nên bất tử. Và cộng dồn các chỉ số chính của họ vào đối tượng được dung hợp. Không nhiều, nhưng
+            đủ để thay đổi cục diện trận đấu. Chưa kể các kỹ năng của họ.
+          </p>
+          <p>Về Evoke. Trạng thái này có thể coi là hồi sinh. Nhưng đối tượng được hồi sinh sẽ rất mỏng manh và cần có cover vững chắc
+            nếu như không muốn bị làm thịt ngay khi tỉnh dậy. Và kể cả khi đã hồi sinh, sự ràng buộc của Evoke cũng 
+            là một bài toán, vì khi Spectre rời khỏi thân thể đó, nó sẽ chết ngay lập tức.
+          </p>
       </td>
     </tr>
    </table>
