@@ -22,10 +22,10 @@
     </tr>
     <tr>
       <td colspan="2">
-        <div class="btn-group">
+        <div class="btn-group" style="text-align: center;">
           <button :class="{active:active=='skill'}" @click="active='skill'">Skill</button>
           <button :class="{active:active=='link'}" @click="active='link'">Link</button>
-          <button :class="{active:active=='perk'}" @click="active='perk'">Perk</button>
+          <button :class="{active:active=='perk'}" @click="active='perk'">Ascensions</button>
           <button :class="{active:active=='bg'}" @click="active='bg'">Background</button>
         </div>
       </td>
@@ -51,7 +51,7 @@
        <td style="padding-left:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00202.png" style="height: 40px ;"/></div>
-          <div class="name">Ultra voltage</div>
+          <div class="name">High voltage</div>
           <div class="type">Type: 2-o</div>
           <div class="cost">2AP</div>
           <div class="tag"><attack/> <range/> <multi/> <lightning/> </div>
@@ -131,29 +131,47 @@
     <tr v-if="active=='perk'">
       <td colspan="2">
           <table class="perk_table">
+             <tr>
+              <td class="box" colspan="2">Deadly round</td>
+              <td class="box" colspan="2">Static round</td>
+            </tr>
             <tr>
               <td></td>
-              <td class="box">12321312</td>
-              <td class="box">12321312</td>
+              <td class="box">Tăng 2% Damage</td>
+              <td class="box">Tăng 2% Heath</td>
               <td></td>
             </tr>
-              <tr>
+            <tr>
+              <td class="box red">Cộng hưởng: Tăng 1% damage với mỗi [Static Electric] trên người tất cả kẻ địch trên sân.
+                Khi 1 kẻ địch chết, số [Static Electric] trên người kẻ đó chuyển sang 1 kẻ địch khác bất kỳ, reset thời hạn.
+              </td>
+              <td class="box">Tăng 3% Enegry, </td>
+              <td class="box">Tăng 3% Endurance</td>
+              <td class="box red">Improve [R.A.D.A.R]: Sau khi counter 1 kẻ địch. 
+                Tự tạo trên người bản thân số [Static charged] bằng với số [Static charged] trên người kẻ đó.
+                Tăng damage counter 5% với mỗi [Static Electric] trên người bản thân.
+                </td>
+            </tr>
+            <tr>
               <td></td>
-              <td class="box">12321312</td>
-              <td class="box">12321312</td>
+              <td class="box">Tăng 5% Enegry</td>
+              <td class="box">Tăng 3% Enegry, 3% Endurance</td>
               <td></td>
             </tr>
-              <tr>
+            <tr>
               <td></td>
-              <td class="box">12321312</td>
-              <td class="box">12321312</td>
+              <td class="box">Tăng 8% Enegry</td>
+              <td class="box">Tăng 3% Enegry, 5% Endurance</td>
               <td></td>
             </tr>
-              <tr>
-              <td></td>
-              <td class="box">12321312</td>
-              <td class="box">12321312</td>
-              <td></td>
+            <tr>
+              <td class="box red">Ultra voltage - Improve [High votltage]: Mỗi lần nảy, tia điện tăng 2% sát thương với mỗi [Static Electric]
+                trên người mục tiêu trước, có cộng dồn. 
+              </td>
+              <td class="box red">Improve [Static charged]: Tăng 100% sát thương gây ra.</td>
+              <td class="box red">Cột thu lôi: Tăng 2% dmg với mỗi [Static Electric] trên người bản thân. 
+                [Static Electric] trên người Rachel kéo dài thêm 1 turn.</td>
+              <td class="box red">Improve Static charged: Sau khi sử dụng kỹ năng, Rachel hấp thu toàn bộ [Static Electric] về bản thân.</td>
             </tr>
           </table>
       </td>
