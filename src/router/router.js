@@ -12,7 +12,7 @@ import Character from './../components/Character/CharacterPage.vue'
 import Character001 from './../components/Character/Dkyrie/Character001.vue'
 import Character002 from './../components/Character/Midgard/Character002.vue'
 import Character003 from './../components/Character/Jotunheim/Character003.vue'
-import Character003 from './../components/Character/Helheim/Character004.vue'
+import Character004 from './../components/Character/Helheim/Character004.vue'
 
 import Setting from './../components/Setting/SettingMain.vue'
 import attribute from './../components/Setting/Attribute.vue'
