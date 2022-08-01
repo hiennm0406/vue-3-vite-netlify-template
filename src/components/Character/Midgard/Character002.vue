@@ -170,7 +170,8 @@
               <td class="box red">Improve [Static charged]: Tăng 100% sát thương gây ra.</td>
               <td class="box red">Cột thu lôi: Tăng 2% dmg với mỗi [Static Electric] trên người bản thân. 
                 [Static Electric] trên người Rachel kéo dài thêm 1 turn.</td>
-              <td class="box red">Improve Static charged: Sau khi sử dụng kỹ năng, Rachel hấp thu toàn bộ [Static Electric] về bản thân.</td>
+              <td class="box red">Improve Static charged: Sau khi sử dụng kỹ năng, Rachel hấp thu toàn bộ [Static Electric] về bản thân.
+                Reset thời gian hiệu lực còn lại.</td>
             </tr>
           </table>
       </td>
