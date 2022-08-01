@@ -44,14 +44,14 @@
             }
         },
         {
-            "id":"003",
+            "id":"004",
             "name":"The Spectre 004",
             "Stat":{
-                "Might":20,
+                "Might":10,
                 "MightEvo":"semi",
-                "Energy":50,
+                "Energy":30,
                 "EnergyEvo":"semi",
-                "Endurance":50,
+                "Endurance":20,
                 "EnduranceEvo":"semi"
             }
         }
