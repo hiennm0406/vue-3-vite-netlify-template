@@ -38,14 +38,14 @@
           <div class="name">Incarnation</div>
           <div class="type">Type: 1-o</div>
           <div class="cost">1 AP</div>
-          <div class="tag"><effect/> SHIELD GHOST </div>
-          <div class="description"> Nếu đang ở trạng thái linh hồn, [] vào người đồng minh bên cạnh.
-            Nếu đang ở trạng thái nhập hồn, xuất hồn ra ô trống bất kỳ. 
+          <div class="tag"><effect/> SHIELD HAUNTED </div>
+          <div class="description"> Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh bên cạnh.
+            Nếu đang ở trạng thái [Haunted], hủy trạng thái và xuất hiện ở ô trống bất kỳ. 
           </div>
-           <div class="description">Nếu đang ở trạng thái linh hồn, nhập vào người đồng minh ít máu nhất, hồi phục lại cho
+           <div class="description">Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh ít máu nhất, hồi phục lại cho
             đồng minh đó 5% máu tối đa.
-            Nếu đang ở trạng thái nhập hồn, hồi phục lại cho đồng minh đó 5% máu tối đa, 
-            rồi xuất hồn ra ô trống bất kỳ.
+            Nếu đang ở trạng thái [Haunted], hồi phục lại cho đồng minh đó 5% máu tối đa, 
+            rồi hủy trạng thái và xuất hiện ở ô trống bất kỳ. .
           </div>
         </div>
       </td>
@@ -55,16 +55,15 @@
           <div class="name">High voltage</div>
           <div class="type">Type: 2-o</div>
           <div class="cost">1AP</div>
-          <div class="tag"><effect/> GHOST </div>
-          <div class="description">Nếu đang ở trạng thái linh hồn, nhập vào người đồng minh bên cạnh.
-            Nếu đang ở trạng thái nhập hồn. Xuất hồn khỏi đồng minh và nhập vào người đồng minh ít máu nhất ngoài
+          <div class="tag"><effect/> HAUNTED </div>
+          <div class="description">Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh bên cạnh.
+            Nếu đang ở trạng thái [Haunted]. Hủy trạng thái và [Haunted] vào đồng minh ít máu nhất ngoài
             đồng minh đang nhập. Tạo một liên kết giữa 2 đồng minh đó. Khi một người nhận sát thương,
             người còn lại nhận hộ 30% sát thương.
           </div>
-          <div class="description">Nếu đang ở trạng thái linh hồn, nhập vào người đồng minh bên cạnh.
-            Nếu đang ở trạng thái nhập hồn. Xuất hồn khỏi đồng minh và nhập vào người đồng minh ít máu nhất ngoài
-            đồng minh đang nhập. Tạo một liên kết giữa đồng minh đang nhập và đồng minh ít máu nhất khác. Khi một người nhận sát thương,
-            người còn lại nhận hộ 30% sát thương.
+          <div class="description">Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh bên cạnh.
+            Nếu đang ở trạng thái [Haunted]. Tạo một liên kết giữa đồng minh đang nhập và đồng minh ít máu nhất khác. 
+            Khi một người nhận sát thương, người còn lại nhận hộ 30% sát thương.
           </div>
         </div>
       </td>
@@ -89,7 +88,7 @@
           <div class="img"><img src="../../../assets/character/00404.png" style="height: 40px ;"/></div>
           <div class="name">Symbiotic</div>
           <div class="type">Type: o-4</div>
-          <div class="tag"> <attack/> <lightning/> <multi/> <instantly/> <bond/> </div>
+          <div class="tag"> HEAL SHIELD HAUNTED <bond/> </div>
           <div class="description">Khi nhập hoặc xuất hồn. Hồi phục đồng minh được nhập/xuất 5% máu tối đa.
           </div>
           <div class="description">Khi nhập hoặc xuất hồn. Hồi phục đồng minh được nhập/xuất 5% máu tối đa.
