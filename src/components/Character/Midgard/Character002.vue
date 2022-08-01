@@ -117,16 +117,7 @@
     <tr v-if="active=='skill'">
       <td colspan="2"><span style="font-size: smaller;">Lưu ý chỉ số sát thương trong skill là tương đối, chưa tính hiệu ứng tăng lên từ artifact, trait.</span></td>
     </tr>
-    <tr v-if="active=='skill'">
-      <td colspan="2">
-        <table>
-          <tr>
-            <td><img src="../../../assets/character/00204.png" class="icon40"/></td>
-            <td>Static Electric: Tăng 5% sát thương Lightning nhận. Kéo dài 2 turn.</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
+    
 
     <tr v-if="active=='perk'">
       <td colspan="2">
@@ -167,7 +158,9 @@
             <tr>
               <td></td>
               <td class="box">Tăng 2% damage với mỗi [Static Electric] trên người kẻ địch</td>
-              <td class="box">Tăng 2% damage với mỗi [Static Electric] trên người bản thân</td>
+              <td class="box">Tăng 1% damage với mỗi [Static Electric] trên người bản thân.
+                Giảm hiệu ứng tăng Lightning Damage nhận của [Static Electric] trên người bản thân đi 50%.
+              </td>
               <td></td>
             </tr>
             <tr>
@@ -175,10 +168,21 @@
                 trên người mục tiêu trước, có cộng dồn. 
               </td>
               <td class="box red">Improve [Static charged]: Tăng 100% sát thương gây ra.</td>
-              <td class="box red">Cột thu lôi: [Static Electric] trên người Rachel kéo dài thêm 1 turn.</td>
+              <td class="box red">Cột thu lôi: Tăng 2% dmg với mỗi [Static Electric] trên người bản thân. 
+                [Static Electric] trên người Rachel kéo dài thêm 1 turn.</td>
               <td class="box red">Improve Static charged: Sau khi sử dụng kỹ năng, Rachel hấp thu toàn bộ [Static Electric] về bản thân.</td>
             </tr>
           </table>
+      </td>
+    </tr>
+    <tr v-if="active=='skill' || active=='perk' ">
+      <td colspan="2">
+        <table>
+          <tr>
+            <td><img src="../../../assets/character/00204.png" class="icon40"/></td>
+            <td>Static Electric: Tăng 5% sát thương Lightning nhận. Kéo dài 2 turn.</td>
+          </tr>
+        </table>
       </td>
     </tr>
    </table>
