@@ -103,12 +103,12 @@
           <div class="type">Type: o-4</div>
           <div class="tag"> <attack/> <lightning/> <multi/> <instantly/> <bond/> </div>
           <div class="description">Sau khi hành động, cô tạo 1 trường điện tĩnh ra xung quanh, 
-            gây sát thương sét toàn bộ đối thủ bằng 20% Energy <span class="phys">({{0.2 * energy}})</span> 
+            gây sát thương sét toàn bộ đối thủ bằng 20% Energy <span class="lightning">({{0.2 * energy}})</span> 
             nhân với mỗi [Static Electric] trên người mục tiêu.
             Các [Static Electric] trên người mục tiêu sẽ được kéo dài thêm 1 lượt.
           </div>
           <div class="description">Sau khi hành động, cô tạo 1 trường điện tĩnh ra xung quanh, 
-            gây sát thương sét toàn bộ đối thủ bằng 20% Energy <span class="phys">({{0.2 * energy}})</span> 
+            gây sát thương sét toàn bộ đối thủ bằng 20% Energy <span class="lightning">({{0.2 * energy}})</span> 
             nhân với mỗi [Static Electric] trên người mục tiêu.
           </div>
         </div>
@@ -165,12 +165,17 @@
               <td></td>
             </tr>
             <tr>
+              <td></td>
+              <td class="box">Tăng 2% damage với mỗi [Static Electric] trên người kẻ địch</td>
+              <td class="box">Tăng 2% damage với mỗi [Static Electric] trên người bản thân</td>
+              <td></td>
+            </tr>
+            <tr>
               <td class="box red">Ultra voltage - Improve [High votltage]: Mỗi lần nảy, tia điện tăng 2% sát thương với mỗi [Static Electric]
                 trên người mục tiêu trước, có cộng dồn. 
               </td>
               <td class="box red">Improve [Static charged]: Tăng 100% sát thương gây ra.</td>
-              <td class="box red">Cột thu lôi: Tăng 2% dmg với mỗi [Static Electric] trên người bản thân. 
-                [Static Electric] trên người Rachel kéo dài thêm 1 turn.</td>
+              <td class="box red">Cột thu lôi: [Static Electric] trên người Rachel kéo dài thêm 1 turn.</td>
               <td class="box red">Improve Static charged: Sau khi sử dụng kỹ năng, Rachel hấp thu toàn bộ [Static Electric] về bản thân.</td>
             </tr>
           </table>
