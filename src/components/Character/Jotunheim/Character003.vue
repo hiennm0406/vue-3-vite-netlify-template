@@ -1,5 +1,5 @@
 <template>
-   <h2>Obri The Exalted</h2>
+   <h2>{{name}}</h2>
    <table class="table_content">
     <tr>
       <td width="50%">
@@ -22,11 +22,12 @@
     </tr>
     <tr>
       <td colspan="2">
-        <div class="btn-group">
+         <div class="btn-group" style="text-align: center;">
           <button :class="{active:active=='skill'}" @click="active='skill'">Skill</button>
           <button :class="{active:active=='link'}" @click="active='link'">Link</button>
-          <button :class="{active:active=='perk'}" @click="active='perk'">Perk</button>
+          <button :class="{active:active=='perk'}" @click="active='perk'">Ascensions</button>
           <button :class="{active:active=='bg'}" @click="active='bg'">Background</button>
+          <button :class="{active:active=='info'}" @click="active='info'">Thông tin thêm</button>
         </div>
       </td>
     </tr>
@@ -64,13 +65,11 @@
           <div class="tag"><effect/> <bond/> </div>
           <div class="description">Bằng cơn khát máu tiềm tàng trong cơ thể, 
             Obri thay vì sử dụng thanh kiếm thép, hắn rút thanh kiếm đang xuyên qua ngực mình ra và 
-            tấn công đối thủ. <b>Tự gây sát thương vật lý cho bản thân bằng 50% máu tối đa. Obri tăng 
-            100% sát thương gây ra trong lần tấn công này.</b>
+            tấn công đối thủ. <b>Obri tăng 100% sát thương gây ra trong lần tấn công này. Nhưng cũng tự gây sát thương lên bản thân.</b>
           </div>
           <div class="description">Bằng cơn khát máu tiềm tàng trong cơ thể, 
             Obri thay vì sử dụng thanh kiếm thép, hắn rút thanh kiếm đang xuyên qua ngực mình ra và 
-            tấn công đối thủ. <b>Tự gây sát thương vật lý cho bản thân bằng 30% máu tối đa. Obri tăng 
-            50% sát thương gây ra trong lần tấn công này.</b>
+            tấn công đối thủ. <b>Obri tăng 30% sát thương gây ra trong lần tấn công này. Nhưng cũng tự gây sát thương lên bản thân.</b>
           </div>
       </div>
       </td>
@@ -91,6 +90,14 @@
     </tr>
     <tr v-if="active=='skill'">
       <td colspan="2"><span style="font-size: smaller;">Lưu ý chỉ số sát thương trong skill là tương đối, chưa tính hiệu ứng tăng lên từ artifact, trait.</span></td>
+    </tr>
+
+    <tr v-if="active=='info'">
+      <td colspan="2">
+        <p>Về cơ bản, anh chàng này là một minh chứng cho sự đa dạng hóa về kỹ năng Bond. Anh ta chỉ có 1 skill Active, và 3 skill Liên kết.</p>
+
+<p>Với kỹ năng Active là 3-o. Anh ta có thể kèm tối đa 2 skill Liên kết vào kỹ năng chính. Và sự lựa chọn là nằm ở người chơi. Cẩn thận, sức mạnh đi kèm với rủi ro.</p>
+      </td>
     </tr>
   </table>
 </template>
@@ -114,6 +121,7 @@ export default {
               this.might = x.Stat.Might;
               this.energy = x.Stat.Energy;
               this.endurance = x.Stat.Endurance;
+              this.name = x.name;
             return;
           }
         }); ;
@@ -131,6 +139,7 @@ export default {
   data: function() {
     return {
       users: [],
+      name:'',
       value:1,
       might:0,
       energy:0,

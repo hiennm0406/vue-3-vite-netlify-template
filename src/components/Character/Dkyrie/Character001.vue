@@ -22,11 +22,12 @@
     </tr>
     <tr>
       <td colspan="2">
-        <div class="btn-group">
+        <div class="btn-group" style="text-align: center;">
           <button :class="{active:active=='skill'}" @click="active='skill'">Skill</button>
           <button :class="{active:active=='link'}" @click="active='link'">Link</button>
-          <button :class="{active:active=='perk'}" @click="active='perk'">Perk</button>
+          <button :class="{active:active=='perk'}" @click="active='perk'">Ascensions</button>
           <button :class="{active:active=='bg'}" @click="active='bg'">Background</button>
+          <button :class="{active:active=='info'}" @click="active='info'">Thông tin thêm</button>
         </div>
       </td>
     </tr>

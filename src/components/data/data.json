@@ -42,6 +42,18 @@
                 "Endurance":110,
                 "EnduranceEvo":"semi"
             }
+        },
+        {
+            "id":"003",
+            "name":"The Spectre 004",
+            "Stat":{
+                "Might":20,
+                "MightEvo":"semi",
+                "Energy":50,
+                "EnergyEvo":"semi",
+                "Endurance":50,
+                "EnduranceEvo":"semi"
+            }
         }
     ]
 }
