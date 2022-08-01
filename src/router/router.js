@@ -9,12 +9,10 @@ import MuspelheimHis from './../components/History/MuspelheimHis.vue'
 import SecondRagnarok from './../components/History/SecondRagnarok.vue'
 
 import Character from './../components/Character/CharacterPage.vue'
-import CharacterDkyrie from './../components/Character/DkyrieChar.vue'
-import CharacterMidgard from './../components/Character/MidgardChar.vue'
-import CharacterJotunheim from './../components/Character/JotunheimChar.vue'
 import Character001 from './../components/Character/Dkyrie/Character001.vue'
 import Character002 from './../components/Character/Midgard/Character002.vue'
 import Character003 from './../components/Character/Jotunheim/Character003.vue'
+import Character003 from './../components/Character/Helheim/Character004.vue'
 
 import Setting from './../components/Setting/SettingMain.vue'
 import attribute from './../components/Setting/Attribute.vue'
@@ -153,21 +151,6 @@ const routes = [
         name: 'Character',
     },
     {
-        path: '/charDkyrie',
-        component: CharacterDkyrie,
-        name: 'CharacterDkyrie',
-    },
-    {
-        path: '/charMidgard',
-        component: CharacterMidgard,
-        name: 'CharacterMidgard',
-    },
-    {
-        path: '/charJotunheim',
-        component: CharacterJotunheim,
-        name: 'CharacterJotunheim',
-    },
-    {
         path: '/char001',
         component: Character001,
         name: 'Character001',
@@ -181,6 +164,11 @@ const routes = [
         path: '/char003',
         component: Character003,
         name: 'Character003',
+    },
+    {
+        path: '/char004',
+        component: Character004,
+        name: 'Character004',
     },
     {
         path: '/:catchAll(.*)',

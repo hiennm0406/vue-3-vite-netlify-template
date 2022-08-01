@@ -46,54 +46,13 @@ export default {
             }            
           },
           {
+             href: { name: 'Character' },
             title: 'Nhân vật',
             icon: 'fa fa-chart-area',
             icon: {
               element: 'span',
               class: 'icon40 icon_character',
-            },
-            child: [
-               {
-                href: { name: 'CharacterDkyrie' },
-                title: 'Dkyrie',
-              },
-              {
-               href: { name: 'CharacterMidgard' },
-                title: 'Midgard'
-              },
-              // {
-              //   href: '/1',
-              //   title: 'Asgard'
-              // },
-              // {
-              //   href: '/CharacterJotunheim',
-              //   title: 'Alfheim'
-              // },
-              // {
-              //   href: '/1',
-              //   title: 'Vanaheim'
-              // },
-              // {
-              //   href: '/1',
-              //   title: 'Muspelheim'
-              // },
-              // {
-              //   href: '/1',
-              //   title: 'Svartalfheim'
-              // },
-              {
-                 href: { name: 'CharacterJotunheim' },
-                title: 'Jotunheim'
-              },
-              // {
-              //   href: '/1',
-              //   title: 'Nilfheim'
-              // },
-              // {
-              //   href: '/1',
-              //   title: 'Helheim'
-              // },
-            ]
+            }
           }
         ]
     };
