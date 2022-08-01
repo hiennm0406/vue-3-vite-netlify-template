@@ -27,6 +27,7 @@
           <button :class="{active:active=='link'}" @click="active='link'">Link</button>
           <button :class="{active:active=='perk'}" @click="active='perk'">Ascensions</button>
           <button :class="{active:active=='bg'}" @click="active='bg'">Background</button>
+          <button :class="{active:active=='info'}" @click="active='info'">Thông tin thêm</button>
         </div>
       </td>
     </tr>
@@ -184,6 +185,13 @@
             <td>Static Electric: Tăng 5% sát thương Lightning nhận. Kéo dài 2 turn.</td>
           </tr>
         </table>
+      </td>
+    </tr>
+    <tr v-if="active=='info'">
+      <td colspan="2">
+          <p>Rachel là 1 trong những nhân vật xuất hiện từ đầu game. Và cũng là nhân vật hướng dẫn chúng ta trong tutorial.</p>
+
+<p>Về lối chơi, cô ấy là một trong những core char tôi sử dụng để làm minh chứng về sự đa dạng của xây dựng nhân vật. Một cô gái nhỏ nhắn đáng yêu, nhưng có thể vừa là một khẩu railgun gây sát thương kinh khủng. Hoặc có thể chọn hướng làm kẻ chống chịu với kỹ năng counter đáng sợ, đương nhiên là kèm theo một chút rủi ro.</p>
       </td>
     </tr>
    </table>
