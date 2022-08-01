@@ -74,12 +74,18 @@
           <div class="img"><img src="../../../assets/character/00403.png" style="height: 40px ;"/></div>
           <div class="name">Evoke</div>
           <div class="type">Type: 4-o</div>
-          <div class="tag">SHIELD </div>
-          <div class="description">Lựa chọn 1 đồng minh đã chết ngẫu nhiên, [Evoke] thân thể đồng minh đó.
+          <div class="tag">SHIELD HAUNTED</div>
+          <div class="description">
+            Nếu đang ở trạng thái [Haunted] hoặc [Evoke], hủy trạng thái.
+            Lựa chọn 1 đồng minh đã chết ngẫu nhiên, [Evoke] thân thể đồng minh đó.
             Hồi sinh đồng minh đó với 1 máu.
+            Nếu không có mục tiêu. [Haunted] vào đồng minh bên cạnh.
           </div>
-          <div class="description">Lựa chọn 1 đồng minh đã chết ngẫu nhiên, [Evoke] thân thể đồng minh đó.
+          <div class="description">
+            Nếu đang ở trạng thái [Haunted] hoặc [Evoke], hủy trạng thái.
+            Lựa chọn 1 đồng minh đã chết ngẫu nhiên, [Evoke] thân thể đồng minh đó.
             Hồi sinh đồng minh đó với 1 máu và có một lớp giáp vật lý bằng 200% Endurance (<span class="phys">({{2 * endurance}})</span>)
+            Nếu không có mục tiêu. [Haunted] vào đồng minh bên cạnh, tạo 1 lớp giáp vật lý bằng 200% Endurance (<span class="phys">({{2 * endurance}})</span>)
           </div>
       </div>
       </td>
@@ -87,7 +93,7 @@
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00404.png" style="height: 40px ;"/></div>
           <div class="name">Symbiotic</div>
-          <div class="type">Type: o-4</div>
+          <div class="type">Type: o-2</div>
           <div class="tag"> HEAL SHIELD HAUNTED <bond/> </div>
           <div class="description">Khi nhập hoặc xuất hồn. Hồi phục đồng minh được nhập/xuất 5% máu tối đa.
           </div>
@@ -161,7 +167,9 @@
           </tr>
           <tr>
             <td><img src="../../../assets/character/00403.png" class="icon40"/></td>
-            <td>Evoke: Ám vào một đối tượng, cộng đồn 3 chỉ số Might, Enegry, Endurance cho đối tượng đó. Đối tượng sẽ chết khi mất trạng thái hiện tại.</td>
+            <td>Evoke: Ám vào một đối tượng, cộng đồn 3 chỉ số Might, Enegry, Endurance cho đối tượng đó. Đối tượng sẽ chết khi mất trạng thái hiện tại.
+              Nếu đối tượng chết, xuất hiện ở 1 ô trống gần đó.
+            </td>
           </tr>
         </table>
       </td>
