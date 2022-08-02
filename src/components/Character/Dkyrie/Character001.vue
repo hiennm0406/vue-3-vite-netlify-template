@@ -17,7 +17,8 @@
         <p><b>Health: </b>{{endurance * 10}}</p>
         <p><b>Armor: </b>{{might + endurance}}</p>
         <p><b>Resis: </b>{{energy + endurance}}</p>
-         <p>Class: D'kyrie - Original: Midgard (?)</p>
+        <p><b>AP: 1</b></p>
+        <p>Class: D'kyrie - Original: Midgard (?)</p>
       </td>
     </tr>
     <tr>

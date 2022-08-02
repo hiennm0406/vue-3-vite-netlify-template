@@ -30,7 +30,7 @@
         <h3>Elf.</h3>
         <img src="./../../../assets/other/elf.jpg" />
         <p>Elf là chủng tộc sinh sau đẻ muộn hơn các High Elf, cơ thể họ cao lớn, người lớn nhất có thể cao đến 1m9 giống người Trái Đất
-          Họ có 4 cánh tay, 1 đôi cánh. Nhưng không giống các High Elf tràn đầy phóng xạ. 
+          Họ có 1 đôi cánh. Nhưng không giống các High Elf tràn đầy phóng xạ. 
           Người Elf không có phóng xạ trong người, nhưng họ mang trong cơ thể kháng tính với phóng xạ rất lớn.
           Điều này giúp cho họ có thể sinh sống cùng với High Elf và trong khu rừng Elf.
         </p>

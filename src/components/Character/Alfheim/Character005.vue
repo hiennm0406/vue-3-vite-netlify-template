@@ -3,7 +3,7 @@
    <table class="table_content">
     <tr>
       <td width="50%">
-        <img src="../../../assets/character/004.jpg" style="height: 400px ;"/>
+        <img src="../../../assets/character/005.jpg" style="height: 400px ;"/>
       </td>
       <td class="text_left">
         <h2>Level:</h2>
@@ -17,8 +17,7 @@
         <p><b>Health: </b>{{endurance * 10}}</p>
         <p><b>Armor: </b>{{might + endurance}}</p>
         <p><b>Resis: </b>{{energy + endurance}}</p>
-        <p><b>AP: 1</b></p>
-        <p>Class: Ghost - Original: Helheim</p>
+        <p>Class: Elf - Original: Alfheim</p>
       </td>
     </tr>
     <tr>
@@ -35,36 +34,30 @@
     <tr v-if="active=='skill'">
       <td style="padding-right:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00401.png" style="height: 40px ;"/></div>
-          <div class="name">Incarnation</div>
+          <div class="img"><img src="../../../assets/character/00501.png" style="height: 40px ;"/></div>
+          <div class="name">Headshot</div>
           <div class="type">Type: 1-o</div>
           <div class="cost">1 AP</div>
-          <div class="tag"><effect/> SHIELD HAUNTED </div>
-          <div class="description"> Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh bên cạnh.
-            Nếu đang ở trạng thái [Haunted] hoặc [Evoke], hủy trạng thái và xuất hiện ở ô trống bất kỳ. 
+          <div class="tag"> <attack/> <phys/> <single/> <range/> </div>
+          <div class="description">Bắn một mũi tên vào kẻ địch phía sau gây sát thương vật lý bằng 100% Might (<span class="phys">({{1 * might}})</span>). 
+          Sau đó khóa ô Tactic này lại.
           </div>
-           <div class="description">Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh ít máu nhất, hồi phục lại cho
-            đồng minh đó 5% máu tối đa.
-            Nếu đang ở trạng thái [Haunted] hoặc [Evoke], hồi phục lại cho đồng minh đó 5% máu tối đa, 
-            rồi hủy trạng thái và xuất hiện ở ô trống bất kỳ. .
+           <div class="description">Bắn một mũi tên vào kẻ địch phía sau gây sát thương vật lý bằng 100% Might (<span class="phys">({{1 * might}})</span>). 
           </div>
         </div>
       </td>
        <td style="padding-left:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00402.png" style="height: 40px ;"/></div>
-          <div class="name">High voltage</div>
+          <div class="img"><img src="../../../assets/character/00502.png" style="height: 40px ;"/></div>
+          <div class="name">Hunter's Dance </div>
           <div class="type">Type: 2-o</div>
           <div class="cost">1AP</div>
-          <div class="tag"><effect/> HAUNTED </div>
-          <div class="description">Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh bên cạnh.
-            Nếu đang ở trạng thái [Haunted] hoặc [Evoke], Hủy trạng thái và [Haunted] vào đồng minh ít máu nhất ngoài
-            đồng minh đang nhập. Tạo một liên kết giữa 2 đồng minh đó. Khi một người nhận sát thương,
-            người còn lại nhận hộ 30% sát thương.
+          <div class="tag"> <attack/> <phys/> <single/> <range/> MOVE </div>
+          <div class="description">[Move] về phía sau. 
+            Nếu [Move], bắn 1 mũi tên vào kẻ địch phía trước gây sát thương vật lý bằng 200% Might (<span class="phys">({{2 * might}})</span>). 
           </div>
-          <div class="description">Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh bên cạnh.
-            Nếu đang ở trạng thái [Haunted] hoặc [Evoke]. Tạo một liên kết giữa đồng minh đang nhập và đồng minh ít máu nhất khác. 
-            Khi một người nhận sát thương, người còn lại nhận hộ 30% sát thương.
+          <div class="description">[Move] về phía trước. 
+            Nếu [Move], bắn 1 mũi tên vào kẻ địch phía sau gây sát thương vật lý bằng 150% Might (<span class="phys">({{1.5 * might}})</span>). 
           </div>
         </div>
       </td>
@@ -72,34 +65,25 @@
     <tr v-if="active=='skill'">
       <td style="padding-right:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00403.png" style="height: 40px ;"/></div>
-          <div class="name">Evoke</div>
-          <div class="type">Type: 4-o</div>
-          <div class="tag">SHIELD HAUNTED</div>
+          <div class="img"><img src="../../../assets/character/00503.png" style="height: 40px ;"/></div>
+          <div class="name">Rain of Arrow</div>
+          <div class="type">Type: 3-o</div>
+          <div class="tag"> <attack/> <phys/> <multi/> <range/> </div>
           <div class="description">
-            Nếu đang ở trạng thái [Haunted] hoặc [Evoke], hủy trạng thái.
-            Lựa chọn 1 đồng minh đã chết ngẫu nhiên, [Evoke] thân thể đồng minh đó.
-            Hồi sinh đồng minh đó với 1 máu.
-            Nếu không có mục tiêu. [Haunted] vào đồng minh bên cạnh.
+            Giương cung và bắn mưa tên xuống toàn bộ kẻ địch. Gây sát thương vật lý bằng 100% Might (<span class="phys">({{1 * might}})</span>).
           </div>
           <div class="description">
-            Nếu đang ở trạng thái [Haunted] hoặc [Evoke], hủy trạng thái.
-            Lựa chọn 1 đồng minh đã chết ngẫu nhiên, [Evoke] thân thể đồng minh đó.
-            Hồi sinh đồng minh đó với 1 máu và có một lớp giáp vật lý bằng 200% Endurance (<span class="phys">({{2 * endurance}})</span>)
-            Nếu không có mục tiêu. [Haunted] vào đồng minh bên cạnh, tạo 1 lớp giáp vật lý bằng 200% Endurance (<span class="phys">({{2 * endurance}})</span>)
+            Giương cung và bắn mưa tên xuống toàn bộ kẻ địch. Gây sát thương vật lý bằng 70% Might (<span class="phys">({{0.7 * might}})</span>).
           </div>
       </div>
       </td>
       <td style="padding-left:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00404.png" style="height: 40px ;"/></div>
-          <div class="name">Symbiotic</div>
-          <div class="type">Type: o-2</div>
-          <div class="tag"> HEAL SHIELD HAUNTED <bond/> </div>
-          <div class="description">Khi nhập hoặc xuất hồn. Hồi phục đồng minh được nhập/xuất 5% máu tối đa.
-          </div>
-          <div class="description">Khi nhập hoặc xuất hồn. Hồi phục đồng minh được nhập/xuất 5% máu tối đa.
-            Tạo một lớp giáp vật lý bằng 200% Endurance (<span class="phys">({{2 * endurance}})</span>) cho mục tiêu 
+          <div class="img"><img src="../../../assets/character/00504.png" style="height: 40px ;"/></div>
+          <div class="name">Speeder</div>
+          <div class="type">Type: o-6</div>
+          <div class="tag"> <bond/> </div>
+          <div class="description">Hồi phục lại 1 AP ngay lập tức.
           </div>
         </div>
       </td>

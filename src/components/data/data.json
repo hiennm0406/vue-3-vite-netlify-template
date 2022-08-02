@@ -54,6 +54,18 @@
                 "Endurance":20,
                 "EnduranceEvo":"semi"
             }
+        },
+        {
+            "id":"005",
+            "name":"Arya Vel'ximon",
+            "Stat":{
+                "Might":100,
+                "MightEvo":"semi",
+                "Energy":80,
+                "EnergyEvo":"semi",
+                "Endurance":100,
+                "EnduranceEvo":"semi"
+            }
         }
     ]
 }

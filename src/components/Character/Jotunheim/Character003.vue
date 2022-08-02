@@ -17,6 +17,7 @@
         <p><b>Health: </b>{{endurance * 10}}</p>
         <p><b>Armor: </b>{{might + endurance}}</p>
         <p><b>Resis: </b>{{energy + endurance}}</p>
+          <p><b>AP: 3</b></p>
         <p>Class: Djinn - Original: Jotunheim</p>
       </td>
     </tr>
@@ -37,7 +38,7 @@
           <div class="img"><img src="../../../assets/character/00301.png" style="height: 40px ;"/></div>
           <div class="name">Brutalize slash </div>
           <div class="type">Type: 3-o</div>
-          <div class="cost">1AP</div>
+          <div class="cost">3AP</div>
           <div class="tag"><attack/> <melee/> <single/> <phys/> </div>
           <div class="description">Vung thanh gươm chém trực diện kẻ địch, 
             gây ra sát thương vật lý bằng 200% Might <span class="phys">({{2*might}})</span></div>
