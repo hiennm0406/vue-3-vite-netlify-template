@@ -77,6 +77,16 @@
   </div>
 </div>
 
+<h3>Alfheim</h3>
+<div class="char_table">
+  <div>
+    <router-link :to="{ name: 'Character005'}">
+      <img src="./../../assets/character/005.jpg" class="img_char"/>
+      Arya Vel'ximon
+    </router-link>
+  </div>
+</div>
+
 </template>
 
 <style scoped>
