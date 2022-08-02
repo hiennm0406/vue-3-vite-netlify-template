@@ -172,6 +172,11 @@ const routes = [
         name: 'Character004',
     },
     {
+        path: '/char005',
+        component: Character005,
+        name: 'Character005',
+    },
+    {
         path: '/:catchAll(.*)',
         component: Main
     },
