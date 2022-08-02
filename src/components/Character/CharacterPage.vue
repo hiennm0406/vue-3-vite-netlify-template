@@ -112,6 +112,7 @@ table, td, th {
 
 .char_table div{
   width:120px;
+  display: inline-block;
 }
 
 </style>
