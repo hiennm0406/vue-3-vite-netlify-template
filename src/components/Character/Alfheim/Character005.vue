@@ -143,22 +143,7 @@
           </table>
       </td>
     </tr>
-    <tr v-if="active=='skill' || active=='perk' ">
-      <td colspan="2">
-        <table>
-          <tr>
-            <td><img src="../../../assets/character/ghost.png" class="icon40"/></td>
-            <td>Haunted: Ám vào một đối tượng, cộng đồn 3 chỉ số Might, Enegry, Endurance cho đối tượng đó.</td>
-          </tr>
-          <tr>
-            <td><img src="../../../assets/character/00403.png" class="icon40"/></td>
-            <td>Evoke: Ám vào một đối tượng, cộng đồn 3 chỉ số Might, Enegry, Endurance cho đối tượng đó. Đối tượng sẽ chết khi mất trạng thái hiện tại.
-              Nếu đối tượng chết, xuất hiện ở 1 ô trống gần đó.
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
+   
     <tr v-if="active=='info'">
       <td colspan="2">
           <p>Bóng ma không có tên. Nó chỉ được đánh số khi bóng ma trở nên quá mạnh mẽ.</p>
@@ -196,7 +181,7 @@ import Slider from '@vueform/slider'
 export default {
   mounted() {
    json.Character.forEach(x => { 
-          if(x.id == "004"){
+          if(x.id == "005"){
               this.dataChar = x;
               this.might = x.Stat.Might;
               this.energy = x.Stat.Energy;
