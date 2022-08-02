@@ -53,18 +53,18 @@
        <td style="padding-left:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00402.png" style="height: 40px ;"/></div>
-          <div class="name">High voltage</div>
+          <div class="name">Curse</div>
           <div class="type">Type: 2-o</div>
           <div class="cost">1AP</div>
           <div class="tag"><effect/> HAUNTED </div>
           <div class="description">Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh bên cạnh.
+            Nếu đang ở trạng thái [Haunted] hoặc [Evoke]. Tạo một liên kết giữa đồng minh đang nhập và đồng minh ít máu nhất khác. 
+            Khi một người nhận sát thương, người còn lại nhận hộ 30% sát thương.
+          </div>
+             <div class="description">Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh bên cạnh.
             Nếu đang ở trạng thái [Haunted] hoặc [Evoke], Hủy trạng thái và [Haunted] vào đồng minh ít máu nhất ngoài
             đồng minh đang nhập. Tạo một liên kết giữa 2 đồng minh đó. Khi một người nhận sát thương,
             người còn lại nhận hộ 30% sát thương.
-          </div>
-          <div class="description">Nếu đang ở trạng thái linh hồn, [Haunted] vào đồng minh bên cạnh.
-            Nếu đang ở trạng thái [Haunted] hoặc [Evoke]. Tạo một liên kết giữa đồng minh đang nhập và đồng minh ít máu nhất khác. 
-            Khi một người nhận sát thương, người còn lại nhận hộ 30% sát thương.
           </div>
         </div>
       </td>
