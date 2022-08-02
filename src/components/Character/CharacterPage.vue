@@ -85,6 +85,12 @@
       Arya Vel'ximon
     </router-link>
   </div>
+  <div>
+    <router-link :to="{ name: 'Character006'}">
+      <img src="./../../assets/character/006.jpg" class="img_char"/>
+      Mya and Destroyer.XXI
+    </router-link>
+  </div>
 </div>
 
 </template>
