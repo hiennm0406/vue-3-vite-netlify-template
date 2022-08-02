@@ -17,6 +17,7 @@
         <p><b>Health: </b>{{endurance * 10}}</p>
         <p><b>Armor: </b>{{might + endurance}}</p>
         <p><b>Resis: </b>{{energy + endurance}}</p>
+        <p><b>AP: 1</b></p>
         <p>Class: Elf - Original: Alfheim</p>
       </td>
     </tr>

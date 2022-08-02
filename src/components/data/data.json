@@ -66,6 +66,18 @@
                 "Endurance":100,
                 "EnduranceEvo":"semi"
             }
+        },
+        {
+            "id":"006",
+            "name":"Mya and Destroyer.XXI",
+            "Stat":{
+                "Might":300,
+                "MightEvo":"semi",
+                "Energy":200,
+                "EnergyEvo":"semi",
+                "Endurance":200,
+                "EnduranceEvo":"semi"
+            }
         }
     ]
 }
