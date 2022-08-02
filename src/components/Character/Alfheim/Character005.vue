@@ -68,6 +68,7 @@
           <div class="img"><img src="../../../assets/character/00503.png" style="height: 40px ;"/></div>
           <div class="name">Rain of Arrow</div>
           <div class="type">Type: 3-o</div>
+          <div class="cost">1AP</div>
           <div class="tag"> <attack/> <phys/> <multi/> <range/> </div>
           <div class="description">
             Giương cung và bắn mưa tên xuống toàn bộ kẻ địch. Gây sát thương vật lý bằng 100% Might (<span class="phys">({{1 * might}})</span>).
@@ -80,7 +81,7 @@
       <td style="padding-left:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00504.png" style="height: 40px ;"/></div>
-          <div class="name">Speeder</div>
+          <div class="name">Speedster</div>
           <div class="type">Type: o-6</div>
           <div class="tag"> <bond/> </div>
           <div class="description">Hồi phục lại 1 AP ngay lập tức.
