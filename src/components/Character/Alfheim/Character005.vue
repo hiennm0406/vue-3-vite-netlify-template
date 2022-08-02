@@ -147,22 +147,10 @@
    
     <tr v-if="active=='info'">
       <td colspan="2">
-          <p>Bóng ma không có tên. Nó chỉ được đánh số khi bóng ma trở nên quá mạnh mẽ.</p>
-          <p>Về cơ bản, chủng tộc này không hẳn là 1 chủng tộc. 
-            Ghost là 1 tập hợp các hạt nano sinh học có kết nối với nhau - công nghệ của người Vanir. 
-            Nhưng nó đã bị vô số linh hồn ám, trở nên mất kiểm soát. Những thông tin này sẽ nói rõ khi đề cập đến lịch sử
-            Helheim. 
-          </p>
-          
-          <p>Về nhân vật này, tôi giới thiệu cho các bạn về Haunted và Evoke. Một trạng thái được coi là Fusion 2 nhân vật
-            khác nhau làm 1. Nếu đứng đơn lẻ, các Ghost rất yếu ớt. Họ miễn nhiễm vật lý, nhưng dễ tổn thương với nguyên tố.
-            Khi fusion, họ trở nên bất tử. Và cộng dồn các chỉ số chính của họ vào đối tượng được dung hợp. Không nhiều, nhưng
-            đủ để thay đổi cục diện trận đấu. Chưa kể các kỹ năng của họ.
-          </p>
-          <p>Về Evoke. Trạng thái này có thể coi là hồi sinh. Nhưng đối tượng được hồi sinh sẽ rất mỏng manh và cần có cover vững chắc
-            nếu như không muốn bị làm thịt ngay khi tỉnh dậy. Và kể cả khi đã hồi sinh, sự ràng buộc của Evoke cũng 
-            là một bài toán, vì khi Spectre rời khỏi thân thể đó, nó sẽ chết ngay lập tức.
-          </p>
+         <p>Move là 1 dạng kỹ năng khiến nhân vật di chuyển giữa các ô. Khi sử dụng, nếu ô mục tiêu có nhân vật đồng đội, 2 nhân vật sẽ hoán đổi vị trí cho nhau.
+          Còn nếu không, sẽ chỉ nhân vật di chuyển. Có một lưu ý nho nhỏ là các skill Move đều có 2 phần.
+         </p>
+         <p>Phần 1 là di chuyển. Phần 2 là hành động, ví dụ tấn công. Nếu như di chuyển thất bại (bị khống chế, hoặc sử dụng kỹ năng lùi về sau trong khi đang ở hàng sau), sẽ coi như hành động thất bại và nhân vật không tấn công nữa.</p>
       </td>
     </tr>
    </table>
