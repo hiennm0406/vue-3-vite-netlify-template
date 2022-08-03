@@ -78,6 +78,18 @@
                 "Endurance":200,
                 "EnduranceEvo":"semi"
             }
+        },
+        {
+            "id":"007",
+            "name":"Proderes icer-viko Moonsong",
+            "Stat":{
+                "Might":160,
+                "MightEvo":"semi",
+                "Energy":100,
+                "EnergyEvo":"semi",
+                "Endurance":120,
+                "EnduranceEvo":"semi"
+            }
         }
     ]
 }

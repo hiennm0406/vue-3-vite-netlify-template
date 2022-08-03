@@ -3,7 +3,7 @@
    <table class="table_content">
     <tr>
       <td width="50%">
-        <img src="../../../assets/character/006.jpg" style="height: 400px ;"/>
+        <img src="../../../assets/character/007.jpg" style="height: 400px ;"/>
       </td>
       <td class="text_left">
         <h2>Level:</h2>
@@ -35,37 +35,50 @@
     <tr v-if="active=='skill'">
       <td style="padding-right:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00601.png" style="height: 40px ;"/></div>
-          <div class="name">Chilled</div>
+          <div class="img"><img src="../../../assets/character/00701.png" style="height: 40px ;"/></div>
+          <div class="name">Fangs and Claws</div>
           <div class="type">Type: 1-o</div>
-          <div class="cost">1AP</div>
+          <div class="cost">2AP</div>
           <div class="tag"> </div>
           <div class="description">
-            Nếu đang ở trạng thái [Overload], xóa [Overload], hồi lại 3% máu tối đa.
-            Xì khói, giảm 2 tầng [Heat].
+            Tấn công kẻ địch trước mặt 2 lần, 
+            đòn đánh đầu gây sát thương vật lý bằng 100% Might (<span class="phys">({{1.0 * might}})</span>) 
+            tạo 1 [Bleed] giá trị 50% Might (<span class="phys">({{0.5 * might}})</span>).
+            Đòn đánh thứ 2 gây 50% Might (<span class="phys">({{0.5 * might}})</span>). 
+            tạo 1 [Bleed] giá trị 25% Might (<span class="phys">({{0.25 * might}})</span>).
           </div>
           <div class="description">
-            Nếu đang ở trạng thái [Overload], xóa [Overload].
-            Xì khói, giảm 1 tầng [Heat].
+            Tấn công kẻ địch trước mặt, 
+            đòn đánh đầu gây sát thương vật lý bằng 100% Might (<span class="phys">({{1.5 * might}})</span>) 
+            tạo 1 [Bleed] giá trị 50% Might (<span class="phys">({{0.5 * might}})</span>).
           </div>
         </div>
         
       </td>
        <td style="padding-left:5px">
        <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00602.png" style="height: 40px ;"/></div>
-          <div class="name">Fire gun</div>
+          <div class="img"><img src="../../../assets/character/00702.png" style="height: 40px ;"/></div>
+          <div class="name">The wolf dance</div>
           <div class="type">Type: 2-o</div>
           <div class="cost">1 AP</div>
           <div class="tag"> <attack/> <fire/> <single/> <range/> <effect/> <duration/> DOT </div>
           <div class="description">
-            Phun tia lửa lên mục tiêu trước mặt, gây sát thương lửa bằng 20% Enegry (<span class="fire">({{0.2 * energy}})</span>), với mỗi tầng [Heat], tăng sát thương gây ra 100%. 
-            Gây trạng thái [Burn] cho đối thủ, mỗi turn nhận sát thương lửa bằng 30% sát thương gây ra.
-            Tăng 1 tầng [Heat].
+            Nếu đang ở dạng người: 
+            [Shapeshifter] : Hóa sói và lao tới tấn công kẻ địch, gây sát thương vật lý bằng 100% Might (<span class="phys">({{1.0 * might}})</span>). 
+            [Move]: Tiến lên phía trước. Nếu di chuyển thành công, tấn công thêm 1 lần nữa gây sát thương vật lý bằng 100% Might (<span class="phys">({{1.0 * might}})</span>). 
+            <br/>
+            Nếu đang ở dạng sói:
+            [Shapeshifter] : Hóa người và Xóa bỏ toàn bộ Debuff cùng Negetive status trên người.
+            [Move]: Lùi về sau. Nếu di chuyển thành công, tấn kẻ địch phía trước gây sát thương vật lý bằng 100% Might (<span class="phys">({{1.0 * might}})</span>). 
           </div>
-           <div class="description">
-            Phun tia lửa lên mục tiêu trước mặt, gây sát thương lửa bằng 10% Enegry (<span class="fire">({{0.1 * energy}})</span>), với mỗi tầng [Heat], tăng sát thương gây ra 100%. 
-            Tăng 1 tầng [Heat].
+          <div class="description">
+            Nếu đang ở dạng người: 
+            [Shapeshifter] : Hóa sói.
+            [Move]: Tiến lên phía trước. Nếu di chuyển thành công, tấn kẻ địch phía trước gây sát thương vật lý bằng 100% Might (<span class="phys">({{1.0 * might}})</span>). 
+            <br/>
+            Nếu đang ở dạng sói:
+            [Shapeshifter] : Hóa người.
+            [Move]: Lùi về sau. Nếu di chuyển thành công, tấn kẻ địch phía trước gây sát thương vật lý bằng 100% Might (<span class="phys">({{1.0 * might}})</span>). 
           </div>
         </div>
       </td>
@@ -73,38 +86,23 @@
     <tr v-if="active=='skill'">
       <td style="padding-right:5px">
         <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00603.png" style="height: 40px ;"/></div>
-          <div class="name">Laze</div>
-          <div class="type">Type: 1-o</div>
-          <div class="cost">1AP</div>
-          <div class="tag"> <attack/> <fire/> <single/> <multi/> <range/> </div>
+          <div class="img"><img src="../../../assets/character/00703.png" style="height: 40px ;"/></div>
+          <div class="name">The Howl</div>
+          <div class="type">Type: 3-o</div>
+          <div class="cost">2AP</div>
+          <div class="tag"> <effect/> <phys/> </div>
           <div class="description">
-            Nếu không ở trạng thái [Overload], bắn ra 1 tia laze cực mạnh về phía trước. Gây sát thương lửa
-            bằng 50% enegry (<span class="fire">({{0.5 * energy}})</span>) cho kẻ địch phía trước. Tăng 2 [Heat].
-            Nếu ở trạng thái [Overload], bắn ra 1 tia laze cực mạnh cho hàng dọc phía trước.
-            Gây sát thương lửa bằng 150% enegry (<span class="fire">({{1.5 * energy}})</span>). Tăng 2 [Heat].
+            Nếu đang ở dạng người: Hú lên 1 tiếng, tăng cho toàn bộ đồng minh trừ bản thân 30% sát thương vật lý.
+            Nếu đang ở dạng sói: Hú lên 1 tiếng, hồi phục cho toàn bộ đồng minh có trait [Wolf] trừ bản thân 1AP.            
           </div>
           <div class="description">
-             Nếu không ở trạng thái [Overload], bắn ra 1 tia laze cực mạnh về phía trước. Gây sát thương lửa
-            bằng 40% enegry (<span class="fire">({{0.4 * energy}})</span>) cho kẻ địch phía trước. Tăng 1 [Heat].
-            Nếu ở trạng thái [Overload], bắn ra 1 tia laze cực mạnh cho hàng dọc phía trước.
-            Gây sát thương lửa bằng 100% enegry (<span class="fire">({{1.0 * energy}})</span>). Tăng 2 [Heat].
+            Nếu đang ở dạng người: Hú lên 1 tiếng, tăng cho bản thân 20% sát thương vật lý.
+             Nếu đang ở dạng sói: Hú lên 1 tiếng, tăng cho toàn bộ đồng minh có trait [Wolf] 30% sát thương. 
           </div>
         </div>
       </td>
       <td style="padding-left:5px">
-        <div class="skill_container">
-          <div class="img"><img src="../../../assets/character/00604.png" style="height: 40px ;"/></div>
-          <div class="name">Energy Boosters</div>
-          <div class="type">Type: o-1</div>
-          <div class="tag"> <bond/> SHIELD </div>
-          <div class="description">
-            Tăng thêm 1 tầng [Heat]. Tạo 1 lớp khiên vật lý bằng 100% Endurance (<span class="phys">({{1.0 * endurance}})</span>)
-          </div>
-           <div class="description">
-            Tăng thêm 1 tầng [Heat].
-          </div>
-        </div>
+       
       </td>
     </tr>
     <tr v-if="active=='skill'">
@@ -115,7 +113,7 @@
     <tr v-if="active=='perk'">
       <td colspan="2">
           <table class="perk_table">
-             <tr>
+              <tr>
               <td class="box" colspan="2"></td>
               <td class="box" colspan="2"></td>
             </tr>
@@ -162,48 +160,25 @@
           </table>
       </td>
     </tr>
-   
-   <tr v-if="active=='skill' || active=='perk' ">
+    
+    
+    <tr v-if="active=='bg'">
       <td colspan="2">
-        <table>
-          <tr>
-            <td><img src="../../../assets/icon/Heat.png" class="icon40"/></td>
-            <td>Heat: Nếu nhân vật không có hành động gì trong 1 turn, giảm 1 Heat vào cuối turn.
-              Tối đa 3 stack. Heat vượt mức sẽ được chuyển thành [Overload], nếu đã có [Overload], ghi đè.
-            </td>
-          </tr>
-          <tr>
-            <td><img src="../../../assets/icon/Overload.png" class="icon40"/></td>
-            <td>Overload: Nếu nhân vật không có hành động gì trong 1 turn, xóa trạng thái vào cuối turn.
-              Nhận sát thương lửa bằng 10% máu tối đa.
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  <tr v-if="active=='bg'">
-      <td colspan="2">
-        <p>Xin giới thiệu đến các bạn, Mya và cỗ máy của cô ấy Destroyer.XXI</p>
-        <p>Như trong mô tả về loài High Elf, họ là những tinh linh nhỏ, chỉ cỡ 10 cm. Nhưng cơ thể nhỏ bé ấy lại là
-          một nguồn phát phóng xạ khổng lồ. Người High Elf, trong những năm đầu nền văn minh của họ, đã tự sử dụng 
-          nguồn năng lượng trong cơ thể để làm những cỗ máy khổng lồ hoạt động. Ngày nay, rất hiếm có High Elf nào lại 
-          tiếp tục phát triển công nghệ này. Ngoại trừ một số người hoài cổ. Và Mya là 1 trong số đó.
+        <p>Tộc người sói Moonsong. Một chi tộc của người Elf đã từ bỏ thể xác máu thịt của bản thân và hoàn toàn trở thành một cỗ máy.</p>
+        <p>Thông qua khả năng chuyển dời tâm trí, người Elf và High Elf đã thành công bỏ đi cơ thể yếu đuối 
+          để chuyển vào một thân thể sắt thép, một cỗ máy giết chóc đúng nghĩa đen. Và với sự tôn thờ thần mặt trăng
+          có một tộc đàn đã dùng hình ảnh những con sói để làm hiện thân cho bản thân.
         </p>
-         <p>Cô tự mình chế tạo nên Destroyer.XXI với kích thước cao đến 6m. Một cỗ máy chiến đấu khủng khiếp. 
-          Mặc dù đôi khi còn hay... nổ.
-         </p>
+        <p>Vì cơ thể máy móc có tuổi thọ gần như vô tận, có những con sói đã sống cả thế kỷ.</p>
       </td>
     </tr>
     <tr v-if="active=='info'">
       <td colspan="2">
-         <p>Heat và Overload là những trạng thái đặc trưng của các cỗ máy cỡ lớn. Việc kiểm soát nó là việc cực kỳ quan trọng đối với
-          người chơi.
-         </p>
-         <p>
-            Để giảm Heat, nhân vật cần ngưng hoạt động trong 1 turn. Còn Overload sẽ gây sát thương cho nhân vật khi kích hoạt.
-            Nhưng cả 2 trạng thái này đều là những trạng thái cần thiết cho nhân vật. Rất nhiều kỹ năng sẽ trở nên rất khủng khiếp
-            trong trạng thái Overload. Sức mạnh đi đôi với rủi ro. Vậy nên hãy kiểm soát lòng tham của mình.
-          </p>
+        <p>Lần này tôi giới thiệu thêm 1 bộ kỹ năng nữa là Shapeshifter. Nhân vật sẽ thay đổi giữa 2 dạng là người và sói. 
+        </p>
+        <p>Về cơ bản, ông ta chỉ có 3 skill, điều này khiến khả năng cường hóa ở Link Skill là lớn hơn 1 ô. 
+          Nhưng thực chất ông ta lại có 6 skill, di chuyển tùy ý, cách sử dụng là tùy thuộc vào bạn.
+        </p>        
       </td>
     </tr>
    </table>
@@ -223,7 +198,7 @@ import Slider from '@vueform/slider'
 export default {
   mounted() {
    json.Character.forEach(x => { 
-          if(x.id == "006"){
+          if(x.id == "007"){
               this.dataChar = x;
               this.might = x.Stat.Might;
               this.energy = x.Stat.Energy;
