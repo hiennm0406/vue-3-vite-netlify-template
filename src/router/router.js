@@ -15,6 +15,7 @@ import Character003 from './../components/Character/Jotunheim/Character003.vue'
 import Character004 from './../components/Character/Helheim/Character004.vue'
 import Character005 from './../components/Character/Alfheim/Character005.vue'
 import Character006 from './../components/Character/Alfheim/Character006.vue'
+import Character007 from './../components/Character/Alfheim/Character007.vue'
 
 import Setting from './../components/Setting/SettingMain.vue'
 import attribute from './../components/Setting/Attribute.vue'
@@ -181,6 +182,11 @@ const routes = [
         path: '/char006',
         component: Character006,
         name: 'Character006',
+    },
+    {
+        path: '/char007',
+        component: Character007,
+        name: 'Character007',
     },
     {
         path: '/:catchAll(.*)',

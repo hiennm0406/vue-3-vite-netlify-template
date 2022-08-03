@@ -91,6 +91,12 @@
       Mya and Destroyer.XXI
     </router-link>
   </div>
+  <div>
+    <router-link :to="{ name: 'Character007'}">
+      <img src="./../../assets/character/007.jpg" class="img_char"/>
+      Mya and Destroyer.XXI
+    </router-link>
+  </div>
 </div>
 
 </template>
