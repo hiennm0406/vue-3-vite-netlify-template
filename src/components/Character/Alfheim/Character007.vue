@@ -42,7 +42,7 @@
           <div class="name">Fangs and Claws</div>
           <div class="type">Type: 1-o</div>
           <div class="cost">2AP</div>
-          <div class="tag"> </div>
+          <div class="tag"> <attack/> <phys/> <single/> <melee/> <effect/> <duration/> DOT </div>
           <div class="description">
             Tấn công kẻ địch trước mặt 2 lần, 
             đòn đánh đầu gây sát thương vật lý bằng 100% Might (<span class="phys">({{1.0 * might}})</span>) 
@@ -56,7 +56,6 @@
             tạo 1 [Bleed] giá trị 50% Might (<span class="phys">({{0.5 * might}})</span>).
           </div>
         </div>
-        
       </td>
        <td style="padding-left:5px">
        <div class="skill_container">
@@ -64,7 +63,7 @@
           <div class="name">The wolf dance</div>
           <div class="type">Type: 2-o</div>
           <div class="cost">1 AP</div>
-          <div class="tag"> <attack/> <fire/> <single/> <range/> <effect/> <duration/> DOT </div>
+          <div class="tag"> <attack/> <phys/> <single/> <melee/> SHAPESHIFTER MOVE </div>
           <div class="description">
             Nếu đang ở dạng người: 
             [Shapeshifter] : Hóa sói và lao tới tấn công kẻ địch, gây sát thương vật lý bằng 100% Might (<span class="phys">({{1.0 * might}})</span>). 
