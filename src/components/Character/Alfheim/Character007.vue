@@ -2,9 +2,12 @@
    <h2>{{name}}</h2>
    <table class="table_content">
     <tr>
-      <td width="50%">
+      <td colspan="2">
         <img src="../../../assets/character/007.jpg" style="height: 400px ;"/>
       </td>
+    </tr>
+    <tr>
+      <td width="50%"></td>
       <td class="text_left">
         <h2>Level:</h2>
         <br/>
@@ -33,7 +36,7 @@
       </td>
     </tr>
     <tr v-if="active=='skill'">
-      <td style="padding-right:5px" colspan="2">
+      <td style="padding-right:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00701.png" style="height: 40px ;"/></div>
           <div class="name">Fangs and Claws</div>
@@ -53,10 +56,8 @@
             tạo 1 [Bleed] giá trị 50% Might (<span class="phys">({{0.5 * might}})</span>).
           </div>
         </div>
+        
       </td>
-    </tr>
-    <tr>
-      <td width="50%"></td>
        <td style="padding-left:5px">
        <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00702.png" style="height: 40px ;"/></div>
