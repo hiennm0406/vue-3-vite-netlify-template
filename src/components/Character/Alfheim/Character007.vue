@@ -33,7 +33,7 @@
       </td>
     </tr>
     <tr v-if="active=='skill'">
-      <td style="padding-right:5px">
+      <td style="padding-right:5px" colspan="2">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00701.png" style="height: 40px ;"/></div>
           <div class="name">Fangs and Claws</div>
@@ -53,8 +53,10 @@
             tạo 1 [Bleed] giá trị 50% Might (<span class="phys">({{0.5 * might}})</span>).
           </div>
         </div>
-        
       </td>
+    </tr>
+    <tr>
+      <td width="50%"></td>
        <td style="padding-left:5px">
        <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00702.png" style="height: 40px ;"/></div>
