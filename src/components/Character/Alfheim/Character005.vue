@@ -166,7 +166,7 @@ a {
 
 
 <script>
-import json from './../../data/data.json';
+import json from './../../../data/data.json';
 import Slider from '@vueform/slider'
 export default {
   mounted() {

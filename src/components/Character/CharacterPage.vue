@@ -94,7 +94,7 @@
   <div>
     <router-link :to="{ name: 'Character007'}">
       <img src="./../../assets/character/007.jpg" class="img_char"/>
-      Mya and Destroyer.XXI
+      Proderes icer-viko Moonsong
     </router-link>
   </div>
 </div>
