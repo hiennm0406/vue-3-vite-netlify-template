@@ -21,7 +21,7 @@
         <p><b>Armor: </b>{{might + endurance}}</p>
         <p><b>Resis: </b>{{energy + endurance}}</p>
         <p><b>AP: 2</b></p>
-        <p>Class: Demon - Original: Muspelhiem</p>
+        <p>Class: Vanir - Original: Vanaheim</p>
       </td>
     </tr>
     <tr>
@@ -40,17 +40,14 @@
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00701.png" style="height: 40px ;"/></div>
           <div class="name">Fangs and Claws</div>
-          <div class="type">Type: 2-o</div>
+          <div class="type">Type: 1-o</div>
           <div class="cost">1AP</div>
-          <div class="tag"> <attack/> <phys/> <single/> <melee/> <effect/> </div>
+          <div class="tag"> <shield/> <phys/> <single/> <melee/> <effect/> </div>
           <div class="description">
-            Tấn công kẻ địch trước mặt, 
-            gây sát thương vật lý bằng 150% Might (<span class="phys">({{1.5 * might}})</span>) 
-            Tăng sát thương 1% với mỗi 1% máu mất.
+            Tạo một lớp khiên vật lý chống chịu sát thương bằng 50% Enegry (<span class="phys">({{0.5 * energy}})</span>) cho toàn bộ team
           </div>
            <div class="description">
-            Tấn công kẻ địch trước mặt, 
-            gây sát thương vật lý bằng 100% Might (<span class="phys">({{1.0 * might}})</span>) 
+            Tạo một lớp khiên vật lý chống chịu sát thương bằng 20% Enegry (<span class="phys">({{0.5 * energy}})</span>) cho toàn bộ team
           </div>
         </div>
       </td>
@@ -58,15 +55,14 @@
        <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00702.png" style="height: 40px ;"/></div>
           <div class="name">The wolf dance</div>
-          <div class="type">Type: 3-o</div>
+          <div class="type">Type: 2-o</div>
           <div class="cost">1 AP</div>
           <div class="tag"> <attack/> <phys/> <single/> <melee/> SHAPESHIFTER MOVE </div>
           <div class="description">
-           Lao vào kẻ địch trước mặt, gây sát thương vật lý bằng 150% Might (<span class="phys">({{1.5 * might}})</span>).
-           Sau đó đẩy kẻ địch lùi lại phía sau.
+           Tấn công kẻ địch ở phía sau, gây sát thương vật lý bằng 150% Energy (<span class="phys">({{1.5 * energy}})</span>)Sau đó hồi cho đồng đội ít máu nhất 1 lượng máu bằng 1 nửa sát thương gây ra.
           </div>
           <div class="description">
-            Lao vào kẻ địch trước mặt, gây sát thương vật lý bằng 150% Might (<span class="phys">({{1.5 * might}})</span>).
+            Tấn công kẻ địch ở phía sau, gây sát thương vật lý bằng 100% Energy (<span class="phys">({{1.0 * energy}})</span>)Sau đó tạo cho đồng đội ít máu nhất 1 lượng giáp vật lý bằng 1 nửa sát thương gây ra.
           </div>
         </div>
       </td>
