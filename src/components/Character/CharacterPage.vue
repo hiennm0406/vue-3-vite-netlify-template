@@ -98,6 +98,26 @@
     </router-link>
   </div>
 </div>
+<h3>Muspelheim</h3>
+<div class="char_table">
+  <div>
+    <router-link :to="{ name: 'Character008'}">
+      <img src="./../../assets/character/004.jpg" class="img_char"/>
+      Archdemon A'rikhan
+    </router-link>
+  </div>
+</div>
+
+<h3>Vanaheim</h3>
+<div class="char_table">
+  <div>
+    <router-link :to="{ name: 'Character009'}">
+      <img src="./../../assets/character/004.jpg" class="img_char"/>
+      Vana Liona
+    </router-link>
+  </div>
+</div>
+
 
 </template>
 
