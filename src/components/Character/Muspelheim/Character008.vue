@@ -76,8 +76,8 @@
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00703.png" style="height: 40px ;"/></div>
           <div class="name">The Legion</div>
-          <div class="type">Type: 0-4</div>
-          <div class="tag"> <effect/> <phys/> </div>
+          <div class="type">Type: o-4</div>
+          <div class="tag"> <effect/> <phys/> <bond/> </div>
           <div class="description">
             Tăng cho toàn bộ [Legion] 5% Might và 5% Energy.
             Sau khi hành động, switch ô Tatic cuối cùng của mình thành 1 ô Tactic của [Legion] gần nhất.
@@ -91,8 +91,8 @@
        <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00703.png" style="height: 40px ;"/></div>
           <div class="name">The Burning</div>
-          <div class="type">Type: 0-4</div>
-          <div class="tag"> <effect/> <phys/> </div>
+          <div class="type">Type: o2-4</div>
+          <div class="tag"> <effect/> <phys/> <bond/> </div>
           <div class="description">
            Đòn tấn công để lại trên người đối thủ 1 [Burn] giá trị = 50% Enegry (<span class="fire">({{0.5 * energy}})</span>), tồn tại trong 2 turn.
           </div>
