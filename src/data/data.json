@@ -83,11 +83,35 @@
             "id":"007",
             "name":"Proderes icer-viko Moonsong",
             "Stat":{
-                "Might":160,
+                "Might":140,
                 "MightEvo":"semi",
                 "Energy":100,
                 "EnergyEvo":"semi",
                 "Endurance":120,
+                "EnduranceEvo":"semi"
+            }
+        },
+        {
+            "id":"008",
+            "name":"Archdemon A'rikhan",
+            "Stat":{
+                "Might":160,
+                "MightEvo":"semi",
+                "Energy":60,
+                "EnergyEvo":"semi",
+                "Endurance":120,
+                "EnduranceEvo":"semi"
+            }
+        },
+        {
+            "id":"009",
+            "name":"Vana Liona",
+            "Stat":{
+                "Might":110,
+                "MightEvo":"semi",
+                "Energy":160,
+                "EnergyEvo":"semi",
+                "Endurance":90,
                 "EnduranceEvo":"semi"
             }
         }
