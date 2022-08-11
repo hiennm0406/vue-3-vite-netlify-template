@@ -181,7 +181,7 @@ import Slider from '@vueform/slider'
 export default {
   mounted() {
    json.Character.forEach(x => { 
-          if(x.id == "008"){
+          if(x.id == "009"){
               this.dataChar = x;
               this.might = x.Stat.Might;
               this.energy = x.Stat.Energy;
