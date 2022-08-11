@@ -42,7 +42,7 @@
           <div class="name">Fangs and Claws</div>
           <div class="type">Type: 1-o</div>
           <div class="cost">1AP</div>
-          <div class="tag"> <shield/> <phys/> <single/> <melee/> <effect/> </div>
+          <div class="tag"> <shield/> <phys/> <multi/> <effect/> </div>
           <div class="description">
             Tạo một lớp khiên vật lý chống chịu sát thương bằng 50% Enegry (<span class="phys">({{0.5 * energy}})</span>) cho toàn bộ team
           </div>
@@ -59,10 +59,10 @@
           <div class="cost">1 AP</div>
           <div class="tag"> <attack/> <phys/> <single/> <melee/> SHAPESHIFTER MOVE </div>
           <div class="description">
-           Tấn công kẻ địch ở phía sau, gây sát thương vật lý bằng 150% Energy (<span class="phys">({{1.5 * energy}})</span>)Sau đó hồi cho đồng đội ít máu nhất 1 lượng máu bằng 1 nửa sát thương gây ra.
+           Tấn công kẻ địch ở phía sau, gây sát thương vật lý bằng 150% Energy (<span class="phys">({{1.5 * energy}})</span>)Sau đó hồi cho đồng đội ít máu nhất 1 lượng máu bằng 1 nửa [sát thương gây ra].
           </div>
           <div class="description">
-            Tấn công kẻ địch ở phía sau, gây sát thương vật lý bằng 100% Energy (<span class="phys">({{1.0 * energy}})</span>)Sau đó tạo cho đồng đội ít máu nhất 1 lượng giáp vật lý bằng 1 nửa sát thương gây ra.
+            Tấn công kẻ địch ở phía sau, gây sát thương vật lý bằng 100% Energy (<span class="phys">({{1.0 * energy}})</span>)Sau đó tạo cho đồng đội ít máu nhất 1 lượng giáp vật lý bằng 1 nửa [sát thương gây ra].
           </div>
         </div>
       </td>
@@ -71,29 +71,26 @@
       <td style="padding-right:5px">
         <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00703.png" style="height: 40px ;"/></div>
-          <div class="name">The Legion</div>
-          <div class="type">Type: 0-4</div>
-          <div class="tag"> <effect/> <phys/> </div>
+          <div class="name">Ritual</div>
+          <div class="type">Type: 1-3-5-7</div>
+          <div class="tag"> RITUAL </div>
           <div class="description">
-            Tăng cho toàn bộ [Legion] 5% Might và 5% Energy.
-            Sau khi hành động, switch ô Tatic cuối cùng của mình thành 1 ô Tactic của [Legion] gần nhất.
-          </div>
-          <div class="description">
-            Tăng cho toàn bộ [Legion] 5% Might và 5% Energy
+            Hợp lực của tất cả các Vanir trên sân. Tự khóa 1 AP của bản thân. Sau đó chuyển địa hình 
+            xung quanh thành [Rừng rậm] và tăng toàn bộ chỉ số của [Vanir] lên 10%.
           </div>
         </div>
       </td>
       <td style="padding-left:5px">
        <div class="skill_container">
           <div class="img"><img src="../../../assets/character/00703.png" style="height: 40px ;"/></div>
-          <div class="name">The Burning</div>
-          <div class="type">Type: 0-4</div>
+          <div class="name">Lifeforce</div>
+          <div class="type">Type: 0-7</div>
           <div class="tag"> <effect/> <phys/> </div>
           <div class="description">
-           Đòn tấn công để lại trên người đối thủ 1 [Burn] giá trị = 50% Enegry (<span class="fire">({{0.5 * energy}})</span>), tồn tại trong 2 turn.
+           Sau khi hành động, hồi lại cho bản thân 1 lượng máu = 100% Enegry (<span class="phys">({{1 * energy}})</span>)
           </div>
           <div class="description">
-            Đòn tấn công để lại trên người đối thủ 1 [Burn] giá trị = 30% Enegry (<span class="fire">({{0.3 * energy}})</span>), tồn tại trong 2 turn.
+            Sau khi hành động, hồi lại cho bản thân 1 lượng máu = 50% Enegry (<span class="phys">({{0.5 * energy}})</span>)
           </div>
         </div>
       </td>
@@ -161,16 +158,10 @@
     </tr>
     <tr v-if="active=='info'">
       <td colspan="2">
-        <p>Legion, là đội quân của địa ngục. Chúng là con mắt, là hàm răng của Surtur, chúng đi gieo rắc nỗi kinh hoàng lên toàn bộ các cõi.
-        </p>
-        <p>
-          Sau khi rơi vào vòng tay của Surtur, chúng chia sẻ với nhau một cùng một tâm trí. Khi một con tức giận, cả tộc đàn tức giận, khi một con đau đớn,
-          cả tộc đàn đau đớn.
-        </p>        
-        <p>
-          Và khi bạn bị một con tấn công. Nó sẽ chỉ là bắt đầu, cả tộc đàn sẽ tìm đến bạn.
-        </p>
-        <p>Với cơ chế switch, quần thể Legion có thể biến ô Tactic cuối của nó sau khi hành động thành 1 ô Tactic khác. Và nó có thể biến kỹ năng 2-o của đồng minh ngay sau đó thành 3-o. Đương nhiên, đây cũng là 1 sự rủi ro, bởi vì biết đâu khi thêm 1 ô Tactic vào, đồng đội của bạn có thể bị Action Fail!!</p>
+        <p>Xin giới thiệu cho mọi người 1 cơ chế hoàn toàn mới. Ritual.</p>
+        <p>1 skill Ritual yêu cầu ít nhất 2 Vanir trên sân, và 2 Vanir đó phải có các Tactic trùng với điều kiện của skill Ritual</p>
+        <p>Ví dụ skill Ritual kia có yêu cầu là 1-3-5-7. Tức là các Vanir trên sân phải chọn Tactic ở các ô 1,3,5,7. Không quan trọng là người nào chọn ô nào.</p>
+        <p>Nếu đạt đủ yêu cầu trên. Khi đến thứ tự của người cast skill. Skill ritual sẽ được cast.</p>
       </td>
     </tr>
    </table>

@@ -92,7 +92,7 @@
           <div class="name">The Howl</div>
           <div class="type">Type: 3-o</div>
           <div class="cost">2AP</div>
-          <div class="tag"> <effect/> <phys/> </div>
+          <div class="tag"> <effect/> <phys/> <bond/> </div>
           <div class="description">
             Nếu đang ở dạng người: Hú lên 1 tiếng, tăng cho toàn bộ đồng minh trừ bản thân 30% sát thương vật lý.
             Nếu đang ở dạng sói: Hú lên 1 tiếng, hồi phục cho toàn bộ đồng minh có trait [Wolf] trừ bản thân 1AP.            
