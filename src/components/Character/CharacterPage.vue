@@ -102,7 +102,7 @@
 <div class="char_table">
   <div>
     <router-link :to="{ name: 'Character008'}">
-      <img src="./../../assets/character/004.jpg" class="img_char"/>
+      <img src="./../../assets/character/008.jpg" class="img_char"/>
       Archdemon A'rikhan
     </router-link>
   </div>
@@ -112,7 +112,7 @@
 <div class="char_table">
   <div>
     <router-link :to="{ name: 'Character009'}">
-      <img src="./../../assets/character/004.jpg" class="img_char"/>
+      <img src="./../../assets/character/009.jpg" class="img_char"/>
       Vana Liona
     </router-link>
   </div>

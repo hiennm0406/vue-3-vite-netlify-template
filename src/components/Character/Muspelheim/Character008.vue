@@ -3,7 +3,7 @@
    <table class="table_content">
     <tr>
       <td colspan="2">
-        <img src="../../../assets/character/007.jpg" style="height: 400px ;"/>
+        <img src="../../../assets/character/008.jpg" style="height: 400px ;"/>
       </td>
     </tr>
     <tr>
