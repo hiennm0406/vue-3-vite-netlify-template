@@ -14,7 +14,7 @@
         <p><b>Energy: </b>{{energy}}</p>
         <p><b>Endurance: </b>{{endurance}}</p>
          <br/>
-        <p><b>Health: </b>{{endurance * 10}}</p>
+         <p><b>Health: </b>{{(endurance * 2 + might + energy) *3}}</p>
         <p><b>Armor: </b>{{might + endurance}}</p>
         <p><b>Resis: </b>{{energy + endurance}}</p>
         <p><b>AP: 3</b></p>
